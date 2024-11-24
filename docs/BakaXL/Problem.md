@@ -18,7 +18,7 @@
 - 点击 `变更` 左边的小三角选择 **鹦鹉通道或鸽子通道**
 - 最后点击变更并接受更新即可
 
-![更换通道](/assets/v3-cn/imgs/ChangeUpdateChannel.png)
+
 :::
 
 参加预览体验计划虽然可以更快的获取更新，能够避免更多的 Bug 出现，但相应的也 **可能会发生一些不可预知的错误**
@@ -77,7 +77,7 @@
 
 前往 `本体设置` - `Java 虚拟机与内存`，下翻到 `内存设置`，可以自行设置， 但 BakaXL 推荐您打开 `自动设置内存`。
 
-![setGameMemory](/assets/v3-cn/imgs/setGameMemory.png)
+
 
 ### Minecraft 游戏崩溃了
 
@@ -147,7 +147,7 @@ IPv6 是新一代互联网协议，它解决了 IPv4 地址枯竭的问题。我
 如果暂时不考虑使用加速器，可以考虑使用BakaXL的中继服务。
 
 在大厅中开启 “**在无法建立直接连接时使用中继连接**” 选项，即可使用由赞助商“蓝科数据”提供的可信的免费中继服务。
-![image](https://contents.baka.zone/web-cdn/image/relay.png)
+
 
 ## 联机问题一览
 
@@ -158,15 +158,15 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 
 ### 在 BakaXL 大厅里面无法创建大厅
 
-![报错](/assets/v3-cn/imgs/Bakaxl_online_problem.png)
+
 
 > 在创建大厅前，请检查您的 Minecraft 是否打开了局域网联机。
 
-![检查Minecraft是否启动局域网联机](/assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
 
-![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
 
-![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
+
+
+
 
 首先，请检查您正在使用的的 Java 路径是否存在 `Javapath` 字样。若有，请更换其他 Java。
 
@@ -179,12 +179,12 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 1. 前往 `本体设置`并选择 `账户与档案`
 2. 选择您的离线档案，并点击 `为我的 Minecaft 角色设置离线皮肤`
 
-![enableSkinShare-1](/assets/v3-cn/imgs/enableSkinShare-1.png)
+
 
 3. 前往 `领域 / 联机大厅` 并选择 `用户设置`
 4. 确保 `BakaXL Network SkinShare 皮肤妙享` 设置为 `开`
 
-![setSkninShare-2](/assets/v3-cn/imgs/enableSkinShare-2.png)
+
 
 ### 在 BakaXL 大厅联机中玩家之间无法显示对方的皮肤
 

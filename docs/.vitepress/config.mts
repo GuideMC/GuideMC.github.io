@@ -92,6 +92,10 @@ export default defineConfig({
     outline: {
       label: '文章大纲'
     },
+    editLink: {
+      pattern: 'https://github.com/GuideMC/GuideMC.github.io/tree/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
