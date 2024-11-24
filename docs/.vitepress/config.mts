@@ -47,8 +47,8 @@ export default defineConfig({
         {
           text: 'Examples',
           items: [
-            { text: '介绍', link: '/About' },
-            { text: 'Test', link: '/How_To_Write' }
+            { text: '介绍', link: '/About/About' },
+            { text: 'Test', link: '/About/How_To_Write' }
           ]
         }
       ]
