@@ -11,7 +11,7 @@ hero:
       link: /Welcome
     - theme: alt
       text: 关于
-      link: /About
+      link: /About/About
 
 features:
   - title: HMCL

@@ -1,3 +1,6 @@
+本文档使用 Vitepress 构建。代码根据 MIT 许可证进行授权。
+This document is built with Vitepress.The code is licensed under the MIT License.
+
 MIT License
 
 Copyright (c) 2024 Guide MC
@@ -19,6 +22,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+本文档中的所有内容除非另有说明，均遵循署名-非商业性使用 4.0 国际 (CC BY-NC 4.0) 协议。
+All content in this document follows the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) agreement unless otherwise specified.
 
 Attribution-NonCommercial 4.0 International
 
