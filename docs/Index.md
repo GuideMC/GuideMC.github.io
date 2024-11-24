@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Minecraft 指北"
-  text: "Minecraft Helper"
-  tagline: 指南——从零开始入门Minecraft
+  name: "MC 指北"
+  text: "MC Guide"
+  tagline: 指南——从零开始入门MC
   actions:
     - theme: brand
       text: 入门
