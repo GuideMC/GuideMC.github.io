@@ -8,9 +8,9 @@ export default defineConfig({
       {
         text: '启动器',
         items: [
-          { text: 'HMCL', link: '/HMCL/HMCL_Welcome' },
-          { text: 'PCL', link: '/PCL/PCL_Welcome' },
-          { text: 'BakaXL', link: '/BakaXL/BakaXL_Welcome' }
+          { text: 'HMCL', link: '/HMCL/Welcome' },
+          { text: 'PCL', link: '/PCL/Welcome' },
+          { text: 'BakaXL', link: '/BakaXL/Welcome' }
         ]
       },
       { text: '关于', link: '/Other/About' }
@@ -20,7 +20,7 @@ export default defineConfig({
         {
           text: 'HMCL',
           items: [
-            { text: 'HMCL介绍', link: '/HMCL/HMCL_Welcome' },
+            { text: 'HMCL介绍', link: '/HMCL/Welcome' },
             { text: 'Test', link: '/markdown' }
           ]
         }
@@ -29,7 +29,7 @@ export default defineConfig({
         {
           text: 'PCL',
           items: [
-            { text: 'PCL介绍', link: '/PCL/PCL_Welcome' },
+            { text: 'PCL介绍', link: '/PCL/Welcome' },
             { text: 'Test', link: '/markdown' }
           ]
         }
@@ -38,8 +38,12 @@ export default defineConfig({
         {
           text: 'BakaXL',
           items: [
-            { text: 'BakaXL介绍', link: '/BakaXL/BakaXL_Welcome' },
-            { text: 'Test', link: '/markdown' }
+            { text: 'BakaXL介绍', link: '/BakaXL/Welcome' },
+            { text: '在线更新整合包制作', link: '/BakaXL/Modpack' },
+            { text: '版本隔离', link: '/BakaXL/VerSeperate' },
+            { text: '常见游戏崩溃', link: '/BakaXL/Crash' },
+            { text: '常见问题解决', link: '/BakaXL/Problem' },
+            { text: '指南', link: '/BakaXL/Guide' }
           ]
         }
       ],
@@ -48,7 +52,7 @@ export default defineConfig({
           text: 'Examples',
           items: [
             { text: '介绍', link: '/Other/About' },
-            { text: '编写规则', link: '/Other/Write_Rule' },
+            { text: '编写规则', link: '/Other/WriteRule' },
             { text: '贡献者', link: '/Other/Contributor' }
           ]
         }
@@ -57,20 +61,21 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: "关闭"
             }
+          }
+        }
       }
     },
     socialLinks: [
