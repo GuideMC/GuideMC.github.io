@@ -185,7 +185,7 @@ BakaXL 内置有 BakaXL Network 功能，该功能能够可以实现一些社交
 
 若您在登录/注册账户时 **卡在了登录页面无法返回** 如下图 (返回按钮是灰色的点不了)
 
-![LoginPageErr](/assets/v3-cn/Minecraft_CRQA/LoginPageErr.jpg)
+
 
 那么敬请 **切换至鹦鹉通道进行更新** 然后再次尝试登录，并在该页面耐心等待一会以解决该问题
 
