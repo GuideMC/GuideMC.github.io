@@ -13,14 +13,14 @@ export default defineConfig({
           { text: 'BakaXL', link: '/BakaXL/BakaXL_Welcome' }
         ]
       },
-      { text: '关于', link: '/About/About' }
+      { text: '关于', link: '/Other/About' }
     ],
     sidebar: {
       '/HMCL/': [
         {
           text: 'HMCL',
           items: [
-            { text: 'HMCL介绍', link: '/HMCL_Welcome' },
+            { text: 'HMCL介绍', link: '/HMCL/HMCL_Welcome' },
             { text: 'Test', link: '/markdown' }
           ]
         }
@@ -29,7 +29,7 @@ export default defineConfig({
         {
           text: 'PCL',
           items: [
-            { text: 'PCL介绍', link: '/PCL_Welcome' },
+            { text: 'PCL介绍', link: '/PCL/PCL_Welcome' },
             { text: 'Test', link: '/markdown' }
           ]
         }
@@ -38,7 +38,7 @@ export default defineConfig({
         {
           text: 'BakaXL',
           items: [
-            { text: 'BakaXL介绍', link: '/BakaXL_Welcome' },
+            { text: 'BakaXL介绍', link: '/BakaXL/BakaXL_Welcome' },
             { text: 'Test', link: '/markdown' }
           ]
         }
