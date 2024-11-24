@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "MC 指北",
-  description: "Guide MC",
+  title: "Guide MC",
+  description: "入门 Minecraft",
   themeConfig: {
     nav: [
       {
@@ -18,7 +18,7 @@ export default defineConfig({
     sidebar: {
       '/HMCL/': [
         {
-          text: 'Examples',
+          text: 'HMCL',
           items: [
             { text: 'HMCL介绍', link: '/HMCL_Welcome' },
             { text: 'Test', link: '/markdown' }
@@ -27,7 +27,7 @@ export default defineConfig({
       ],
       '/PCL/': [
         {
-          text: 'Examples',
+          text: 'PCL',
           items: [
             { text: 'PCL介绍', link: '/PCL_Welcome' },
             { text: 'Test', link: '/markdown' }
@@ -36,7 +36,7 @@ export default defineConfig({
       ],
       '/BakaXL/': [
         {
-          text: 'Examples',
+          text: 'BakaXL',
           items: [
             { text: 'BakaXL介绍', link: '/BakaXL_Welcome' },
             { text: 'Test', link: '/markdown' }
@@ -47,8 +47,9 @@ export default defineConfig({
         {
           text: 'Examples',
           items: [
-            { text: '介绍', link: '/About/About' },
-            { text: 'Test', link: '/About/How_To_Write' }
+            { text: '介绍', link: '/Other/About' },
+            { text: '编写规则', link: '/Other/Write_Rule' },
+            { text: '贡献者', link: '/Other/Contributor' }
           ]
         }
       ]
@@ -56,8 +57,6 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
-        locales: {
-          zh: {
             translations: {
               button: {
                 buttonText: '搜索文档',
@@ -72,17 +71,11 @@ export default defineConfig({
                 }
               }
             }
-          }
-        }
       }
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GuideMC' }
     ],
-    editLink: {
-      pattern: 'https://github.com/GuideMC/GuideMC.github.io/tree/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
-    },
     footer: {
       message: '基于 MIT 许可发布',
       copyright: `版权所有 © 2024-${new Date().getFullYear()} Guide MC`
@@ -92,7 +85,7 @@ export default defineConfig({
       next: '下一页'
     },
     outline: {
-      label: '页面导航'
+      label: '文章大纲'
     },
     lastUpdated: {
       text: '最后更新于',
@@ -105,8 +98,7 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
-    lightModeSwitchTitle: '切换到浅色模式',
-    darkModeSwitchTitle: '切换到深色模式'
+    lightModeSwitchTitle: '浅色模式',
+    darkModeSwitchTitle: '深色模式'
   },
-  lastUpdated: true
 })
