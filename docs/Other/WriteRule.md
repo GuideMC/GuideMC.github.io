@@ -8,6 +8,8 @@
 务必参考该项目：[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
 :::
 
+- 段落之间仅限一行空行
+
 ## 文本格式
 
 - 中英文、数字与符号：

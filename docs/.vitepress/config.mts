@@ -47,9 +47,9 @@ export default defineConfig({
           ]
         }
       ],
-      '/About/': [
+      '/Other/': [
         {
-          text: 'Examples',
+          text: '关于',
           items: [
             { text: '介绍', link: '/Other/About' },
             { text: '编写规则', link: '/Other/WriteRule' },
