@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "MC 指北"
-  text: "MC Guide"
+  text: "Guide MC"
   tagline: 指南——从零开始入门MC
   actions:
     - theme: brand
