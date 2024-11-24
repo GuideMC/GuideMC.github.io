@@ -10,14 +10,14 @@
 
 ## 用户群
 
-![](/assets/img/docs/groups/group-3.png)
+![]
 
 以下为闲聊群，欢迎所有用户加入（同时加入多个群聊会被踢出）：
 
 - [HMCL 用户群 ① (633640264)](https://qm.qq.com/q/fvJueufsvC)（已满）
 - [HMCL 用户群 ② (203232161)](https://qm.qq.com/q/N7hgdNYfy)（已满）
 - [HMCL 用户群 ③ (201034984)](https://qm.qq.com/q/7sbMrFm9CE)
-- [HMCL 用户群 ④ (533529045)](https://qm.qq.com/q/ACmZa98tGg)
+- [HMCL 用户群 ④ 
 - [HMCL 用户群 ⑤ (744304553)](https://qm.qq.com/q/MlVArSCMwM)
 - [HMCL 用户群 ⑥ (282845310)](https://qm.qq.com/q/S782Skmu0U)
 - [HMCL 用户群 ⑦ (482624681)](https://qm.qq.com/q/WFsZ65F6MY)
@@ -29,7 +29,7 @@
 
 ## 报错崩溃交流群
 
-![](/assets/img/docs/groups/crash.png)
+![]
 
 如果你遇到了游戏非正常退出问题，欢迎加入报错崩溃交流群咨询解决方案：[Minecraft 报错崩溃交流群 (666546887)](https://qm.qq.com/q/nG0Ti1kJri)
 
