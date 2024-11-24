@@ -1,6 +1,6 @@
 # BakaXL 使用手册
 
-[>>> 在使用 BakaXL 时遇到问题？](./faq)
+>>> 在使用 BakaXL 时遇到问题？
 
 ## 开始之前
 
@@ -234,7 +234,7 @@ BakaXL 内置有 BakaXL Network 功能，该功能能够可以实现一些社交
 
 您也可以通过我们的帮助文档获取关于联机功能的一些帮助：
 
-[>>> 关于 BakaXL 联机功能问题的疑难解答](./faq#联机问题一览)
+
 
 #### 通过 BakaXL 对其他启动器启动的 Minecraft 实例进行游戏
 
@@ -271,4 +271,4 @@ BakaXL 内置有 BakaXL Network 功能，该功能能够可以实现一些社交
 
 之后前往`「领域/联机大厅」`-`「用户设置」`，确保`「BakaXL Network SkinShare 皮肤妙享」`为开启状态
 
-> 如果您阅读了此使用手册和[帮助文档](./faq)后仍未解决您的问题，可以在 [BakaXL Outsider QQ 群 (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg) 来寻求帮助。
+> 如果您阅读了此使用手册和帮助文档后仍未解决您的问题，可以在 [BakaXL Outsider QQ 群 (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg) 来寻求帮助。
