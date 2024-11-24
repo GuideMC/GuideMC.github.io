@@ -21,7 +21,21 @@ export default defineConfig({
           text: 'HMCL',
           items: [
             { text: 'HMCL介绍', link: '/HMCL/Welcome' },
-            { text: 'Test', link: '/markdown' }
+            { text: '聊天群', link: '/HMCL/Chat' },
+            {
+              text: '启动器',
+              items: [
+                { text: '外置登录', link: 'HMCL/Authlib' },
+                { text: '自动安装', link: 'HMCL/AutoInstall' },
+                { text: '数据包', link: 'HMCL/Datapack' },
+                { text: '同时安装Forge和Optifine', link: 'HMCL/ForgeAndOptInstall' },
+                { text: '使用密码登录', link: 'HMCL/LoginWithPassword' },
+                { text: '离线皮肤', link: 'HMCL/OfflineSkin' },
+                { text: '设置讲解', link: 'HMCL/SetItemDetail' },
+                { text: '安装光影', link: 'HMCL/Shader' },
+                { text: '版本隔离', link: 'HMCL/VerIsolate' }
+              ]
+            }
           ]
         }
       ],
