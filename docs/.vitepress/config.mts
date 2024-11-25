@@ -25,15 +25,15 @@ export default defineConfig({
             {
               text: '启动器',
               items: [
-                { text: '外置登录', link: 'HMCL/Authlib' },
-                { text: '自动安装', link: 'HMCL/AutoInstall' },
-                { text: '数据包', link: 'HMCL/Datapack' },
-                { text: '同时安装Forge和Optifine', link: 'HMCL/ForgeAndOptInstall' },
-                { text: '使用密码登录', link: 'HMCL/LoginWithPassword' },
-                { text: '离线皮肤', link: 'HMCL/OfflineSkin' },
-                { text: '设置讲解', link: 'HMCL/SetItemDetail' },
-                { text: '安装光影', link: 'HMCL/Shader' },
-                { text: '版本隔离', link: 'HMCL/VerIsolate' }
+                { text: '外置登录', link: '/HMCL/Authlib' },
+                { text: '自动安装', link: '/HMCL/AutoInstall' },
+                { text: '数据包', link: '/HMCL/Datapack' },
+                { text: '同时安装Forge和Optifine', link: '/HMCL/ForgeAndOptInstall' },
+                { text: '使用密码登录', link: '/HMCL/LoginWithPassword' },
+                { text: '离线皮肤', link: '/HMCL/OfflineSkin' },
+                { text: '设置讲解', link: '/HMCL/SetItemDetail' },
+                { text: '安装光影', link: '/HMCL/Shader' },
+                { text: '版本隔离', link: '/HMCL/VerIsolate' }
               ]
             },
             {
@@ -51,9 +51,24 @@ export default defineConfig({
           text: 'PCL',
           items: [
             { text: 'PCL介绍', link: '/PCL/Welcome' },
-            { text: 'Test', link: '/markdown' }
+            { text: 'Test', link: '/markdown' },
+            {
+              text: '游戏',
+              items: [
+                { text: '安装数据包', link: '/PCL/DatapackInstall' },
+                { text: '修复存档', link: '/PCL/FixCorruptedSave' },
+                { text: '加入服务器', link: '/PCL/JoinServer' },
+                { text: '登录失败', link: '/PCL/LoginFail' },
+                { text: '安装Mod', link: '/PCL/ModInstall' },
+                { text: '安装整合包', link: '/PCL/ModpackInstall' },
+                { text: '更新Mod', link: '/PCL/ModUpdate' },
+                { text: '安装资源包', link: '/PCL/ResourcepackInstall' },
+                { text: '安装光影', link: '/PCL/ShaderInstall' },
+                { text: '安装世界', link: '/PCL/WorldInstall' }
+              ]
+            },
           ]
-        }
+        },
       ],
       '/BakaXL/': [
         {
@@ -114,8 +129,8 @@ export default defineConfig({
       label: '文章大纲'
     },
     editLink: {
-      pattern: 'https://github.com/GuideMC/GuideMC.github.io/tree/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
+      pattern: 'https://github.com/GuideMC/GuideMC.github.io/blob/main/docs/Other/WriteRule.md',
+      text: '在 GitHub 上编辑'
     },
     lastUpdated: {
       text: '最后更新于',
@@ -128,7 +143,7 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
-    lightModeSwitchTitle: '浅色模式',
-    darkModeSwitchTitle: '深色模式'
+    lightModeSwitchTitle: '切换至浅色模式',
+    darkModeSwitchTitle: '切换至深色模式'
   },
 })
