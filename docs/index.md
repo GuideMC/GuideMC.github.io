@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "Guide MC"
-  text: "入门 Minecraft"
-  tagline: 从“零”开始 成为 MC 高手
+  text: "入门 Minceraft"
+  tagline: 从“零”开始 
   actions:
     - theme: brand
       text: 由此入门

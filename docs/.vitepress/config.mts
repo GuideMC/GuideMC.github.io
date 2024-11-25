@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Guide MC",
-  description: "入门 Minecraft",
+  description: "入门 Minceraft",
   themeConfig: {
     nav: [
       {
         text: '启动器',
         items: [
-          { text: 'HMCL', link: '/HMCL/Welcome' },
-          { text: 'PCL', link: '/PCL/Welcome' },
-          { text: 'BakaXL', link: '/BakaXL/Welcome' }
+          { text: 'HMCL', link: '/HMCL/' },
+          { text: 'PCL', link: '/PCL/' },
+          { text: 'BakaXL', link: '/BakaXL/' }
         ]
       },
       { text: '关于', link: '/Other/About' }
@@ -20,7 +20,7 @@ export default defineConfig({
         {
           text: 'HMCL',
           items: [
-            { text: 'HMCL介绍', link: '/HMCL/Welcome' },
+            { text: 'HMCL介绍', link: '/HMCL/' },
             { text: '聊天群', link: '/HMCL/Chat' },
             {
               text: '启动器',
@@ -50,7 +50,7 @@ export default defineConfig({
         {
           text: 'PCL',
           items: [
-            { text: 'PCL介绍', link: '/PCL/Welcome' },
+            { text: 'PCL介绍', link: '/PCL/' },
             { text: '更新帮助文档', link: '/PCL/UpdateHelp' },
             { text: '整合包有关问题', link: '/PCL/Problem' },
             { text: '个性化主页', link: '/PCL/XAML' },
@@ -131,7 +131,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/GuideMC' }
     ],
     footer: {
-      message: '基于 MIT 许可发布',
+      message: '"Minecraft" 以及 "我的世界" 为美国微软公司的商标。本文档与美国微软公司之间没有从属关系。',
       copyright: `版权所有 © 2024-${new Date().getFullYear()} Guide MC`
     },
     docFooter: {
