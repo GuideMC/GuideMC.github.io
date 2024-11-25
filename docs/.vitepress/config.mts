@@ -35,6 +35,13 @@ export default defineConfig({
                 { text: '安装光影', link: 'HMCL/Shader' },
                 { text: '版本隔离', link: 'HMCL/VerIsolate' }
               ]
+            },
+            {
+              text: '整合包',
+              items: [
+                { text: '外置Java', link: 'HMCL/PackagedJava' },
+                { text: '服务端整合包', link: 'HMCL/ServerPack' }
+              ]
             }
           ]
         }
