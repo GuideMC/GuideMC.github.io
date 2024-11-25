@@ -69,6 +69,17 @@ export default defineConfig({
                 { text: '安装世界', link: '/PCL/WorldInstall' }
               ]
             },
+            {
+              text: '游戏',
+              items: [
+                { text: 'WD添加排除项', link: '/PCL/AgainstWD' },
+                { text: '导出皮肤', link: '/PCL/ExportSkin' },
+                { text: '使用LittleSkin登录', link: '/PCL/LittleSkin' },
+                { text: '指定登录方式', link: '/PCL/LoginSelect' },
+                { text: '使用密码登录', link: '/PCL/LoginWithPassword' },
+                { text: '备份设置', link: '/PCL/SettingsBackup' }
+              ]
+            }
           ]
         },
       ],
