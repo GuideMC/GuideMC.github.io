@@ -51,7 +51,9 @@ export default defineConfig({
           text: 'PCL',
           items: [
             { text: 'PCL介绍', link: '/PCL/Welcome' },
-            { text: 'Test', link: '/markdown' },
+            { text: '更新帮助文档', link: '/PCL/UpdateHelp' },
+            { text: '整合包有关问题', link: '/PCL/Problem' },
+            { text: '个性化主页', link: '/PCL/XAML' },
             {
               text: '游戏',
               items: [
