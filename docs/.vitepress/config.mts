@@ -182,6 +182,7 @@ export default defineConfig({
       next: '下一页'
     },
     outline: {
+      level: `deep`,
       label: '文章大纲'
     },
     editLink: {
