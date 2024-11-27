@@ -6,6 +6,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
+      { text: '本体', link: '/Minecraft/' },
       {
         text: '启动器',
         items: [
@@ -14,6 +15,7 @@ export default defineConfig({
           { text: 'BakaXL', link: '/Launcher/BakaXL/' }
         ]
       },
+      { text: '杂项', link: '/Operation/' },
       { text: '关于', link: '/About/About' }
     ],
     sidebar: {
@@ -28,14 +30,13 @@ export default defineConfig({
                 { text: '常见报错解决', link: '/Minecraft/CrashResolve' },
                 { text: '版本隔离', link: '/Minecraft/VerIsolation' },
                 { text: '加入服务器', link: '/Minecraft/JoinServer' },
-                { text: '数据包', link: '/Minecraft/' },
-                { text: '同时安装Forge和Optifine', link: '/Minecraft/' },
-                { text: '离线皮肤', link: '/Minecraft/' },
-                { text: '设置讲解', link: '/Minecraft/' },
-                { text: '安装光影', link: '/Minecraft/' },
-                { text: '版本隔离', link: '/Minecraft/' },
-                { text: '外置Java', link: '/Minecraft/' },
-                { text: '服务端整合包', link: '/Minecraft/' }
+                { text: '同', link: '/Minecraft/' },
+                { text: '离', link: '/Minecraft/' },
+                { text: '设', link: '/Minecraft/' },
+                { text: '安', link: '/Minecraft/' },
+                { text: '版', link: '/Minecraft/' },
+                { text: '外', link: '/Minecraft/' },
+                { text: '服', link: '/Minecraft/' }
               ]
             }
           ]
@@ -47,15 +48,21 @@ export default defineConfig({
           items: [
             { text: 'HMCL介绍', link: '/Launcher/HMCL/' },
             {
+              text: '安装',
+              items: [
+                { text: '安装模组', link: '/Launcher/HMCL/InstallMod' },
+                { text: '导入整合包', link: '/Launcher/HMCL/InstallModpack' },
+                { text: '添加光影', link: '/Launcher/HMCL/InstallShader' },
+                { text: '添加资源包', link: '/Launcher/HMCL/InstallResourcepack' },
+                { text: '导入世界', link: '/Launcher/HMCL/InstallWorld' },
+                { text: '添加数据包', link: '/Minecraft/InstallDatapack' }
+              ]
+            },
+            {
               text: '旧目录',
               items: [
-                { text: '外置登录', link: '/Launcher/HMCL/Authlib' },
-                { text: '自动安装', link: '/Launcher/HMCL/AutoInstall' },
-                { text: '数据包', link: '/Launcher/HMCL/Datapack' },
-                { text: '同时安装Forge和Optifine', link: '/Launcher/HMCL/ForgeAndOptInstall' },
-                { text: '离线皮肤', link: '/Launcher/HMCL/OfflineSkin' },
+                { text: '使用LittleSkin登录', link: '/Launcher/HMCL/AuthlibInjector' },
                 { text: '设置讲解', link: '/Launcher/HMCL/SetItemDetail' },
-                { text: '安装光影', link: '/Launcher/HMCL/Shader' },
                 { text: '外置Java', link: '/Launcher/HMCL/PackagedJava' },
                 { text: '服务端整合包', link: '/Launcher/HMCL/ServerPack' }
               ]
@@ -69,25 +76,19 @@ export default defineConfig({
           items: [
             { text: 'PCL介绍', link: '/Launcher/PCL/' },
             {
-              text: '旧目录',
+              text: '安装',
               items: [
-                { text: '更新帮助文档', link: '/Launcher/PCL/UpdateHelp' },
-                { text: '整合包有关问题', link: '/Launcher/PCL/Problem' },
-                { text: '个性化主页', link: '/Launcher/PCL/XAML' },
-                { text: '安装数据包', link: '/Launcher/PCL/DatapackInstall' },
-                { text: '加入服务器', link: '/Launcher/PCL/JoinServer' },
-                { text: '安装Mod', link: '/Launcher/PCL/ModInstall' },
-                { text: '安装整合包', link: '/Launcher/PCL/ModpackInstall' },
-                { text: '更新Mod', link: '/Launcher/PCL/ModUpdate' },
-                { text: '安装资源包', link: '/Launcher/PCL/ResourcepackInstall' },
-                { text: '安装光影', link: '/Launcher/PCL/ShaderInstall' },
-                { text: '安装世界', link: '/Launcher/PCL/WorldInstall' },
-                { text: '导出皮肤', link: '/Launcher/PCL/ExportSkin' },
-                { text: '使用LittleSkin登录', link: '/Launcher/PCL/LittleSkin' },
-                { text: '指定登录方式', link: '/Launcher/PCL/LoginSelect' },
-                { text: '备份设置', link: '/Launcher/PCL/SettingsBackup' }
+                { text: '安装模组', link: '/Launcher/PCL/InstallMod' },
+                { text: '导入整合包', link: '/Launcher/PCL/InstallModpack' },
+                { text: '添加光影', link: '/Launcher/PCL/InstallShader' },
+                { text: '添加资源包', link: '/Launcher/PCL/InstallResourcepack' },
+                { text: '导入世界', link: '/Launcher/PCL/InstallWorld' },
+                { text: '添加数据包', link: '/Minecraft/InstallDatapack' }
               ]
-            }
+            },
+            { text: '导出设置', link: '/Launcher/PCL/ExportSettings' },
+            { text: '制作整合包', link: '/Launcher/PCL/MakeModpack' },
+            { text: '使用LittleSkin登录', link: '/Launcher/PCL/AuthlibInjector' }
           ]
         },
       ],
@@ -97,11 +98,21 @@ export default defineConfig({
           items: [
             { text: 'BakaXL介绍', link: '/Launcher/BakaXL/' },
             {
+              text: '安装',
+              items: [
+                { text: '安装模组', link: '/Launcher/BakaXL/InstallMod' },
+                { text: '导入整合包', link: '/Launcher/BakaXL/InstallModpack' },
+                { text: '添加光影', link: '/Launcher/BakaXL/InstallShader' },
+                { text: '添加资源包', link: '/Launcher/BakaXL/InstallResourcepack' },
+                { text: '导入世界', link: '/Launcher/BakaXL/InstallWorld' },
+                { text: '添加数据包', link: '/Minecraft/InstallDatapack' }
+              ]
+            },
+            {
               text: '旧目录',
               items: [
                 { text: '在线更新整合包制作', link: '/Launcher/BakaXL/Modpack' },
                 { text: '常见问题解决', link: '/Launcher/BakaXL/Problem' },
-                { text: '指南', link: '/Launcher/BakaXL/Guide' }
               ]
             }
           ]
@@ -109,15 +120,26 @@ export default defineConfig({
       ],
       '/Operation/': [
         {
-          text: '相关操作',
+          text: '杂项',
           items: [
-            { text: '被杀软拦截的解决方案', link: '/Operation/StopDefenderBlock' },
-            { text: '尝试修复网络连通性', link: '/Operation/TryFixInternet' },
-            { text: '使用密码登录', link: '/Operation/LoginWithPassword' }
+            { text: '介绍', link: '/Operation/' },
+            {
+              text: '操作',
+              items: [
+                { text: '被杀软拦截的解决方案', link: '/Operation/StopDefenderBlock' },
+                { text: '尝试修复网络连通性', link: '/Operation/TryFixInternet' },
+                { text: '使用密码登录', link: '/Operation/LoginWithPassword' },
+                { text: '利用软连接共享版本目录', link: '/Operation/LinkDirectory' },
+                { text: '使', link: '/Operation/' },
+                { text: '使', link: '/Operation/' },
+                { text: '使', link: '/Operation/' },
+                { text: '使', link: '/Operation/' }
+              ]
+            }
           ]
         }
       ],
-      '/Other/': [
+      '/About/': [
         {
           text: '关于',
           items: [

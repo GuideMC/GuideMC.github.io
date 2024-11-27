@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 由此入门
-      link: /
+      link: /Guide
     - theme: alt
       text: 文档说明
       link: /About/About
