@@ -14,7 +14,7 @@ export default defineConfig({
           { text: 'BakaXL', link: '/Launcher/BakaXL/' }
         ]
       },
-      { text: '关于', link: '/Other/About' }
+      { text: '关于', link: '/About/About' }
     ],
     sidebar: {
       '/Launcher/HMCL/': [
@@ -96,9 +96,9 @@ export default defineConfig({
         {
           text: '关于',
           items: [
-            { text: '介绍', link: '/Other/About' },
-            { text: '编写规则', link: '/Other/WriteRule' },
-            { text: '贡献者', link: '/Other/Contributor' }
+            { text: '介绍', link: '/About/About' },
+            { text: '编写规则', link: '/About/WriteRule' },
+            { text: '贡献者', link: '/About/Contributor' }
           ]
         }
       ]
@@ -138,7 +138,7 @@ export default defineConfig({
       label: '文章大纲'
     },
     editLink: {
-      pattern: 'https://github.com/GuideMC/GuideMC.github.io/blob/main/docs/Other/WriteRule.md',
+      pattern: 'https://github.com/GuideMC/GuideMC.github.io/blob/main/docs/About/WriteRule.md',
       text: '在 GitHub 上编辑'
     },
     lastUpdated: {

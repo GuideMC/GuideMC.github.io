@@ -11,7 +11,7 @@ hero:
       link: /
     - theme: alt
       text: 文档说明
-      link: /Other/About
+      link: /About/About
 
 features:
   - title: 逐步指导易上手

@@ -24,4 +24,4 @@
 
 欢迎大家参与文档的编辑和完善。你可以通过 Fork 仓库并提交 Pull Request 的方式来贡献你的内容。
 
-详细信息请参阅 [About](docs/Other/About.md) 和 [WriteRule](docs/Other/WriteRule.md)。
+详细信息请参阅 [About](docs/About/About.md) 和 [WriteRule](docs/About/WriteRule.md)。
