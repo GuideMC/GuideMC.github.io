@@ -55,7 +55,7 @@ export default defineConfig({
                 { text: '添加光影', link: '/Launcher/HMCL/InstallShader' },
                 { text: '添加资源包', link: '/Launcher/HMCL/InstallResourcepack' },
                 { text: '导入世界', link: '/Launcher/HMCL/InstallWorld' },
-                { text: '添加数据包', link: '/Minecraft/InstallDatapack' }
+                { text: '添加数据包', link: '/Launcher/HMCL/InstallDatapack' }
               ]
             },
             {
@@ -83,7 +83,7 @@ export default defineConfig({
                 { text: '添加光影', link: '/Launcher/PCL/InstallShader' },
                 { text: '添加资源包', link: '/Launcher/PCL/InstallResourcepack' },
                 { text: '导入世界', link: '/Launcher/PCL/InstallWorld' },
-                { text: '添加数据包', link: '/Minecraft/InstallDatapack' }
+                { text: '添加数据包', link: '/Launcher/PCL/InstallDatapack' }
               ]
             },
             { text: '导出设置', link: '/Launcher/PCL/ExportSettings' },
@@ -105,7 +105,7 @@ export default defineConfig({
                 { text: '添加光影', link: '/Launcher/BakaXL/InstallShader' },
                 { text: '添加资源包', link: '/Launcher/BakaXL/InstallResourcepack' },
                 { text: '导入世界', link: '/Launcher/BakaXL/InstallWorld' },
-                { text: '添加数据包', link: '/Minecraft/InstallDatapack' }
+                { text: '添加数据包', link: '/Launcher/BakaXL/InstallDatapack' }
               ]
             },
             {
@@ -129,7 +129,7 @@ export default defineConfig({
                 { text: '被杀软拦截的解决方案', link: '/Operation/StopDefenderBlock' },
                 { text: '尝试修复网络连通性', link: '/Operation/TryFixInternet' },
                 { text: '使用密码登录', link: '/Operation/LoginWithPassword' },
-                { text: '利用软连接共享版本目录', link: '/Operation/LinkDirectory' },
+                { text: '共享不同版本资源包', link: '/Operation/LinkDirectory' },
                 { text: '使', link: '/Operation/' },
                 { text: '使', link: '/Operation/' },
                 { text: '使', link: '/Operation/' },

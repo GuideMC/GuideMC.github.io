@@ -1,10 +1,12 @@
 # 常见游戏崩溃问题
 
 :::tip 提示
-使用左侧的侧边栏目录来快速寻找您的问题。
+使用右侧的文章大纲来快速定位您所遇到的问题
 :::
 
-## 安装 Mod 后游戏报错/无法启动
+## 常见单人游戏崩溃问题
+
+### 安装 Mod 后游戏报错/无法启动
 
 造成游戏报错的原因有很多, 比如 Mod 之间不兼容, Fabric API 的版本过高, 缺少前置 Mod 等等。
 
@@ -16,7 +18,7 @@
 
 4. 如果无法理解日志内容, 那么请将 `\.minecraft\crash-reports` 和 `\.minecraft\logs` 文件夹打包发给其他人寻求帮助。
 
-## Java 配置错误
+### Java 配置错误
 
 ::: warning
 请在排查问题前，前往 BakaXL 本体设置 - Java 虚拟机与内存 ，打开 `让 BakaXL 自动决定 Java 版本` 选项。
@@ -28,7 +30,7 @@
 
 由于 `Forge` 的兼容性问题，**请务必确保打开了自动选择 Java 选项** 。若仍然崩溃，请尝试从 BakaXL 本体设置 获取来自 Mojang 官方的 Java 8。您也可以点击[此链接](https://cdn.azul.com/zulu/bin/zulu8.58.0.13-ca-jre8.0.312-win_x64.msi)下载来自 Azul Zulu 的 Java 8u312 安装包并安装。
 
-## 安装 Forge 错误
+### 安装 Forge 错误
 
 当您在安装 `Forge` 时，可能会遇到一个看似无法解决的 `BLF-402` 问题
 
@@ -47,7 +49,7 @@
 
 :::
 
-## 显卡驱动过旧 / 未安装
+### 显卡驱动过旧 / 未安装
 
 在这之前，您需要了解您电脑所使用显卡的厂商。
 
@@ -59,23 +61,23 @@
 2. 在运行窗口中输入 `dxdiag` ，并点击 `确定` ；
 3. 在弹出的窗口中点击 `显示` ，在 `制造商` 一列将会显示您的显卡制造商。
 
-### 笔记本用户
+#### 笔记本用户
 
 请前往您的笔记本制造商的官方网站获取对应的驱动程序软件。
 
-### Intel 核芯显卡
+#### Intel 核芯显卡
 
 请下载 [**英特尔™驱动程序和支持助理**](https://dsadata.intel.com/installer) 来更新显卡驱动。
 
-### AMD 显卡 / 处理器
+#### AMD 显卡 / 处理器
 
 前往 [**AMD 驱动程序与支持**](https://www.amd.com/zh-hans/support) 页面根据您的显卡 / 处理器型号下载最新的驱动程序 。
 
-### NVIDIA 显卡
+#### NVIDIA 显卡
 
 请前往 [**NVIDIA 驱动程序**](https://www.nvidia.cn/geforce/drivers/) 页面根据显卡型号和需要下载最新的显卡驱动。
 
-## 分配内存过大 (过小)
+### 分配内存过大 (过小)
 
 1. 前往 `本体设置` 并选择 `Java 虚拟机与内存`；
 2. 点击 `内存设置`；
@@ -89,11 +91,23 @@
 Mod 越多（或材质包分辨率更大，能见度更远）时你需要分配更多的内存，但是不要超出你的可用内存。
 :::
 
-## 若在加入服务器时遇到问题，可以查看下列常见错误中是否包含了你的问题
+### 注意事项
 
-## 多人游戏已被禁用，请检查你的 Microsoft 账户设置
+电脑蓝屏、死机重启等情况下，游戏存档可能会损坏。如遇存档损坏可参考此教程的方案进行修复。但请注意，使用此方法会使得该世界回退至进入游戏前的存档。
 
-## 正版账户
+#### 操作步骤
+
+1. 点击对应版本的 “版本设置” → “存档文件夹” 后打开 saves 文件夹。
+
+2. 进入损坏存档，删除 “level.dat” 文件。
+
+3. 找到 “level.dat_old”，并右键重命名，将后缀 “_old” 部分删除，完成后再次进入世界即可。
+
+## 常见多人游戏崩溃问题
+
+### 多人游戏已被禁用，请检查你的 Microsoft 账户设置
+
+#### 正版账户
 
 如果你是 Microsoft 家庭中的一员，请进入 Microsoft 家庭设置查看家庭管理者，并用家庭管理者的账号更改年龄。
 
@@ -103,7 +117,7 @@ Mod 越多（或材质包分辨率更大，能见度更远）时你需要分配�
 - [Xbox 隐私和在线安全](https://www.xbox.com/zh-CN/user/settings/privacy-and-safety)
 - [Microsoft 家庭设置](https://account.microsoft.com/family/home)
 
-## 离线账户
+#### 离线账户
 
 原因：目前离线账户无法使用 1.16.4 和 1.16.5 的多人游戏功能。
 
@@ -114,13 +128,13 @@ Mod 越多（或材质包分辨率更大，能见度更远）时你需要分配�
 3. 安装下方的 “离线多人修正” 或 “Offline Multiplayer” 模组。
     - [离线多人修正 | MultiOfflineFix](https://www.mcmod.cn/download/10643.html)
 
-## 连接超时
+### 连接超时
 
 原因：连接超时。
 
 解决方法：请逐一尝试和排查以下情况。
 
-## Connection timed out: no further information
+### Connection timed out: no further information
 
 原因：连接超时。
 
@@ -133,118 +147,68 @@ Mod 越多（或材质包分辨率更大，能见度更远）时你需要分配�
 5. 尝试关闭 Microsoft Defender 公用网络防火墙后再次尝试连接服务器。
 6. 如问题仍未解决，请尝试在相关论坛及群聊中上传截图并寻求帮助。
 
-## 未知的主机 Unknown host 或 Cannot assign requested address: no further information
+### 未知的主机 Unknown host 或 Cannot assign requested address: no further information
 
 原因：无法访问目标地址。
 
 解决方法：确认服务器地址拼写正确（尽量复制粘贴），或者确认服务器已开启。
 
-## 常见错误及解决方法
-
-## Can't resolve hostname
+### Can't resolve hostname
 
 原因：解析服务器地址失败。
 
 解决方法：确认服务器地址拼写正确（尽量复制粘贴）。
 
-## 您的主机中的软件中止了一个已建立的连接
+### 您的主机中的软件中止了一个已建立的连接
 
 原因：网络状况不佳。
 
 解决方法：确认网络连接正常且网络环境良好，请在尝试使用加速器或 VPN 后再次尝试连接服务器。
 
-## 登入失败、Failed to login 或 Bad login
+### 登入失败、Failed to login 或 Bad login
 
 原因：离线玩家尝试登录正版服务器。
 
 解决方法：使用正版登录后再次尝试重新进入服务器。
 
-## Invalid characters in username
+### Invalid characters in username
 
 原因：用户名包含中文或特殊字符。
 
 解决方法：修改您的游戏用户名，确保仅含英文字母、数字及下划线。
 
-## Outdated server 或 Outdated client
+### Outdated server 或 Outdated client
 
 原因：您的 Minecraft 版本与服务器不匹配。
 
 解决方法：切换 Minecraft 版本为服务器兼容的版本，再重新尝试连接。
 
-## You are not white-listed on this server
-
-原因：不在服务器白名单内。
-
-解决方法：联系服主添加白名单。
-
-## You are banned from this server
-
-原因：被服务器封禁。
-
-解决方法：若你认为这是误封，联系服主。
-
-## Internal server error
+### Internal server error
 
 原因：服务器内部错误。
 
 解决方法：尝试重连。如果经常出现，可以联系服主解决。
 
-## End of Stream
+### End of Stream
 
 原因：客户端 Mod 出错，或频繁加入服务器。
 
 解决方法：尝试重连；禁用部分 Mod，并检查问题是否仍然存在。
 
-## Server closed
-
-原因：服务器已关闭。
-
-解决方法：联系服主开启服务器。
-
-## Server is full
-
-原因：服务器已满。
-
-解决方法：等待服务器有玩家退出，再次尝试连接。
-
-## Internal Exception: io.netty.handler.timeout.ReadTimeoutException
+### Internal Exception: io.netty.handler.timeout.ReadTimeoutException
 
 原因：客户端无法读取服务器传输的数据包（数据包过大）或服务器状态不佳。
 
 解决方法：联系服主。通常重启服务器可以解决该问题。
 
-## java.lang.IllegalArgumentException: Packet too big
+### java.lang.IllegalArgumentException: Packet too big
 
 原因：客户端无法读取服务器传输的数据包，因为数据包过大。你有可能被禁人塔、禁人书等造成的大量数据阻塞在服务器外。
 
 解决方法：使用离线登录，更换游戏 ID，如果问题消失，则代表你受到了禁人塔或禁人书的限制。该原因造成的问题暂时无解。
 
-## Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException
+### Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException
 
 原因：Mod 导致错误。
 
 解决方法：逐个禁用 Mod，并检查问题是否仍然存在。
-
-## 注意事项
-
-电脑蓝屏、死机重启等情况下，游戏存档可能会损坏。如遇存档损坏可参考此教程的方案进行修复。但请注意，使用此方法会使得该世界回退至进入游戏前的存档。
-
-## 显示文件扩展名
-
-如您阅读了下方的教程中发现您的文件没有显示后缀，则请依照如下步骤显示文件扩展名。
-
-## Windows 7
-
-文件资源管理器（我的电脑） → 组织 → 文件夹和搜索选项 → 查看 → 取消勾选 “隐藏已知文件的扩展名”。
-
-## Windows 10 / 11
-
-文件资源管理器（此电脑） → 查看 → 勾选 “文件扩展名”。
-
-## 操作步骤
-
-1. 点击对应版本的 “版本设置” → “存档文件夹” 后打开 saves 文件夹。
-
-2. 进入损坏存档，删除 “level.dat” 文件。
-
-3. 找到 “level.dat_old”，并右键重命名，将后缀 “_old” 部分删除，完成后再次进入世界即可。
