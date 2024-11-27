@@ -64,7 +64,8 @@ export default defineConfig({
                 { text: '使用LittleSkin登录', link: '/Launcher/HMCL/AuthlibInjector' },
                 { text: '设置讲解', link: '/Launcher/HMCL/SetItemDetail' },
                 { text: '外置Java', link: '/Launcher/HMCL/PackagedJava' },
-                { text: '服务端整合包', link: '/Launcher/HMCL/ServerPack' }
+                { text: '服务端整合包', link: '/Launcher/HMCL/ServerPack' },
+                { text: '制作数据包', link: '/Launcher/HMCL/Datapack' }
               ]
             }
           ]
@@ -108,6 +109,7 @@ export default defineConfig({
                 { text: '添加数据包', link: '/Launcher/BakaXL/InstallDatapack' }
               ]
             },
+            { text: '联机', link: '/Launcher/BakaXL/OnlinePlay' },
             {
               text: '旧目录',
               items: [
@@ -123,13 +125,13 @@ export default defineConfig({
           text: '杂项',
           items: [
             { text: '介绍', link: '/Operation/' },
+            { text: '如何解决杀软拦截问题', link: '/Operation/StopDefenderBlock' },
+            { text: '尝试修复网络连通性', link: '/Operation/TryFixInternet' },
+            { text: '使用密码登录微软账户', link: '/Operation/LoginWithPassword' },
+            { text: '在不同版本之间共享目录', link: '/Operation/LinkDirectory' },
             {
               text: '操作',
               items: [
-                { text: '被杀软拦截的解决方案', link: '/Operation/StopDefenderBlock' },
-                { text: '尝试修复网络连通性', link: '/Operation/TryFixInternet' },
-                { text: '使用密码登录', link: '/Operation/LoginWithPassword' },
-                { text: '共享不同版本资源包', link: '/Operation/LinkDirectory' },
                 { text: '使', link: '/Operation/' },
                 { text: '使', link: '/Operation/' },
                 { text: '使', link: '/Operation/' },
@@ -186,7 +188,7 @@ export default defineConfig({
       label: '文章大纲'
     },
     editLink: {
-      pattern: 'https://github.com/GuideMC/GuideMC.github.io/blob/main/docs/About/WriteRule.md',
+      pattern: 'https://github.com/GuideMC/GuideMC.github.io/blob/main/docs/:path',
       text: '在 GitHub 上编辑'
     },
     lastUpdated: {

@@ -30,8 +30,6 @@ Forge 几乎支持所有 Minecraft 正式版本，而 Fabric 和 Quilt 只支持
 
 ## 下载并安装 Mod（Mod 文件）
 
-### 提示
-
 在从网站下载 Mod 时，玩家需要注意下载的 Mod 是否与自己的游戏版本以及 Mod 加载器匹配。下载完成的 Mod 文件的扩展名一般为 .jar（用于老旧加载器 LiteLoader 的 Mod 扩展名为 .litemod）
 
 虽然 PCL 内置的 Mod 下载功能可以满足大部分安装 Mod 的需求，但在很多情况下，玩家仍需通过网站的方式来安装 Mod。

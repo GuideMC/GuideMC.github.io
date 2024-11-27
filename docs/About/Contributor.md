@@ -6,11 +6,14 @@
 
 [PCL2内置帮助库](https://github.com/LTCatt/PCL2Help)
 
+[PCL2常见问题文档](https://shimo.im/docs/qKPttVvXKqPD8YDC)
+
 [BakaXL 下一代用户帮助文档](https://github.com/BakaXL-Support/BakaXL-Next-docs)
 
 ## 贡献者们
 
 感谢以下各位对本文档的贡献
+
 :::info
 以下排名按字母顺序排序
 :::

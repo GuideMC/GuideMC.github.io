@@ -1,13 +1,13 @@
 # 文档编写规范
 
-在参与编辑本文档前，请首先阅读以下内容，以加速您的 Pull Request 被合并的速度
+在参与编辑本文档前，请首先阅读以下内容
 
 ## 编写规范
 
 ### 文本与排版规范
 
 :::tip 排版提示
-请参考该项目：[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
+可参考该项目：[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
 :::
 
 - 请使用书面性语言描述，避免口语化表达
@@ -25,7 +25,7 @@
 
 - 为方便中国大陆地区用户访问，请使用在中国大陆地区具有正常连通性的图床
   - 为防止失效，所有资源均应在 `docs/assets` 中保存一份副本
-- 图片宽 / 高均应小于 1024 像素，加快加载速度的同时避免显示比例不正常
+- 图片宽 / 高均应小于 1024 像素，从而加快加载速度，同时避免出现比例不正常的问题
 - 文件名应符合命名规范，并简要描述用途
 - 不应含有非默认的外观 / 选项设置，避免产生不必要的误导
 - 如一张图片中涉及多个操作，请使用矩形框出各步骤并按先后顺序标注序号
@@ -44,4 +44,4 @@
 3. 使用 Pull Request 提交至 `main` 分支
     - 如果你对构建代码进行了修改，请提交至 `dev` 分支
     - 在进行 Pull Request 前，你需要同步原仓库内的内容以保证你的仓库保持最新
-4. 等待你的 Pull Request 被合并
+4. 等待您的 Pull Request 被合并
