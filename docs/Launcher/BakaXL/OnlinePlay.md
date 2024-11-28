@@ -61,7 +61,6 @@ IPv6 是新一代互联网协议，它解决了 IPv4 地址枯竭的问题。我
 注意，通过 IPv6 联机需要大家**都拥有 IPv6 地址**才可使用。如果您们当中有人无法开启 IPv6，请使用下一种方法。
 
 ### 2.使用网游加速器
-![image](https://contents.baka.zone/web-cdn/image/xunyou.png/logoSize)
 
 使用 [迅游加速器](https://www.xunyou.com/)，即可享受更加高速稳定的联机体验。配合迅游高速组网，让全球玩家都能共同游戏。同时迅游还支持 Hypixel 加速，畅玩海外知名小游戏服。
 

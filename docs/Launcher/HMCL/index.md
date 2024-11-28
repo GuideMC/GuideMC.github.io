@@ -1,13 +1,6 @@
 # 关于 HMCL
 
-如果你认为你有能力为 HMCL 添加高质量的帮助文档，或希望修改错误，你可以到 [https://github.com/HMCL-dev/HMCL-docs](https://github.com/HMCL-dev/HMCL-docs) 仓库中发 Pull Request，或者提 Issue。
-
-或者你可以进入我们的 [Discord](https://discord.gg/jVvC7HfM6U) 或 HMCL 用户群以向 HMCL 反馈。
-
-## 关于游戏的下载
-### 正在前往 HMCL-Snapshot 下载页面，点击下载即可。
-
-### 没有前往？[点击此处](https://hmcl-snapshot-update.netlify.app/)
+[HMCL-Snapshot](https://hmcl-snapshot-update.netlify.app/)
 
 欢迎所有 Minecraft 玩家加入 HMCL 用户群，入群请遵守以下群规：
 
@@ -38,8 +31,6 @@
 
 ## 报错崩溃交流群
 
-
-
 如果你遇到了游戏非正常退出问题，欢迎加入报错崩溃交流群咨询解决方案：[Minecraft 报错崩溃交流群 (666546887)](https://qm.qq.com/q/nG0Ti1kJri)
 
 **本群仅处理游戏报错崩溃问题，无关话题请前往其他群聊讨论。**
@@ -51,7 +42,7 @@
 我们为 Linux、FreeBSD 等系统以及 ARM（不包括 macOS）、RISC-V、龙芯等设备的用户建立了一个独立的交流群。
 如果你正在使用这些平台，欢迎加入 HMCL 灵车交流群：[HMCL 灵车交流群 (737461713)](https://qm.qq.com/q/C935haj8xW)。
 
-本群不适合一般 Windows 和 macOS 用户加入。如果你不关心上面提到的这些平台，请移步[用户群](#用户群)。
+本群不适合一般 Windows 和 macOS 用户加入。
 
 ## 公测群
 

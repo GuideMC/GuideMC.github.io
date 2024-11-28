@@ -28,7 +28,7 @@ export default defineConfig({
               text: '旧目录',
               items: [
                 { text: '常见报错解决', link: '/Minecraft/CrashResolve' },
-                { text: '版本隔离', link: '/Minecraft/VerIsolation' },
+                { text: '关于版本隔离', link: '/Minecraft/VerIsolation' },
                 { text: '加入服务器', link: '/Minecraft/JoinServer' },
                 { text: '同', link: '/Minecraft/' },
                 { text: '离', link: '/Minecraft/' },
@@ -89,7 +89,11 @@ export default defineConfig({
             },
             { text: '导出设置', link: '/Launcher/PCL/ExportSettings' },
             { text: '制作整合包', link: '/Launcher/PCL/MakeModpack' },
-            { text: '使用LittleSkin登录', link: '/Launcher/PCL/AuthlibInjector' }
+            { text: '使用LittleSkin登录', link: '/Launcher/PCL/AuthlibInjector' },
+            { text: '赞助', link: '/Launcher/PCL/Sponser' },
+            { text: '主题', link: '/Launcher/PCL/Theme' },
+            { text: '赞助', link: '/Launcher/PCL/Sponser' },
+            { text: '赞助', link: '/Launcher/PCL/Sponser' }
           ]
         },
       ],
@@ -124,9 +128,8 @@ export default defineConfig({
         {
           text: '杂项',
           items: [
-            { text: '介绍', link: '/Operation/' },
             { text: '如何解决杀软拦截问题', link: '/Operation/StopDefenderBlock' },
-            { text: '尝试修复网络连通性', link: '/Operation/TryFixInternet' },
+            { text: '关于网络问题', link: '/Operation/TryFixNetSpeed' },
             { text: '使用密码登录微软账户', link: '/Operation/LoginWithPassword' },
             { text: '在不同版本之间共享目录', link: '/Operation/LinkDirectory' },
             {
@@ -189,7 +192,7 @@ export default defineConfig({
     },
     editLink: {
       pattern: 'https://github.com/GuideMC/GuideMC.github.io/blob/main/docs/:path',
-      text: '在 GitHub 上编辑'
+      text: '在 GitHub 上编辑本页'
     },
     lastUpdated: {
       text: '最后更新于',
