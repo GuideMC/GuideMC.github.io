@@ -20,7 +20,7 @@
 
 ### Java 配置错误
 
-::: warning
+::: warning 警告
 请在排查问题前，前往 BakaXL 本体设置 - Java 虚拟机与内存 ，打开 `让 BakaXL 自动决定 Java 版本` 选项。
 
 除非您知道您在做什么，否则强烈不建议手动选择 Java 版本。

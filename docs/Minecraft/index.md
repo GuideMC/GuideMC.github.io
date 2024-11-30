@@ -4,8 +4,8 @@
 
 请选择一个启动器？
 
-[HMCL](HMCL/)
+[HMCL](../HMCL/)
 
-[PCL2](PCL/)
+[PCL2](../PCL/)
 
-[BakaXL](BakaXL/)
+[BakaXL](../BakaXL/)

@@ -15,7 +15,7 @@ export default defineConfig({
           { text: 'BakaXL', link: '/Launcher/BakaXL/' }
         ]
       },
-      { text: '杂项', link: '/Operation/' },
+      { text: '杂项', link: '/Operation/ComputerKnowledge' },
       { text: '关于', link: '/About/About' }
     ],
     sidebar: {
@@ -46,7 +46,7 @@ export default defineConfig({
         {
           text: 'HMCL',
           items: [
-            { text: 'HMCL介绍', link: '/Launcher/HMCL/' },
+            { text: '介绍', link: '/Launcher/HMCL/' },
             {
               text: '安装',
               items: [
@@ -75,7 +75,7 @@ export default defineConfig({
         {
           text: 'PCL',
           items: [
-            { text: 'PCL介绍', link: '/Launcher/PCL/' },
+            { text: '介绍', link: '/Launcher/PCL/' },
             {
               text: '安装',
               items: [
@@ -101,7 +101,7 @@ export default defineConfig({
         {
           text: 'BakaXL',
           items: [
-            { text: 'BakaXL介绍', link: '/Launcher/BakaXL/' },
+            { text: '介绍', link: '/Launcher/BakaXL/' },
             {
               text: '安装',
               items: [
@@ -128,6 +128,7 @@ export default defineConfig({
         {
           text: '杂项',
           items: [
+            { text: '计算机基本常识', link: '/Operation/ComputerKnowledge' },
             { text: '如何解决杀软拦截问题', link: '/Operation/StopDefenderBlock' },
             { text: '关于网络问题', link: '/Operation/TryFixNetSpeed' },
             { text: '使用密码登录微软账户', link: '/Operation/LoginWithPassword' },
