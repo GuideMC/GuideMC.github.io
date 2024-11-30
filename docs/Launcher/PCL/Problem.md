@@ -80,18 +80,4 @@ PCL 因为会“联网下载程序并且运行”，经常被杀毒软件误认�
 
 具体关闭联机的原因可以看：[https://www.bilibili.com/read/cv19845645](https://www.bilibili.com/read/cv19845645)
 
-### PCL 的系统要求是什么？会考虑兼容其他系统吗？
 
-PCL 只能在 Windows 7 SP1 及更高的 64 位 Windows 系统上使用。
-
-PCL 的底层框架只支持 Windows，兼容其他系统几乎相当于全盘重做，因此不考虑兼容。
-
-#### PCL 打不开要怎么办？
-
-请依次检查以下内容：
-
-1. 如果正使用 Windows 7，尝试使用安全软件修复系统漏洞，安装补丁
-2. 下载并安装 [.Net Framework 4.6.2](https://dotnet.microsoft.com/zh-cn/download/dotnet-framework/thank-you/net462-web-installer)
-   * 如果安装失败，请先卸载更高版本的 .Net Framework，然后再试
-3. [将 PCL 加入杀毒软件或防火墙的白名单](https://shimo.im/docs/qKPttVvXKqPD8YDC#anchor-NOxn)
-4. 不要将 PCL 放在 C 盘、我的文档或桌面

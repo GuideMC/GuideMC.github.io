@@ -4,9 +4,7 @@
 使用右侧的文章大纲来快速定位您所遇到的问题
 :::
 
-## 常见单人游戏崩溃问题
-
-### 安装 Mod 后游戏报错/无法启动
+## 如何分析崩溃报告
 
 造成游戏报错的原因有很多, 比如 Mod 之间不兼容, Fabric API 的版本过高, 缺少前置 Mod 等等。
 
@@ -17,6 +15,8 @@
 3. 如果你的能力很优秀, 也可以直接查看游戏日志来找出问题的原因。
 
 4. 如果无法理解日志内容, 那么请将 `\.minecraft\crash-reports` 和 `\.minecraft\logs` 文件夹打包发给其他人寻求帮助。
+
+## 常见单人游戏崩溃问题
 
 ### Java 配置错误
 
@@ -36,9 +36,10 @@
 在系统使用 Unicode UTF-8 的情况下使用中文目录存储 / 启动游戏必定会导致游戏崩溃。
 
 关于如何找到 Unicode 选项请参照: [将 Windows10 设置为 UTF8 编码格式 - CSDN](https://blog.csdn.net/xt_v2012/article/details/93784751)
-将选项 `Beta 版: 使用 Unicode UTF-8 提供全球语言支持 (U)` 旁的复选框取消勾选后重新启动即可关闭 Unicode UTF-8 
+将选项 `Beta 版: 使用 Unicode UTF-8 提供全球语言支持 (U)` 旁的复选框取消勾选后重新启动即可关闭 Unicode UTF-8
 
-若出现重启后检查依旧仍在使用 Unicode UTF-8 模式请参考: 
+若出现重启后检查依旧仍在使用 Unicode UTF-8 模式请参考:
+
 [地區設定 勾選 “Beta 版：使用 Unicode UTF-8 提供全球語言支援” 後重開機依舊無法更改回來 - Microsoft Q&A](https://answers.microsoft.com/zh-hant/windows/forum/all/%E5%9C%B0%E5%8D%80%E8%A8%AD%E5%AE%9A/e596c312-1eda-41c2-a85e-f41a1f5ced9e) 一文中独立顾问 “A Big 蓝鲸” 提供的方法。
 :::
 
@@ -46,7 +47,7 @@
 
 >为了解决问题同时不影响该目录下其他应用程序的日常使用
 >
->请将 <kbd><em>BakaXL.exe</em></kbd>，<kbd><em>BakaXL</em> 文件夹</kbd>，<kbd><em>.minecraft</em> 文件夹</kbd>
+>请将 BakaXL.exe，BakaXL 文件夹，.minecraft 文件夹
 >
 >移动至不含有中文字符的同一目录下
 
