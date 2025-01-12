@@ -180,7 +180,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/GuideMC' }
     ],
     footer: {
-      message: '"Minecraft" 以及 "我的世界" 为美国微软公司的商标。本文档与美国微软公司之间没有从属关系。',
+      message: '"Minecraft" 以及 "我的世界" 为美国微软公司的商标。本文档与美国微软公司之间没有从属关系',
       copyright: `版权所有 © 2024-${new Date().getFullYear()} Guide MC`
     },
     docFooter: {
