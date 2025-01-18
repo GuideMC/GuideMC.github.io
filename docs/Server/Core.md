@@ -60,12 +60,11 @@ Paper端, 下一代的Minecraft服务端核心, 兼容Spigot, Bukkit插件, 修�
 优点: 强劲的性能和大量的优化, 修复了一些MC的bug
 缺点: 修复了一些原版的特性, 如刷沙, 不适合生电服
 
-#### Sponge_Vanilla
-版本: 1.8 - 1.20
-链接(官网): https://www.spongepowered.org/
+#### [Sponge](https://spongepowered.org/) Vanilla(1.8-1.21)
+
 海绵端, 使用SpongeAPI的一个MC纯净服务端核心, 可以加载Sponge的插件
-优点: 开放并拥有较好的性能
-缺点: 不推荐新手服主用, 只能加载Sponge插件, 不能加载Spigot和Bukkit插件。
+SpongeVanilla 是在 Vanilla Minecraft 上实现的 Sponge API。
+建议运行没有 Forge mods 的插件。
 
 #### Akarin
 版本: 1.12.2 - 1.16.5
@@ -119,81 +118,75 @@ Akarin端, Vefland端的前身, 基于Paper, 加入了多线程优化。
 
 ### 混合端
 
-#### Sponge_Forge
+#### [Sponge](https://spongepowered.org/) Forge/Neo(1.8-1.21)
 
-版本: 1.8.9-1.21.4
-链接(官网): https://www.spongepowered.org/
-使海绵端, 用SpongeAPI的Forge模组服核心, 在SpongeVanilla的基础上加入了对Forge mod的支持
-优点: 可以加载各种mod来扩展玩法
-缺点: 不推荐新手服主用, 只能加载Sponge插件, 不能加载Spigot和Bukkit插件。
+SpongeForge 是 Minecraft Forge 平台上 Sponge API 的实现。SpongeNeo 是 NeoForge 平台上 Sponge API 的实现。在 SpongeVanilla 的基础上加入了对 Forge mod 的支持。
 
-#### Mohist
-版本: 1.7.10 | 1.12.2 | 1.16.5 | 1.18.2 | 1.19
-链接(官网): https://mohistmc.com/
-墨端，由国人Mgazul开发, 一个混合了Paper, Bukkit, Spigot的Forge服务端核心, 允许使用mod和插件, 优化良好, 经常更新, 推荐使用。
-优点: 对模组&插件兼容性强, 优化良好, 更新频繁
-缺点: 1.16.5不支持nms等缺点
+#### [Mohist](https://mohistmc.com/)(1.7.10-1.20.1)
 
-#### Catserver
-版本: 1.12.2 | 1.16.5 | 1.18.2 | 1.19.4
-链接(官网): https://catmc.org/
-猫端, 由国人落花雨开发, 开源免费的1.12.2版本Forge+Bukkit+Spigot服务端, 加入了大量原创优化和Paper端的优化, 修复了很多bug。
-同时也是1.16.5LoliServer, 1.18.2FoxServer的后续开发版本
+一个实现了 Bukkit、Spigot API 的 Minecraft Forge 服务器软件。使用此软件，您可以创建一个带有模组和插件的 Minecraft 服务器！
 
-#### Arclight
-版本: 1.14.4 - 1.20.1
-链接:
-螺端, 高版本的Forge/Bukkit混合服务端,
+#### [Banner](https://mohistmc.com/)(1.19.4-1.20.1)
 
-#### Atom
-版本: 1.12.2
-链接(Github): https://github.com/josephworks/AtomMC
-原子端, 原作者弃坑, 现由Josephworks维护, 一个兼容Forge mod和Bukkit&Spigot插件的服务端核心, 稳定, 拥有较高的性能。
+一个实现了 Bukkit 和 Spigot API 的 Minecraft Fabric 服务器软件。这个软件允许您创建一个使用 Fabric 模组和插件的 Minecraft 服务器。
 
-#### KCauldron
-版本: 1.7.10
-KC端, 是MCPC+, Cauldron的后续版本
+#### [Youer](https://mohistmc.com/)
 
-#### [Thermos](https://github.com/CyberdyneCC/Thermos)
+一个实现了 Bukkit 和 Spigot API 的 Minecraft NeoForge 服务器软件。这个软件允许您创建一个使用 NeoForge 模组和插件的 Minecraft 服务器。
 
-版本: 1.7.10
-Thermos 是 KCauldron 的一个分支，KCauldron 是 Minecraft 1.7.10 的 craftbukkit 锻造服务器。在 KCauldron 的 GitLab 因重大问题而停顿了一段时间后，Thermos 应运而生，以便 Minecraft 编码社区的活跃成员对其进行优化并及时提供修复。
+#### [Arclight](https://github.com/IzzelAliz/Arclight)(1.14.4-1.21.3)
 
-我们希望消除 craftbukkit forge 服务器的所有问题。最终，我们设想了一种无缝、低延迟的 Thermos 体验。
+螺端, 高版本的Forge/Bukkit混合服务端,在常见的 mod 加载器上实现的 Bukkit 服务器。
 
-相对于 KCauldron 的优势：
+#### [Catserver](https://catmc.org/)(1.12.2,1.16.5,1.18.2)
 
-降低延迟的优化
-更好的世界保护（Forge 内容不会绕过 Bukkit 插件！）
-KCauldron 没有从 Spigot 获得很多补丁
-修复重复错误
-不兼容Lilypad
+一个高性能的 Forge+Bukkit+Spigot 服务端核心。加入了大量原创优化和 Paper 端的优化, 修复了很多 Bug。
 
-#### [ThermosX](https://github.com/DireClanMC/ThermosX)
+是[LoliServer](https://git.zerodream.net/ZeroDream/LoliServer)和[FoxServer](https://github.com/Luohuayu/FoxServer)的后续开发版本。
 
-版本: 1.7.10
-Thermos的优化版, 进行了优化和bug修复。
+#### [Ketting](https://github.com/kettingpowered/Ketting-1-20-x)(1.20.x)
 
-#### Uranium
-版本: 1.7.10
-链接(官网): https://ci.uraniummc.cc/
-铀(U)端, 在1.7.10时代非常流行, 基于KC端并进行了大量修复以及优化, 兼容bukkit, spigot插件以及1.7.10的forge mod。
-优点: 修复了很多bug, 进行了优化并增加了一些新特性
-缺点: 官网炸了, 貌似弃坑了
+Ketting 是 Magma 在 1.20 版本的续作，将 CraftBukkit 和 Spigot 补丁与 Forge 补丁相结合，创建了一个可以同时运行 Forge 模组和 Bukkit 插件的服务器。同时还包含一些自制补丁。
 
-#### Contigo
-版本: 1.7.10
-链接(Github): https://github.com/djoveryde/Contigo
-阿
+#### [Magma](https://github.com/magmamaintained)（1.12.2,1.18.2,1.19.3,1.20.1)
 
-#### Kettle
-版本: 1.12.2 | 1.14.4
-Contigo的优化版本,
+Magma 是下一代混合 minecraft 服务器软件，基于 Forge 和 Spigot，这意味着它可以运行CraftBukkit/Spigot 插件和 Forge 模块。
 
-#### Magma
-版本:
+Magma 1.18.2与原版BungeeCord 或其任何分支不兼容。这是由 Forge 引起的，而不是 Magma 的错误。如果不修改客户端，我们无法自行修复此问题。您可能能够使用名为Lightfall的 Waterfall 分支，但它也需要客户端模块才能工作，并且不受官方支持。
 
-#### Ketting
+Magma 1.18.2与vanilla Velocity不兼容。这是由 Forge 引起的，而不是 Magma 的错误。如果不修改客户端和代理，我们无法自行修复此问题。
+
+#### [Atom](https://github.com/josephworks/AtomMC)(1.12.2)
+
+一个 Minecraft 1.12.2 版本的服务器核心，基于 MinecraftForge 和 CraftBukkit。部分代码取自 Spigot 及其衍生项目。
+可以稳定地与 Bukkit 插件和 MinecraftForge 模块支持协同工作。尽可能实现最高性能。
+现由 Josephworks 接手[原项目](https://gitlab.com/divinecode/atom/Atom)。
+
+#### [Kettle](https://github.com/KettleFoundation/Kettle)(1.12.2)
+
+Kettle 最初被认为是 Contigo 的一个分支，但经过几次迭代之后摆脱了 Contigo 的依赖，不再被视为它的分支，而是一个独立的混合服务器。
+
+Kettle 依赖于自定义 Forge 和 Paper 版本，这意味着它可以运行基于 Craftbukkit/spigot 的插件和基于 forge 的模块。
+
+我们希望消除 craftbukkit forge 服务器的所有问题。最终，我们设想提供无缝、低延迟的 Kettle 体验，并支持新的 1.12+ 版 Minecraft。
+
+#### [Contigo](https://github.com/djoveryde/Contigo)(1.7.10)
+
+Contigo 是 Thermos 的一个分支
+
+#### [ThermosX](https://github.com/DireClanMC/ThermosX)(1.7.10)
+
+ThermosX 是 Thermos 的一个分支
+
+#### [Thermos](https://github.com/CyberdyneCC/Thermos)(1.7.10)
+
+Thermos 是 KCauldron 的一个分支，是 Minecraft 1.7.10 的 CraftBukkit-Forge 服务器。具有降低延迟的优化，修复重复错误，更好的世界保护。不兼容Lilypad。
+
+KCauldron 继承自 Cauldron，是 MCPC 以及 MCPC+ 的高版本移植。
+
+#### [Uranium](https://github.com/UraniumMC/Uranium)(1.7.10)
+
+基于 KCauldron 并进行了大量修复以及优化, 兼容 CraftBukkit/Spigot 插件以及 Forge。
 
 
 
@@ -225,14 +218,6 @@ Contigo的优化版本,
 阿
 
 #### Phoenix
-
-#### LoliServer
-版本: 1.16.5
-链接:
-
-#### FoxServer
-版本: 1.18.2
-链接:
 
 ## 代理端/Proxy
 允许你将多个mc服务器连在一起, 玩家可以在服务器之间无缝传送。
