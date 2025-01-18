@@ -34,7 +34,7 @@ BakaXL 最新版本只能在 Windows 7 及以上 Windows 系统上使用。
 - Windows 10 及之后版本的操作系统默认包含此程序
 
 ::: details 关于 LTS 版本
-LTS 版本仍然支持 Windows XP 系统，但使用时出现的问题由于开发人员缺失原因将不会得到解决。
+LTS 版本仍然支持 Windows XP 系统，但使用时出现的问题由于开发人员缺失原因将不会得到解决
 :::
 
 ## 官方群聊

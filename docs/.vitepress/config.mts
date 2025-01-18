@@ -6,7 +6,6 @@ export default defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
-      { text: '本体', link: '/Minecraft/' },
       {
         text: '启动器',
         items: [
@@ -15,33 +14,11 @@ export default defineConfig({
           { text: 'BakaXL', link: '/Launcher/BakaXL/' }
         ]
       },
-      { text: '杂项', link: '/Operation/ComputerKnowledge' },
-      { text: '关于', link: '/About/About' }
+      { text: '单人游戏', link: '/Client/' },
+      { text: '多人游戏', link: '/Server/' },
+      { text: '杂项', link: '/Other/ComputerKnowledge' }
     ],
     sidebar: {
-      '/Minecraft/': [
-        {
-          text: 'Minecraft',
-          items: [
-            { text: 'Minecraft', link: '/Minecraft/' },
-            {
-              text: '旧目录',
-              items: [
-                { text: '常见报错解决', link: '/Minecraft/CrashResolve' },
-                { text: '关于版本隔离', link: '/Minecraft/VerIsolation' },
-                { text: '加入服务器', link: '/Minecraft/JoinServer' },
-                { text: '同', link: '/Minecraft/' },
-                { text: '离', link: '/Minecraft/' },
-                { text: '设', link: '/Minecraft/' },
-                { text: '安', link: '/Minecraft/' },
-                { text: '版', link: '/Minecraft/' },
-                { text: '外', link: '/Minecraft/' },
-                { text: '服', link: '/Minecraft/' }
-              ]
-            }
-          ]
-        }
-      ],
       '/Launcher/HMCL/': [
         {
           text: 'HMCL',
@@ -91,9 +68,7 @@ export default defineConfig({
             { text: '制作整合包', link: '/Launcher/PCL/MakeModpack' },
             { text: '使用LittleSkin登录', link: '/Launcher/PCL/AuthlibInjector' },
             { text: '赞助', link: '/Launcher/PCL/Sponser' },
-            { text: '主题', link: '/Launcher/PCL/Theme' },
-            { text: '赞助', link: '/Launcher/PCL/Sponser' },
-            { text: '赞助', link: '/Launcher/PCL/Sponser' }
+            { text: '主题', link: '/Launcher/PCL/Theme' }
           ]
         },
       ],
@@ -124,22 +99,52 @@ export default defineConfig({
           ]
         }
       ],
-      '/Operation/': [
+      '/Client/': [
+        {
+          text: '单人游戏',
+          items: [
+            { text: '单人游戏', link: '/Client/' },
+            {
+              text: '旧目录',
+              items: [
+                { text: '常见报错解决', link: '/Client/CrashResolve' },
+                { text: '关于版本隔离', link: '/Client/VerIsolation' },
+                { text: '同', link: '/Client/' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/Server/': [
+        {
+          text: '多人游戏',
+          items: [
+            { text: '多人游戏', link: '/Server/' },
+            {
+              text: '服务器',
+              items: [
+                { text: '加入服务器', link: '/Server/Join' },
+                { text: '服务端核心', link: '/Server/Core' },
+                { text: '', link: '/Server/' }
+              ]
+            }
+          ]
+        }
+      ],
+      '/Other/': [
         {
           text: '杂项',
           items: [
-            { text: '计算机基本常识', link: '/Operation/ComputerKnowledge' },
-            { text: '如何解决杀软拦截问题', link: '/Operation/StopDefenderBlock' },
-            { text: '关于网络问题', link: '/Operation/TryFixNetSpeed' },
-            { text: '使用密码登录微软账户', link: '/Operation/LoginWithPassword' },
-            { text: '在不同版本之间共享目录', link: '/Operation/LinkDirectory' },
+            { text: '计算机基本常识', link: '/Other/ComputerKnowledge' },
+            { text: '如何解决杀软拦截问题', link: '/Other/StopDefenderBlock' },
+            { text: '关于网络问题', link: '/Other/TryFixNetSpeed' },
+            { text: '使用密码登录微软账户', link: '/Other/LoginWithPassword' },
+            { text: '在不同版本之间共享目录', link: '/Other/LinkDirectory' },
             {
               text: '操作',
               items: [
-                { text: '使', link: '/Operation/' },
-                { text: '使', link: '/Operation/' },
-                { text: '使', link: '/Operation/' },
-                { text: '使', link: '/Operation/' }
+                { text: '使', link: '/Other/' },
+                { text: '使', link: '/Other/' }
               ]
             }
           ]
