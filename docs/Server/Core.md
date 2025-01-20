@@ -1,349 +1,377 @@
 # 服务端核心
 
-这里收录了几乎所有出现过的服务端核心
+这里收录了几乎所有出现过的服务端核心。  
+Java & Bedrock 原版核心可从 [Minecraft Wiki](https://zh.minecraft.wiki/) 处下载。
 
-## Java端核心
+## Java 端核心
 
-适用于Minecraft Java版服务器的开服, 游戏联机。
+适用于 Minecraft Java 版服务器。
 
 ### 纯净端
 
-[Minecraft](https://zh.minecraft.wiki/) 原版核心，不支持任何插件 / 模组，性能较差，自带原生 GUI 控制台窗口。
+不支持任何插件 / 模组。
 
-#### [Cuberite](https://cuberite.org/) (1.8-1.12.2)
+#### [NanoLimbo](https://github.com/Nan1t/NanoLimbo) (1.7 - *)
 
-适用于 Minecraft 的轻量级、快速且可扩展的游戏服务器，适用于多平台。
-Android™️ 跨平台支持
-可以 安装支持 CuberiteAPI 的插件
-性能较好
-缺少很多原版内容
-支持跨版本运行，1.8-1.12.2 的客户端均能加入到你的 Cuberite 服务器中
+NanoLimbo 是轻量级的 limbo 核心，支持多版本，使用 Java 和 Netty 编写。  
+可用作离线模式的授权服务器或群组中的后备服务器，在主服务器宕机时让玩家保持网络连接。  
+支持 BungeeCord 和 Velocity 转发，支持 BungeeGuard 握手格式。  
+不会保存或缓存任何无用数据，使用固定线程池，不会为每个玩家生成线程。  
+无法放置建筑，可以通过聊天或顶栏发送公告。
 
-#### Spout (1.5-1.7)
+#### [Limbo](https://github.com/LOOHP/Limbo) (1.17.1 - *)
 
-而在这里面，spoutcraft又是比较特殊的一个mod. 比起modpack，它更像是一个API，跟forge类似的一种东西——然而跟forge不同的是，spout能够被用来做mod的那部分API离完成永远遥遥无期（毕竟没有non-premium用户的关注和支持），这导致spout在实际上能提供的内容极其有限。
+Limbo 是适用于服务器中 AFK 或大厅的轻量级解决方案。  
+可以把 .schem 加载为默认世界，并且支持玩家皮肤。  
+还支持 API，允许创建插件并更改 Limbo 的行为。
 
-不过spout在多人游戏上有着一个非常大的优势：官方支持bukkit。不仅如此，如果在服务端安装了spout的mod，客户端不需要事先进行针对性配置——也就是说，使用同一个spoutcraft客户端你可以玩服务器提供的任何mod.
+#### [Dripleaf](https://github.com/NoahvdAa/Dripleaf) (1.17.1)
 
-SpoutAPI之所以工程量浩大迟迟无法完工，就是因为像bukkit一样，spout不是一个基于Notch-code的mod. Forge的开发者能够通过反编译官方版的minecraft，在其基础上增加各种各样的hook，然后统一提供一个接口给mod开发者。这样的开发没什么后顾之忧，并且可以步步为营加一个算一个随时可以发布。然而对于SpoutAPI，他要做的基本是把整个mc重新写一遍。有什么地方不对或者没完成，整个spout都没法发布。
+Dripleaf 是一款轻量级的 Limbo 核心，用作队列服务器或崩溃时的后备服务器。
 
-所以forge的发布可以超勤快，而且还可以嫌sdk的工作太慢自己出fml，而spout却一直拖到连1.4都要发布了，才更新1.3.2推荐版。
-也是同样的原因，spout可以从头到尾稳定地支持bukkit且没有版本兼容问题，而mcpc到现在也没把1.3.2的forge给port出来。
+#### [TyphoonLimbo](https://github.com/TyphoonMC/TyphoonLimbo) (1.7 - 1.13)
 
-其实说起来，spout也并不是只有正版玩家可用，你甚至不需要破解就能使用spout.
-spoutlauncher在启动时无论你是否成功登陆，都会将整个spoutcraft的客户端更新下载下来，你只需要以某种方式启动这个客户端就行了。
+TyphoonLimbo 是使用 Go 编写的轻量级 Limbo，已停止维护。
 
-#### Phoenix
+#### [Minestom](https://github.com/Minestom/Minestom) (1.21.3 - *)
 
-### 模组端
-
-#### [Forge](https://files.minecraftforge.net) (1.2.5 - 1.20.1)
-
-Forge是一个免费开源的API, 通过注入原版服务端, 允许在你的服务器中加载各种mod, 用来扩展服务器玩法。
-基于 Vanilla
-可以 安装支持 ForgeAPI 的模组
-稳定性较好
-性能较差
-可插拔性强，易于更新
-
-#### [Fabric](https://fabricmc.net) (1.7.10 - 1.20.1)
-
-一个轻量级的mod API, 适合用于mc 1.14.4以上的高版本, 包含快照版本, 兼容性比Forge好。
-基于 Vanilla
-可以 安装支持 FabricAPI 的模组
-稳定性较好
-性能相对较好
-可插拔性强，易于更新
-
-#### [Fukkit](https://github.com/FukkitMC/Fukkit)
-
-### 插件端
-
-#### [Sponge](https://spongepowered.org/) Vanilla (1.8-1.21)
-
-海绵端, 使用SpongeAPI的一个MC纯净服务端核心, 可以加载Sponge的插件
-SpongeVanilla 是在 Vanilla Minecraft 上实现的 Sponge API。
-可以 安装支持 Sponge 的插件
-性能相对很好
-更新较快
-稳定性很好
-社区支持友好
-插件生态较差
-
-#### [CraftBukkit](https://bukkit.org/)
-
-CraftBukkit是Minecraft原版修改核心, CraftBukkit保留了一些有用的可配置性和优化功能, 例如异步块加载, 修复了一些原版服务端的bug。现已并入Spigot。
-缺点: 是只能加载bukkit插件, 并且不能加载mod。
-基于 Vanilla 二次开发
-可以 安装支持 BukkitAPI 的插件
-性能较差
-
-#### [Spigot](https://spigotmc.org)
-
-水龙头，使用最多的服务端核心之一。基于CraftBukkit的Minecraft原版修改核心, 可提供其他性能优化, 配置选项和功能, 同时兼容Spigot系插件并与Vanilla Minecraft游戏机制保持一致。
-基于 CraftBukkit
-可以 安装支持 BukkitAPI,SpigotAPI 的插件
-稳定性好
-性能较好
-
-#### [Paper](https://papermc.io) (1.8.x - 1.20.1)
-
-Paper端, 下一代的Minecraft服务端核心, 兼容Spigot, Bukkit插件, 修复了大量mc的bug, 并提供了更高, 更出色的性能
-优点: 强劲的性能和大量的优化, 修复了一些MC的bug
-缺点: 修复了一些原版的特性, 如刷沙, 不适合生电服
-基于 Spigot
-可以 安装支持 BukkitAPI,SpigotAPI,PaperAPI 的插件
-部分自带原生 GUI 控制台窗口
-稳定性较好
-性能好
-更新迅速
-提供了更多的优化和服务端个性化选项
-构建、使用方便
-搭载了较为先进的 Aikar's Timings® 性能分析系统
-
-### [Folia](https://papermc.io/software/folia) (1.19.4-1.20.6)
-
-Paper 的一个新分支，它为服务器添加了区域化多线程。
-
-### [Purpur](https://purpurmc.org/)
-
-### [Pufferfish](https://github.com/pufferfish-gg/Pufferfish)
-
-#### [Akarin/Torch](https://github.com/Akarin-project/Akarin/)
-
-一个来自"新维度" 的功能强大的服务端核心, 多线程优化, 稳定, 快速, 兼容性强, 个人感觉比Paper优化好。
-基于 Paper/Tuinity
-可以 安装基于 BukkitAPI,SpigotAPI,PaperAPI，可能可以安装基于 TuinityAPI 的插件
-不可以 安装基于任何 API 的模组
-性能极佳
-支持多线程
-更新不快
-不太稳定
-
-#### [TacoSpigot](https://github.com/TacoSpigot/TacoSpigot) (1.8.8 - 1.13.2)
-
-(请使用Paper)
-一个基于Paper的多线程服务端, 对Paper进一步优化, 并修复了一些bug。
+Minestom 是 Cleanstone 的续作，是一个开源库，可以使用它创建自己的服务器。  
+默认不包含任何功能，但是有一个完整的 API 用于实现任何目标。
 
 #### [Cleanstone](https://github.com/CleanstoneMC/Cleanstone) (1.12.2 - 1.14)
 
-一个多线程服务端, 支持多个mc版本的协议(Java版1.12.2 - 1.14和基岩版的服务器列表ping), 支持Java11
-这个核心还是半成品, 目前没有实现物品掉落, AI, nbt支持等mc机制。
+Cleanstone 是一个多线程核心，使用 Java11 运行，支持多个版本。  
+计划从头开始正确构建一个可扩展的服务器，而没有过时代码和单线程特性。
 
-#### [Hose](https://github.com/softpak/HOSE) (1.11.2)
+#### [Cuberite](https://cuberite.org/) (1.8 - 1.12.2)
 
-一个1.11.2版本的多线程服务端核心, 基于Spigot, 支持Java8。
+Cuberite 是一个轻量级、快速且可扩展的服务端，支持多平台。  
+可安装支持 CuberiteAPI 的插件，性能较好。  
+同时支持 1.8-1.12.2 的客户端加入。  
+由于不依赖任何 Mojang 的源码，因此缺少很多原版内容。
 
-#### [Sugarcane](https://github.com/SugarcaneMC/Sugarcane)
+#### Spout (1.5 - 1.7)
 
-#### [Airplane](https://github.com/TECHNOVE/Airplane)
+Spout 不依赖任何 Mojang 的源码，且官方支持 Bukkit。  
+可以仅在服务端安装Spout Mod。
 
-#### [Patina](https://github.com/PatinaMC/Patina)
+### 模组端
 
-#### [Yatopia](https://github.com/YatopiaMC/Yatopia)
+某些非官方服务端软件允许你运行带模组的游戏。这些模组与运行它们的服务端软件并不受 Mojang Studios 的维护。
 
-基于Tuninity的一个优化核心, 结合了许多Paper分支和优化mod的代码
-融入了大量Akarin, EMC, Origami, Airplane, Lithium, Cadmium, Tic-Tacs和Yatopia独有的优化
-本核心也是Tuinity的后身，肯定比楼上的核心适用很多
-优点：稳定性比paper稳定，也比Tuinity稳定，而且关服速度变快了许多
+#### [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/) (1.1 - *)
 
-#### [Tuinity](https://github.com/Tuinity/Tuinity)
+Forge 是目前的主流 API。  
+更新速度很快，版本支持度极高，从远古版本到最新版本均有支持。
 
-一个高版本纯净端核心, 基于Paper
-修复了一些mc的bug, 重写了mc的光照引擎, 加入了大量对实体, 多线程等等方面的优化
-作者已停止维护此核心并加入了PaperMC团队, Tuinity已和Paper合并。
-基于 Paper
-优化paper核心的人数增加不会卡服问题
-可以 安装基于 BukkitAPI,SpigotAPI,PaperAPI,TuinityAPI 的插件
-不可以 安装基于任何 API 的模组
-性能极佳
-更新较快
-较为稳定
+#### [NeoForge](https://neoforged.net/) (1.20.1 - *)
 
-#### [Vefland](https://github.com/LegacyGamerHD/VefLand-1.12.2) (1.12.2)
+NeoForge 是免费、开源、面向社区的修改 API。是 Minecraft Forge 的一个分支。
 
-基于Spigot的多线程核心, 前身是TorchSpigot。
-重构并优化了mc的大量代码, 加入了多线程优化。
+### [Cleanroom](https://github.com/CleanroomMC/Cleanroom) (1.12.2)
 
-#### [Glowstone](https://glowstone.net/) (1.8.9-1.12.2)
+Cleanroom 致力于继续维护 1.12.2 的 Forge 模组社区。开发将侧重于对 Minecraft 原版以及 Forge 进行漏洞修复与增加功能。  
+与 Forge 尽量减少 Patch （以便版本迁移）的理念不同， Cleanroom 会为了功能而进行大量的覆写与重构。  
+目前已经实现在 Java 21 + LWJGL3 下运行游戏，并内置输入法支持与原始输入，并支持多语言排版。
 
-一个轻量级的、从头开始的开源 Minecraft服务器，用 Java 编写，支持为 Bukkit API 及其主要分支 Spigot 和 Paper 编写的插件。
-该项目的主要目标是提供 Bukkit API 和 Minecraft 服务器的轻量级实现，其中不需要精确的 vanilla 功能或需要比官方软件可以提供的更高的性能。Glowstone 使用每个世界线程模型，并且仅在 Bukkit API 需要时执行同步。
-可以 安装支持 BukkitAPI,SpigotAPI,PaperAPI,GlowstoneAPI 的插件
-稳定性不好
-性能较好
-缺少很多原版内容
+#### [Fabric](https://fabricmc.net/) (1.14 - *)
+
+Fabric 是一款模块化、轻量级模组加载器。  
+除支持 1.14+ 的正式版本外， Fabric API 也跟进最新快照版本开发，还支持 20w14∞ 及之后的愚人节版本。
+
+#### [Quilt](https://quiltmc.org/en/) (1.14 - *)
+
+Quilt 是一个开源的、社区驱动的模组工具链。  
+专注于速度、易用性和模块化，旨在提供具有开放生态系统的时尚现代模组工具链。
+
+#### [Fukkit](https://github.com/FukkitMC/Fukkit)
+
+Fukkit 是实现了 Bukkit + Fabric API 支持的核心，现已停更归档。
 
 ### 混合端
 
-#### [Sponge](https://spongepowered.org/) Forge/Neo (1.8-1.21)
+某些服务端软件允许你同时运行带有插件和模组的游戏。模组、插件与运行它们的服务端软件并不受 Mojang Studios 的维护。
 
-SpongeForge 是 Minecraft Forge 平台上 Sponge API 的实现。SpongeNeo 是 NeoForge 平台上 Sponge API 的实现。在 SpongeVanilla 的基础上加入了对 Forge mod 的支持。
-基于 ForgeAPI
-可以 安装支持 SpongeAPI 的插件
-可以 安装支持 ForgeAPI 的模组
-性能相对很好
-更新较快
-稳定性很好
-社区支持友好
-插件生态较差
-对模组兼容性较差，但插件对模组兼容性极佳
+#### [Mohist/Banner/Youer](https://mohistmc.com/) (1.7.10-1.20.1) (1.19.4-1.20.1)
 
-#### [Mohist](https://mohistmc.com/) (1.7.10-1.20.1)
-
-一个实现了 Bukkit、Spigot API 的 Minecraft Forge 服务器软件。使用此软件，您可以创建一个带有模组和插件的 Minecraft 服务器！
-本体基于 Paper，而不是 Spigot，这意味着不仅可以享受 Paper 带来的漏洞修复和优化，还可以让你轻松使用基于 PaperAPI 开发的插件。
-Mohist 还支持控制台信息国际化，可选择服务端 Mod 语言，内置插件管理器等等非常实用的功能。
-
-#### [Banner](https://mohistmc.com/) (1.19.4-1.20.1)
-
-一个实现了 Bukkit 和 Spigot API 的 Minecraft Fabric 服务器软件。这个软件允许您创建一个使用 Fabric 模组和插件的 Minecraft 服务器。
-
-#### [Youer](https://mohistmc.com/)
-
-一个实现了 Bukkit 和 Spigot API 的 Minecraft NeoForge 服务器软件。这个软件允许您创建一个使用 NeoForge 模组和插件的 Minecraft 服务器。
+Mohist 是实现了 Bukkit 和 Spigot API 的 Forge 核心。  
+Banner 是实现了 Bukkit 和 Spigot API 的 Fabric 核心。  
+Youer 是实现了 Bukkit 和 Spigot API 的 NeoForge 核心。  
+基于 Paper ，因此可以使用基于 Bukkit、Spigot 和 Paper API 开发的插件，也自带 Paper 的漏洞修复和优化。  
+还支持控制台信息国际化，可选择 Mod 语言，内置插件管理器等功能。
 
 #### [Arclight](https://github.com/IzzelAliz/Arclight) (1.14.4-1.21.3)
 
-Arclight 是一款「在 Forge 上使用 Mixin 实现的 Bukkit 服务端」，提供了 1.14.4 和 1.15.2 两个高版本的 BukkitAPI+ForgeAPI 支持
+Arclight 是一款「在 Forge 上使用 Mixin 实现的 Bukkit 服务端」，提供了高版本的 BukkitAPI+ForgeAPI 支持。  
 
 #### [Catserver](https://catmc.org/) (1.12.2,1.16.5,1.18.2)
 
-一个高性能的 Forge+Bukkit+Spigot 服务端核心。加入了大量原创优化和 Paper 端的优化, 修复了很多 Bug。
+Catserver 是一个高性能的 Forge + Bukkit + Spigot 核心。加入了大量原创优化和 Paper 端的优化, 并修复了很多 Bug。  
 是[LoliServer](https://git.zerodream.net/ZeroDream/LoliServer)和[FoxServer](https://github.com/Luohuayu/FoxServer)的后续开发版本。
 
-#### [Ketting](https://github.com/kettingpowered/Ketting-1-20-x) (1.20.x)
+#### [Catroom](https://github.com/NovaEngineering-Source/CatRoom) (1.12.2)
 
-Ketting 是 Magma 在 1.20 版本的续作，将 CraftBukkit 和 Spigot 补丁与 Forge 补丁相结合，创建了一个可以同时运行 Forge 模组和 Bukkit 插件的服务器。同时还包含一些自制补丁。
+CatRoom 是基于 CatServer 的 Cleanroom + Bukkit + Spigot 核心。  
+用 Cleanroom 取代 Forge，利用现代 Java 功能，增强模块兼容性，内置 Forge-Bukkit 权限桥，优化插件性能。
+
+#### [Sponge](https://spongepowered.org/) Forge/Neo (1.8-1.21)
+
+Sponge Forge/Neo 是 Forge/NeoForge 平台上 Sponge API 的实现。在 SpongeVanilla 的基础上加入了对 Forge/NeoForge 的支持。  
+性能、稳定性和社区支持相对较好。可以安装支持 SpongeAPI 的插件，插件生态与模组兼容性较差，但插件对模组兼容性极佳。
+
+#### [Ketting](https://kettingpowered.org/) (1.20.x)
+
+Ketting 是 Magma 在 1.20 版本的续作，将 CraftBukkit 和 Spigot 补丁与 Forge 补丁相结合，同时还包含一些自制补丁。  
+它是由 Magma 的前开发人员之一 JustRed23 创建的。由于原始代码库存在许多问题，他们决定从头开始重写整个项目，使其更稳定且更易于使用。
 
 #### [Magma](https://github.com/magmamaintained) (1.12.2,1.18.2,1.19.3,1.20.1)
 
-Magma 是下一代混合 minecraft 服务器软件，基于 Forge 和 Spigot，这意味着它可以运行CraftBukkit/Spigot 插件和 Forge 模块。
-Magma 1.18.2与原版BungeeCord 或其任何分支不兼容。这是由 Forge 引起的，而不是 Magma 的错误。如果不修改客户端，我们无法自行修复此问题。您可能能够使用名为Lightfall的 Waterfall 分支，但它也需要客户端模块才能工作，并且不受官方支持。
-Magma 1.18.2与vanilla Velocity不兼容。这是由 Forge 引起的，而不是 Magma 的错误。如果不修改客户端和代理，我们无法自行修复此问题。
+Magma 是基于 Forge 和 Spigot 的核心，这意味着它可以运行 CraftBukkit/Spigot 插件和 Forge Mod。  
+与 BungeeCord、Velocity 或其任何分支不兼容。可能可以使用 Lightfall 这一 Waterfall 分支。
 
 #### [Atom](https://github.com/josephworks/AtomMC) (1.12.2)
 
-一个 Minecraft 1.12.2 版本的服务器核心，基于 MinecraftForge 和 CraftBukkit。部分代码取自 Spigot 及其衍生项目。
-可以稳定地与 Bukkit 插件和 MinecraftForge 模块支持协同工作。尽可能实现最高性能。
-现由 Josephworks 接手[原项目](https://gitlab.com/divinecode/atom/Atom)。
+Atom 是基于 Forge 和 CraftBukkit 的核心。部分代码取自 Spigot 及其衍生项目。  
+可以稳定地与 Bukkit 插件和 Forge Mod 协同工作。尽可能实现最高性能。  
+[原项目](https://gitlab.com/divinecode/atom/Atom)已停止开发，现由 Josephworks 接手。
 
 #### [Kettle](https://github.com/KettleFoundation/Kettle) (1.12.2)
 
-Kettle 最初被认为是 Contigo 的一个分支，但经过几次迭代之后摆脱了 Contigo 的依赖，不再被视为它的分支，而是一个独立的混合服务器。
-Kettle 依赖于自定义 Forge 和 Paper 版本，这意味着它可以运行基于 Craftbukkit/spigot 的插件和基于 forge 的模块。
-我们希望消除 craftbukkit forge 服务器的所有问题。最终，我们设想提供无缝、低延迟的 Kettle 体验，并支持新的 1.12+ 版 Minecraft。
+Kettle 是基于 Forge 和 Paper 的核心，可以运行基于 CraftBukkit/Spigot 的插件和基于 Forge 的 Mod。  
+最初被认为是 Contigo 的一个分支，但经过几次迭代之后摆脱了 Contigo 的依赖，不再被视为它的分支，而是一个独立的混合核心。  
 
-#### [Contigo](https://github.com/djoveryde/Contigo) (1.7.10)
+#### [Contigo](https://github.com/djoveryde/Contigo)/[Phoenix](https://github.com/djoveryde/Phoenix)/[ThermosX](https://github.com/DireClanMC/ThermosX) (1.7.10)
 
-Contigo 是 Thermos 的一个分支
+Contigo/Phoenix/ThermosX 是基于 Thermos 的核心，进行了优化并修复了一些 Bug。
 
-#### [ThermosX](https://github.com/DireClanMC/ThermosX) (1.7.10)
+#### [Thermos](https://github.com/CyberdyneCC/Thermos)&KCauldron (1.7.10)
 
-ThermosX 是 Thermos 的一个分支
-
-#### [Thermos](https://github.com/CyberdyneCC/Thermos) (1.7.10)
-
-Thermos 是 KCauldron 的一个分支，是 Minecraft 1.7.10 的 CraftBukkit-Forge 服务器。具有降低延迟的优化，修复重复错误，更好的世界保护。不兼容Lilypad。
-KCauldron 继承自 Cauldron，是 MCPC 以及 MCPC+ 的高版本移植。
+Thermos 是基于 KCauldron 的核心，不兼容 Lilypad。  
+进行了一些降低延迟的优化，修复了一些 Bug ，以及具有更好的世界保护。  
+KCauldron 继承自 Cauldron ，是 MCPC(+) 的高版本后继者。
 
 #### [Uranium](https://github.com/UraniumMC/Uranium) (1.7.10)
 
-Uranium 是一款基于 KCauldron 的 BukkitAPI+ForgeAPI 服务端，其整合了部分Thermos对服务端的修复，同时进行了一些输入书与笔虚体问题的BUG修复。其最大的特点是强制使用 UTF-8 编码作为配置文件编码和通过 UraniumPlus Mod 令 1.7.10 客户端支持 Title 和 Actionbar。
+Uranium 是基于 KCauldron 的 Bukkit + Forge 核心。  
+其整合了部分 Thermos 对服务端的修复，同时进行了一些输入书与笔虚体问题的 BUG 修复。  
+其最大的特点是强制使用 UTF-8 编码作为配置文件编码和通过 UraniumPlus Mod 令 1.7.10 客户端支持 Title 和 Actionbar。
+
+### 插件端
+
+某些非官方服务端软件允许你在游戏中原生地运行插件。这些插件与运行它们的服务端软件并不受 Mojang Studios 的维护。
+
+#### [Bukkit](https://bukkit.org/) (All)
+
+Bukkit 是一个由社区开发的开源工具，用于减轻开发服务器插件的负担。  
+CraftBukkit 是 Minecraft 的核心，可以安装支持 BukkitAPI 的插件。  
+由于 Mojang EULA 和 DMCA 的要求， CraftBukkit 不直接提供。  
+只能通过 [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/) 手动构建或从[第三方](https://getbukkit.org/download/craftbukkit)下载。
+
+#### [Spigot](https://spigotmc.org) (1.4.6 - *)
+
+Spigot 是 CraftBukkit 的续作。其正受到活跃的维护，且为插件开发者提供了更多的功能与服务器修复和配置。  
+可以安装支持 BukkitAPI 和 SpigotAPI 的插件，性能与稳定性相对较好。
+Spigot 不直接提供，只能通过 [BuildTools](https://hub.spigotmc.org/jenkins/job/BuildTools/) 手动构建或从[第三方](https://getbukkit.org/download/spigot)下载。
+
+#### [Paper](https://papermc.io/software/paper) (1.8.8 - 1.20.1)
+
+Paper 是基于 Spigot 的核心，旨在大幅提高性能并提供更高级的功能和 API。  
+包含大量改进和优化，从而显著提升了性能。其中包括异步区块加载，以及对轻量引擎、漏斗、实体等的重大优化。  
+Paper 扩展并改进了 Bukkit 和 Spigot API ，以便您和您的开发人员可以轻松获得更多特性和功能。
+
+#### [Purpur](https://purpurmc.org/) (1.14 - *)
+
+Purpur 是基于 Paper 的核心。它支持为 Bukkit、Spigot 和 Paper API 设计的插件。  
+专注于提供尽可能多的可配置性，以允许服务器所有者根据自己的喜好定制服务器。
+
+#### [Pufferfish](https://github.com/pufferfish-gg/Pufferfish) (+) (1.17.1 - *)
+
+Pufferfish 是基于 Paper 的高度优化的核心，专为需要最高性能、稳定性和“企业”功能的大型服务器而设计。  
+包含 Airplane 的优化，同时具有更好的实体性能，和更快的地图渲染。  
+部分异步处理，详细跟踪错误，完全兼容 Paper 插件。  
+Pufferfish Plus 是 Pufferfish 的改进版本，包括企业支持和附加异步功能，例如异步实体跟踪器和异步寻路系统。
+
+#### [Patina](https://github.com/PatinaMC/Patina) (1.16.5 - *)
+
+Patina 是基于 Paper 的核心，注重性能。
+
+#### [Leaves](https://leavesmc.org/software/leaves) (1.19 - *)
+
+Leaves 是基于 Paper 的核心，旨在修复被破坏的原版特性。  
+包含大量改进和优化，从而显著提高了性能。这包括异步区块加载，以及对光照引擎、漏斗、实体等的重要改进。
+
+#### [Folia](https://papermc.io/software/folia) (1.19.4 - 1.20.6)
+
+Folia 是基于 Paper 的核心，它为服务器添加了区域化多线程。  
+Folia 旨在解决服务器在单线程上运行导致性能问题的持续瓶颈问题。
+
+#### [Lumina](https://leavesmc.org/software/lumina) (1.19 - *)
+
+Lumina 是基于 Folia 的核心，旨在遵循原版生电特性的同时引入区域化多线程。  
+致力于修复原版被破坏的特性，同时移植了大多数的 Carpet 特性。  
+更适合大型的，玩家分散的，对插件要求较低的服务器，例如聚落式生电服务器。
+
+#### [Luminol](https://github.com/LuminolMC/Luminol) (1.20.2 - *)
+
+Luminol 是基于 Folia 的核心，具有对单线程区域性能的优化、可配置的原版特性和更多的 API 支持。  
+
+#### [LightingLuminol](https://github.com/LuminolMC/LightingLuminol) (1.20.4 - 1.21.3)
+
+LightingLuminol 是基于 Luminol 的核心，具有对单线程区域性能的优化、可配置的原版特性和更多的 API 支持。  
+此外，目标是在 Folia 上运行更多 Bukkit 插件。
+
+#### [Sugarcane](https://github.com/SugarcaneMC/Sugarcane) (1.17.1 - 1.19.2)
+
+Sugarcane 是基于 Airplane 的核心，注重稳定性和性能并进行了高度优化。  
+还融入了 Paper、Tuinity、Purpur、Yatopia 的优化。
+
+#### [Yatopia](https://github.com/YatopiaMC/Yatopia) (1.15.2 -1.17)
+
+Yatopia 是基于 Tuninity 的核心，具有许多独特的优化。  
+还融入了 Akarin、EMC、Lithium、Origami、Airplane、Cadmium、Tic-Tacs 的优化。
+
+#### [Airplane](https://github.com/TECHNOVE/Airplane) (1.16 - 1.17)
+
+Airplane 是基于 Paper 的核心，稳定、优化，与 Paper 和 Tuinity 插件兼容。  
+与 Tuinity 和 Paper 相比，漏斗性能提高 30%。  
+减少远距离实体行为，减少 GC 时间频率，进行快速光线追踪从而提高性能。
+
+#### [Tuinity](https://github.com/Tuinity/Tuinity) (1.13.2 - 1.17.1)
+
+Tuinity 是基于 Paper 的核心（已并入 Paper），旨在提高高玩家数量下的服务器性能。  
+重写了光照引擎, 加入了大量对实体, 多线程等等方面的优化。
+
+#### [Sponge](https://spongepowered.org/) Vanilla (1.8 - *)
+
+SpongeVanilla 是在原版上实现的 Sponge API ，性能与稳定性相对较好。  
+可以安装支持 SpongeAPI 的插件，社区支持友好，但插件生态较差。
+
+#### [Empirecraft](https://github.com/starlis/empirecraft) (1.9 - 1.20.4)
+
+EmpireCraft 是基于 Paper 的核心，被 Empire 服务器使用，包含许多 Empire 服务器的游戏玩法变化。
+
+#### [Origami](https://github.com/Minebench/Origami) (1.14 - 1.16)
+
+Origami 是基于 Paper 的核心。还基于 Tuinity 和 Empirecraft，被 Minebench.de 使用。
+
+#### [Torch/Akarin](https://github.com/Akarin-project/Akarin/) (1.8.8 - 1.15.2)
+
+Akarin 是基于 Paper 的核心，原名 Torch ，来自”新维度”。  
+可以配置更多游戏机制，支持多线程，性能极佳，兼容性强。
+
+#### [TacoSpigot](https://github.com/TacoSpigot/TacoSpigot) (1.8.8 - 1.13.2)
+
+TacoSpigot 是基于 Paper 的不受支持且无人维护的核心，是一个多线程服务端。  
+目前 Paper 已经包含大多数 TacoSpigot 补丁。
+
+#### [Vefland](https://github.com/LegacyGamerHD/VefLand-1.12.2) (1.12.2)
+
+Vefland 是基于 Torch 的核心，重构并加入了多线程优化。
+
+#### [Hose](https://github.com/softpak/HOSE) (1.8.8 - 1.11.2)
+
+Hose 是基于 Spigot 的核心，加入了多线程优化。
+
+#### [Glowstone](https://glowstone.net/) (1.8.9-1.12.2)
+
+Glowstone 是一个轻量级的开源服务端，可以安装 Bukkit、Spigot、Paper 和 Glowstone API 插件。  
+使用每个世界线程模型，并且仅在 Bukkit API 需要时执行同步，性能较好。  
+稳定性不好，且由于不依赖任何 Mojang 的源码，因此缺少很多原版内容。
+
+#### Libigot (1.5 - 1.6)
+
+Libigot 是基于 Spigot 的核心。提供可扩展的 API ，并提供 Spigot 所不具备的性能改进。
+
+## Bedrock 端核心
+
+适用于 Minecraft Bedrock 版服务器。
+
+### [Cloudburst/Nukkit(X)](https://cloudburstmc.org/) (All)
+
+Cloudburst/Nukkit(X) 是 Bedrock Edition 的核心。与其他核心相比，它用 Ja​​va 编写，速度更快，更稳定。  
+此外，还具有友好结构，可以轻松地编写 Cloudburst/Nukkit(X) 插件。
+
+### [PocketMine-MP](https://pmmp.io/) (All)
+
+PocketMine-MP 是高度可定制的基岩版服务端，使用 PHP 构建。  
+具有强大的插件 API、丰富的生态系统和庞大的开发者社区，支持多世界。
+
+### [WaterdogPE](https://github.com/WaterdogPE/WaterdogPE)
+
+WaterdogPE 是一个强大、高效且可扩展的 Bedrock 代理。  
+使用 CloudburstMC 协议和网络库作为快速协议更新和轻松维护的坚实基础。
+
+### [MiNET](https://github.com/NiclasOlofsson/MiNET)
+
+MiNET 是用 C# 编写的 Pocket Edition 服务端。
 
 ## 代理端
 
-允许你将多个mc服务器连在一起, 玩家可以在服务器之间无缝传送。
+某些非官方软件允许你在同一个代理之后串联多个服务器。这样你可以在不离开游戏的同时切换服务器。
 
-### [BungeeCord](https://ci.md-5.net/job/BungeeCord/) (1.8.x - 1.19)
+### [BungeeCord](https://ci.md-5.net/job/BungeeCord/) (1.8 - *)
 
-### [Leymooo BungeeCord](http://www.rubukkit.org/threads/137038) (1.8.x - 1.18.x)
+Bungeecord 是一种允许你切换服务器的简单代理核心。  
+[Leymooo BungeeCord](https://github.com/Leymooo/BungeeCord) 在原版基础上增加了 AntiBot 保护功能。
+[Hexagon BungeeCord](https://github.com/HexagonMC/BungeeCord) 重新实现了 1.7.10 以及对应 Forge 支持。同时使用 Sponge 时不再需要 SpongePls。
 
-BungeeCord的分支, 增加了反假人压测功能, 自带验证码验证和掉落检测。
+### [Waterfall](https://papermc.io/software/waterfall) (1.8 - 1.21)
 
-### [Waterfall](https://papermc.io/downloads#Waterfall)
-
-在BungeeCord的基础上增加了很多新特性, 进行了大量优化, 对Forge的支持, 增强了稳定性等等
+Waterfall 是基于 Bungeecord 的核心，提供对于 Forge 更好的支持，以及更佳的性能。  
+在 BungeeCord 的基础上增加了很多新特性, 进行了大量优化。  
+已达到使用寿命，不再得到维护或支持。
 
 ### [Lightfall](https://github.com/ArclightPowered/lightfall) (1.18-1.20)
 
-Waterfall 的一个分支，具有现代 Forge 支持。
+Lightfall 是基于 Waterfall 的核心，提供高版本对于 Forge 更好的支持。
 
-### [Travertine](https://papermc.io/legacy#Travertine) (1.7.10 - 1.16.5)
+### [Travertine](https://github.com/PaperMC/Travertine) (1.7.10 - 1.16.5)
 
-Waterfall的一个分支, 仅仅添加了对1.7.10协议的支持。
+Travertine 是基于 Waterfall 的核心，旨在支持比上游支持的版本更旧的客户端版本。
 
-### Velocity
+### [Velocity](https://papermc.io/software/velocity) (1.8 - *)
 
-版本: 1.7.x - 1.19
+Velocity 是一款现代的高性能代理。它在设计时充分考虑了性能和稳定性，是 Waterfall 的完全替代品，拥有自己的插件生态系统。  
+Velocity 是目前最好的代理软件。Velocity 的设计充分考虑了性能和可扩展性，比 BungeeCord 快得多，也稳定得多。
 
-### Flamecord
+### [Flamecord](https://www.flamecord.com/) (1.7 - *)
 
-版本: 1.7.x - 1.19
+FlameCord 是基于 Waterfall 的核心，专注于服务器安全，付费。  
+防止使用崩溃漏洞、机器人和其他类型的 DDoS 攻击应用层进行黑客攻击。  
+还可以修复错误、提高性能并为您的服务器添加新功能。
 
-### HexaCord
+### [Gate](https://github.com/minekube/gate) (1.8 - *)
 
-版本: 1.7.10
+Gate 是一个可扩展、高性能且并行的代理核心，具有可扩展性、灵活性和出色的服务器版本支持。  
+无需 Java ，几乎可以在任何地方或容器中运行 Gate 的微型可执行文件。
 
-### gate
+### [Waterdog](https://github.com/WaterdogPE/Waterdog) (1.7 - 1.17.4)
 
-版本:
+Waterdog 为 Bedrock 协议以及现有的 Java 协议提供原生支持。  
+它能够通过 TCP 使用 ProtocolSupport PE 封装协议，也可以为传统的下游 Bedrock 服务器使用原生 RakNet Bedrock 协议。  
+支持 Bedrock 客户端的在线和离线授权。下游服务器通常需要在离线模式下运行，并通过 Waterdog 确保授权安全。  
+使用高性能且以 netty 为中心的 netty-raknet 库与 BungeeCord 通道模式实现近乎原生的集成。
 
-### Waterdog
+### [Lilypad](https://www.lilypadmc.org/) (1.6.4 - 1.8)
 
-版本:
+LilyPad 允许您将多个 Bukkit 实例链接在一起，并以多种方式集成这些实例，且消耗的资源更少。
 
-### Geyser
+### [Nemysis](https://cloudburstmc.org/)
 
-版本: Java版1.19, 基岩版1.19.0
+Nemisys 是一个 Bedrock 的代理核心是 Synapse 代理协议 (SPP) 的 Java 实现。
+由 JSynLibServer 和 Nukkit RakNet 提供支持。
 
-### Nemysis
+### [EZ4H](https://github.com/opZywl/EZ4H) (PE1.16.210 & PC1.12.2)
 
-版本:
+EZ4H​​ 是 Java 和 Bedrock 之间的桥梁 / 代理。
 
-### BedrockBackwards
+## 协议转换器
 
-版本:
+某些非官方软件允许你使用 Java 版或基岩版连接至同一服务器。
 
-### DragonProxy
+### [Geyser](https://github.com/GeyserMC/Geyser/)/[DragonProxy](https://github.com/DragonetMC/DragonProxy) 
 
-版本:
-
-### EZ4H
-
-版本:
-
-### Lilypad
-
-版本:
-
-## Limbo/幽冥域/MC边缘服务器 (我也不知道怎么翻译@_@)
-
-一种非常轻量的高性能服务端核心, 支持容纳大量的玩家, 不会占用太多的服务器资源。用做服务器大厅, 登录服, 或者玩家挂机的地方。提供了API方便实现简单的功能
-
-### [LOOHP's Limbo](https://www.spigotmc.org/resources/82468) (1.20.1)
-
-一个Limbo服务端核心, 适合玩家挂机或用做服务器大厅,
-可以加载schem格式的世界文件
-
-### [NanoLimbo](https://www.spigotmc.org/resources/86198) (1.7.x - 1.20.x)
-
-轻量级, 高性能的Limbo服务端, 节省服务器资源
-兼容BungeeCord和Velocity的群组架构。
-这个服务端核心的大小就2MB左右, 好耶\o/
-
-### [TyphoonLimbo](https://github.com/TyphoonMC/TyphoonLimbo) (已弃坑) (1.7.x - 1.15.x)
-
-一个轻量级的Limbo核心, 使用go语言编写,
-允许自定义玩家加入消息, bossbar, actionbar等配置
-
-### [Dripleaf](https://github.com/NoahvdAa/Dripleaf) (1.17.1)
-
-一个正在开发中的轻量级Limbo核心, 用于排队服务器或崩溃时的备份服务器
-⚠️此核心仍在早期开发中, 不推荐在生产环境中使用⚠️
-
-## Bedrock端核心
-
-### [Nukkit(X)](https://cloudburstmc.org/articles/)
-
-### [PocketMine](https://pmmp.io/)
+Geyser 是一个代理，弥补了 Bedrock Edition 和 Java Edition 服务器之间的差距。  
+目标是让 Bedrock Edition 用户尽可能无缝地加入 Java Edition 服务器。  
+从 Bedrock 客户端获取数据并将其转换为 Java 服务器可以理解的格式，反之亦然。  
+充当 Bedrock 客户端和 Java 服务器之间的转换器。
