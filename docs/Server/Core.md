@@ -1,6 +1,6 @@
 # 服务端核心
 
-这里收录了几乎所有出现过的服务端核心。  
+这里收录了几乎所有出现过的服务端核心，以及一些仍在开发中的项目。  
 Java & Bedrock 原版核心可从 [Minecraft Wiki](https://zh.minecraft.wiki/) 处下载。
 
 ## Java 端核心
@@ -38,10 +38,84 @@ TyphoonLimbo 是使用 Go 编写的轻量级 Limbo，已停止维护。
 Minestom 是 Cleanstone 的续作，是一个开源库，可以使用它创建自己的服务器。  
 默认不包含任何功能，但是有一个完整的 API 用于实现任何目标。
 
+#### [MCHPRS](https://github.com/MCHPR/MCHPRS) (1.21.4)
+
+Minecraft High-Performance Redstone Server 是为红石构建的创造服务器。  
+每个 512x512 区块都在单独的线程上运行，从而减少延迟、提高并发性。  
+由于是针对计算红石的使用而定制的，因此原版中的许多功能都不存在。
+
+#### [DockyardMC](https://github.com/DockyardMC/Dockyard) (1.21.4)
+
+DockyardMC 是开源、快速且轻量级的服务器协议实现，使用 Kotlin 编写，无需 Mojang 的任何代码。  
+它专注于简化开发，与 PaperMC 不同，具有非常易于使用且现代的 API。
+
+#### [Obsidian](https://github.com/ObsidianMC/Obsidian) (1.21.4)
+
+Obsidian 是服务器协议的 C# .NET 实现。
+
+#### [Zeppelin](https://github.com/ZeppelinMC/Zeppelin)/[Dynamite](https://github.com/ZeppelinMC/Dynamite) (1.21.4)
+
+Zeppelin/Dynamite 是 Go 编写的高度优化的服务器协议实现。  
+快速、高效、可靠，具有插件 API 和干净的代码。
+
+#### [Pumpkin](https://github.com/Pumpkin-MC/Pumpkin) (1.21.4)
+
+Pumpkin 是用 Rust 构建的核心，可提供快速、高效且可自定义的体验。  
+它优先考虑性能和玩家的享受，同时遵循游戏的核心机制。
+
+#### [Valence](https://github.com/valence-rs/valence)/[Feather](https://github.com/feather-rs/feather) (1.21.4) (1.16.5)
+
+Valence/Feather 是用 Rust 构建的核心，建立在 Bevy ECS 之上。  
+通过编写游戏逻辑并利用 Bevy 强大的插件系统，可以模块化构建各种功能。
+
+#### [Jet](https://github.com/Hypejet/Jet) (1.21.4)
+
+Jet 是全新的核心，旨在实现多线程、用户友好并拥有现代 API。  
+没有重新实现任何原始功能，因此非常适合简单的迷你游戏服务器。
+
+#### [flying-squid](https://github.com/PrismarineJS/flying-squid) (1.8 - *)
+
+flying-squid 是用 JavaScript API 构建的核心。
+
+#### [Krypton](https://github.com/KryptonMC/Krypton) (1.19)
+
+Krypton 是从头编写的核心，不含 Mojang 代码。
+
+#### [Bamboo](https://gitlab.com/macmv/bamboo) (1.8 - 1.18.2)
+
+Bamboo 是安全、快速且有保障的核心，针对迷你游戏进行了优化。
+
+#### [MotorMC](https://github.com/garet90/MotorMC) (1.18)
+
+MotorMC 是用 C 语言编写的核心，超快、多线程、异步。  
+旨在处理单个世界中的众多玩家，同时仍提供尽可能接近原版 Minecraft 的体验。
+
+#### [Starfield](https://github.com/StarfieldMC/Starfield) (1.16.5)
+
+Starfield 是用 C 编写的高性能核心。跨平台，内存使用率低，且体积相对较小。
+
+#### [PyMine](https://github.com/py-mine/PyMine-Server) (1.16.5)
+
+PyMine 是基于 Python 的核心。
+
+#### [GoLangMc](https://github.com/GoLangMc/minecraft-server) (1.15.2)
+
+GoLangMc 是用 Go 编写的核心。
+
+#### [MineCase](https://github.com/dotnetGame/MineCase) (1.15.2)
+
+MineCase 是跨平台、分布式的核心，使用 .NET Core 编写，基于 orleans 框架。  
+它通过 Actor 模型将各个模块分离开来，从而构建一个高效的分布式系统。  
+不同的区块由不同的服务器管理，所有的玩家都可以在同一个世界进行游戏。
+
 #### [Cleanstone](https://github.com/CleanstoneMC/Cleanstone) (1.12.2 - 1.14)
 
 Cleanstone 是一个多线程核心，使用 Java11 运行，支持多个版本。  
 计划从头开始正确构建一个可扩展的服务器，而没有过时代码和单线程特性。
+
+#### [Sugarcane](https://gitlab.com/macmv/sugarcane-go) (1.8 - 1.14)
+
+Sugarcane 是专为迷你游戏构建的核心。它使用服务器和代理系统，因此客户端可以轻松地在服务器之间切换。
 
 #### [Cuberite](https://cuberite.org/) (1.8 - 1.12.2)
 
@@ -50,10 +124,65 @@ Cuberite 是一个轻量级、快速且可扩展的服务端，支持多平台�
 同时支持 1.8-1.12.2 的客户端加入。  
 由于不依赖任何 Mojang 的源码，因此缺少很多原版内容。
 
-#### Spout (1.5 - 1.7)
+#### [Basin](https://github.com/basinserver/basin) (1.10.2 - 1.11.2)
+
+Basin 是用 C 编写的高性能核心。
+可通过 JNI 兼容 Spigot API 插件，具有易于修改，丰富的插件 API。
+
+#### [RedstoneInside](https://github.com/xTachyon/RedstoneInside) (1.11.1)
+
+RedstoneInside 是用 C++ 编写的核心。
+
+#### [Composition](https://github.com/garentyler/composition) (1.9.4)
+
+Composition 是用 Rust 编写的核心，目标是优化速度。
+
+#### [McEx](https://github.com/McEx/McEx) (1.9.2)
+
+McEx 是用 Elixir 和 Rust 编写的核心。  
+所有网络和逻辑均在 Elixir 中实现，而低级区块数据处理则在 Rust 中完成。
+
+#### [Mineserver](https://github.com/fador/mineserver) (1.8.9)
+
+Mineserver 是用 C++ 编写的核心。
+
+#### [MCpp](https://www.mcpp.dev/) (1.8.8)
+
+MCpp 是一个用 C++ 编写的核心。目标是接近原版的游戏体验，且性能优于参考实现。  
+目标是在世界生成、实体 AI 和网络扩展方面获得显著更高的性能。
+
+#### [Hematite](https://github.com/PistonDevelopers/hematite_server) (1.8.3)
+
+Hematite 是用 Rust 编写的核心。
+
+#### [Netherrack](https://github.com/Techern-archived/Netherrack) (1.8)
+
+Netherrack 是使用 Rust 编写的核心。
+
+#### [SharpMC](https://github.com/SharpMC/SharpMC) (1.8)
+
+SharpMC 是用 C# 编写的核心，目标是创建 Spigot/Bukkit/Sponge 的替代品。
+
+#### [BurningPig](https://github.com/JoeDoyle23/BurningPig) (1.6.4 - 1.7.2)
+
+BurningPig 是用 Node.js 编写的核心。
+
+#### [PartyCraft](https://github.com/ddevault/PartyCraft) (1.6.2)
+
+PartyCraft 是基于 Craft.Net 的核心。
+
+#### [Spout](https://github.com/SpoutDev/Spout) (1.5 - 1.7)
 
 Spout 不依赖任何 Mojang 的源码，且官方支持 Bukkit。  
 可以仅在服务端安装Spout Mod。
+
+#### [mc-erl](https://github.com/clonejo/mc-erl) (1.4.6 - 1.4.7)
+
+mc-erl 是用 Erlang 编写的核心。
+
+#### [jsmc](https://github.com/deoxxa/jsmc) (1.4.6)
+
+jsmc 是非常灵活、非常易于破解、性能适中的核心。用 JavaScript 编写，可在 node.js 下运行。
 
 ### 模组端
 
@@ -246,6 +375,10 @@ Tuinity 是基于 Paper 的核心（已并入 Paper），旨在提高高玩家�
 SpongeVanilla 是在原版上实现的 Sponge API ，性能与稳定性相对较好。  
 可以安装支持 SpongeAPI 的插件，社区支持友好，但插件生态较差。
 
+#### [Lantern](https://github.com/LanternPowered/Lantern) (1.16)
+
+Lantern 是开源的、兼容 SpongeAPI 的核心。
+
 #### [Empirecraft](https://github.com/starlis/empirecraft) (1.9 - 1.20.4)
 
 EmpireCraft 是基于 Paper 的核心，被 Empire 服务器使用，包含许多 Empire 服务器的游戏玩法变化。
@@ -369,7 +502,7 @@ EZ4H​​ 是 Java 和 Bedrock 之间的桥梁 / 代理。
 
 某些非官方软件允许你使用 Java 版或基岩版连接至同一服务器。
 
-### [Geyser](https://github.com/GeyserMC/Geyser/)/[DragonProxy](https://github.com/DragonetMC/DragonProxy)
+### [Geyser](https://github.com/GeyserMC/Geyser/)/[DragonProxy](https://github.com/DragonetMC/DragonProxy)/[Dragonet](https://github.com/DragonetMC/Dragonet-Legacy)
 
 Geyser 是一个代理，弥补了 Bedrock Edition 和 Java Edition 服务器之间的差距。  
 目标是让 Bedrock Edition 用户尽可能无缝地加入 Java Edition 服务器。  
