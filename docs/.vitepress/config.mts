@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import vitepressProtectPlugin from 'vitepress-protect-plugin'
 
 export default defineConfig({
   title: "Guide MC",
@@ -213,5 +214,14 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换至浅色模式',
     darkModeSwitchTitle: '切换至深色模式'
+  },
+  vite: {
+    plugins: [
+      vitepressProtectPlugin({
+        disableF12: true,
+        disableCopy: true,
+        disableSelect: true,
+      }),
+    ],
   },
 })

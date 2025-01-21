@@ -369,7 +369,7 @@ EZ4H​​ 是 Java 和 Bedrock 之间的桥梁 / 代理。
 
 某些非官方软件允许你使用 Java 版或基岩版连接至同一服务器。
 
-### [Geyser](https://github.com/GeyserMC/Geyser/)/[DragonProxy](https://github.com/DragonetMC/DragonProxy) 
+### [Geyser](https://github.com/GeyserMC/Geyser/)/[DragonProxy](https://github.com/DragonetMC/DragonProxy)
 
 Geyser 是一个代理，弥补了 Bedrock Edition 和 Java Edition 服务器之间的差距。  
 目标是让 Bedrock Edition 用户尽可能无缝地加入 Java Edition 服务器。  
