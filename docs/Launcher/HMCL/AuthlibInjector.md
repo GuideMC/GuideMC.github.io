@@ -28,11 +28,11 @@
 
 ## LittleSkin
 
-首先您需要一个LittleSkin的账号, [注册](https://mcskin.littleservice.cn/auth/register)并[登录](https://mcskin.littleservice.cn/auth/login)
+首先您需要一个 LittleSkin 的账号, [注册](https://littleskin.cn/auth/register)并[登录](https://littleskin.cn/auth/login)
 
-然后前往 [角色管理](https://mcskin.littleservice.cn/user/player), 查看您的角色名, 如果没有, 请点击 **添加新角色** 进行添加
+然后前往 [角色管理](https://littleskin.cn/user/player), 查看您的角色名, 如果没有, 请点击 **添加新角色** 进行添加
 
-你可在 [我的衣柜](https://mcskin.littleservice.cn/user/closet) 修改此账户名的皮肤与披风
+你可在 [我的衣柜](https://littleskin.cn/user/closet) 修改此账户名的皮肤与披风
 
 
 
