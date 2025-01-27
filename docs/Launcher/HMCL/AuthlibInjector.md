@@ -28,6 +28,16 @@
 
 ## LittleSkin
 
+> [!DANGER] ⚠️ 这并不能代替正版
+> LittleSkin 登录并不能用于进入正版服务器。
+>
+> 请始终考虑购买正版的 Minecraft。
+
+> [!TIP] 关于 LittleSkin
+> [LittleSkin](https://littleskin.cn)   是一个历史悠久的 Minecraft 皮肤站，拥有庞大的皮肤库，并提供外置登录服务，被众多服务器使用。.
+>
+> 本文中有关 LittleSkin 的部分内容在 [新手指引 | LittleSkin 用户使用手册](https://manual.littlesk.in/newbee/) 中亦有详细说明。
+
 首先您需要一个 LittleSkin 的账号, [注册](https://littleskin.cn/auth/register)并[登录](https://littleskin.cn/auth/login)
 
 然后前往 [角色管理](https://littleskin.cn/user/player), 查看您的角色名, 如果没有, 请点击 **添加新角色** 进行添加

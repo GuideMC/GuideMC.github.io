@@ -1,12 +1,17 @@
 # 使用第三方登录
 
+> [!DANGER] ⚠️ 这并不能代替正版
+> LittleSkin 登录并不能用于进入正版服务器。
+>
+> 请始终考虑购买正版的 Minecraft。
+
+> [!TIP] 关于 LittleSkin
+> [LittleSkin](https://littleskin.cn) 是一个历史悠久的 Minecraft 皮肤站，拥有庞大的皮肤库。其提供外置登录服务被一些服务器使用。
+>
+> 本文中有关 LittleSkin 的部分内容在 [新手指引 | LittleSkin 用户使用手册](https://manual.littlesk.in/newbee/) 中亦有详细说明。
+
 - 如果您想用于联机，那么联机加入者必须是正版或第三方登录，对房主则无要求。
-- 如果您想在多人游戏中展示您的皮肤，请保证所有参与联机的成员均使用 LittleSkin 登录。皮肤显示不正常时，也可以搭配 CustomSkinLoader 模组并添加 ExtraList 文件以达到相同的效果。
-
-> LittleSkin 登录不能用于进入正版服务器。
-
-[打开 LittleSkin](https://littleskin.cn)  
-[获取配置文件（须登录 LittleSkin）](https://littleskin.cn/user/config)
+- 如果您想在多人游戏中展示您的皮肤，请保证所有参与联机的成员均使用 LittleSkin 登录。皮肤显示不正常时，也可以 [搭配 CustomSkinLoader 模组](https://manual.littlesk.in/newbee/csl) 以达到相同的效果。
 
 ## 设置方法
 
