@@ -3,7 +3,7 @@ import vitepressProtectPlugin from 'vitepress-protect-plugin'
 
 export default defineConfig({
   title: "Guide MC",
-  description: "入门 Minceraft",
+  description: "入门 Minecraft",
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
@@ -17,7 +17,8 @@ export default defineConfig({
       },
       { text: '单人游戏', link: '/Client/' },
       { text: '多人游戏', link: '/Server/' },
-      { text: '杂项', link: '/Other/ComputerKnowledge' }
+      { text: '杂项', link: '/Other/ComputerKnowledge' },
+      { text: '关于', link: '/About/About' }
     ],
     sidebar: {
       '/Launcher/HMCL/': [
@@ -37,11 +38,11 @@ export default defineConfig({
               ]
             },
             {
-              text: '旧目录',
+              text: '旧版教程',
               items: [
-                { text: '使用LittleSkin登录', link: '/Launcher/HMCL/AuthlibInjector' },
+                { text: '使用 LittleSkin 登录', link: '/Launcher/HMCL/AuthlibInjector' },
                 { text: '设置讲解', link: '/Launcher/HMCL/SetItemDetail' },
-                { text: '外置Java', link: '/Launcher/HMCL/PackagedJava' },
+                { text: '外置 Java', link: '/Launcher/HMCL/PackagedJava' },
                 { text: '服务端整合包', link: '/Launcher/HMCL/ServerPack' },
                 { text: '制作数据包', link: '/Launcher/HMCL/Datapack' }
               ]
@@ -67,8 +68,9 @@ export default defineConfig({
             },
             { text: '导出设置', link: '/Launcher/PCL/ExportSettings' },
             { text: '制作整合包', link: '/Launcher/PCL/MakeModpack' },
-            { text: '使用LittleSkin登录', link: '/Launcher/PCL/AuthlibInjector' },
+            { text: '使用 LittleSkin 登录', link: '/Launcher/PCL/AuthlibInjector' },
             { text: '赞助', link: '/Launcher/PCL/Sponser' },
+            { text: '常见问题', link: '/Launcher/PCL/Problem' },
             { text: '主题', link: '/Launcher/PCL/Theme' }
           ]
         },
@@ -89,12 +91,12 @@ export default defineConfig({
                 { text: '添加数据包', link: '/Launcher/BakaXL/InstallDatapack' }
               ]
             },
-            { text: '联机', link: '/Launcher/BakaXL/OnlinePlay' },
             {
-              text: '旧目录',
+              text: '旧版教程',
               items: [
                 { text: '在线更新整合包制作', link: '/Launcher/BakaXL/Modpack' },
                 { text: '常见问题解决', link: '/Launcher/BakaXL/Problem' },
+                { text: '大厅', link: '/Launcher/BakaXL/Hall' },
               ]
             }
           ]
@@ -104,13 +106,12 @@ export default defineConfig({
         {
           text: '单人游戏',
           items: [
-            { text: '单人游戏', link: '/Client/' },
+            { text: '介绍', link: '/Client/' },
             {
-              text: '旧目录',
+              text: '旧版教程',
               items: [
                 { text: '常见报错解决', link: '/Client/CrashResolve' },
-                { text: '关于版本隔离', link: '/Client/VerIsolation' },
-                { text: '同', link: '/Client/' }
+                { text: '关于版本隔离', link: '/Client/VerIsolation' }
               ]
             }
           ]
@@ -120,13 +121,20 @@ export default defineConfig({
         {
           text: '多人游戏',
           items: [
-            { text: '多人游戏', link: '/Server/' },
+            { text: '介绍', link: '/Server/' },
+            { text: '加入服务器', link: '/Server/Join' },
+            {
+              text: '联机',
+              items: [
+                { text: '加入服务器', link: '/Server/Join' }
+              ]
+            },
             {
               text: '服务器',
               items: [
-                { text: '加入服务器', link: '/Server/Join' },
-                { text: '服务端核心', link: '/Server/Core' },
-                { text: '', link: '/Server/' }
+                { text: '服务端核心', link: '/Server/ServerCore' },
+                { text: '创建服务器', link: '/Server/ServerCreate' },
+                { text: '配置服务器', link: '/Server/ServerConfig' }
               ]
             }
           ]
@@ -140,14 +148,7 @@ export default defineConfig({
             { text: '如何解决杀软拦截问题', link: '/Other/StopDefenderBlock' },
             { text: '关于网络问题', link: '/Other/TryFixNetSpeed' },
             { text: '使用密码登录微软账户', link: '/Other/LoginWithPassword' },
-            { text: '在不同版本之间共享目录', link: '/Other/LinkDirectory' },
-            {
-              text: '操作',
-              items: [
-                { text: '使', link: '/Other/' },
-                { text: '使', link: '/Other/' }
-              ]
-            }
+            { text: '在不同版本之间共享目录', link: '/Other/LinkDirectory' }
           ]
         }
       ],

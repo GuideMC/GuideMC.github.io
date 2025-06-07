@@ -4,11 +4,11 @@ layout: home
 hero:
   name: "Guide MC"
   text: "入门 Minceraft"
-  tagline: Starting from scratch
+  tagline: 从零开始
   actions:
     - theme: brand
       text: 由此入门
-      link: /Minecraft/
+      link: /Launcher/
     - theme: alt
       text: 说明
       link: /About/About
