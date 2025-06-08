@@ -119,14 +119,14 @@ Sugarcane 是专为迷你游戏构建的核心。它使用服务器和代理系�
 
 #### [Cuberite](https://cuberite.org/) (1.8 - 1.12.2)
 
-Cuberite 是一个轻量级、快速且可扩展的服务端，支持多平台。  
+Cuberite 是一个用 C++ 编写的轻量级、快速且可扩展的服务端，支持多平台。  
 可安装支持 CuberiteAPI 的插件，性能较好。  
 同时支持 1.8-1.12.2 的客户端加入。  
-由于不依赖任何 Mojang 的源码，因此缺少很多原版内容。
+由于不依赖任何 Mojang 的源码，因此缺少很多原版内容，但这也使得它非常轻量。
 
 #### [Basin](https://github.com/basinserver/basin) (1.10.2 - 1.11.2)
 
-Basin 是用 C 编写的高性能核心。
+Basin 是用 C 编写的高性能核心。  
 可通过 JNI 兼容 Spigot API 插件，具有易于修改，丰富的插件 API。
 
 #### [RedstoneInside](https://github.com/xTachyon/RedstoneInside) (1.11.1)
@@ -174,7 +174,7 @@ PartyCraft 是基于 Craft.Net 的核心。
 #### [Spout](https://github.com/SpoutDev/Spout) (1.5 - 1.7)
 
 Spout 不依赖任何 Mojang 的源码，且官方支持 Bukkit。  
-可以仅在服务端安装Spout Mod。
+可以仅在服务端安装Spout Mod，为客户端提供额外内容而无需客户端安装Mod。
 
 #### [mc-erl](https://github.com/clonejo/mc-erl) (1.4.6 - 1.4.7)
 
