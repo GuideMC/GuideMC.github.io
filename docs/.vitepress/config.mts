@@ -17,7 +17,7 @@ export default defineConfig({
       },
       { text: '单人游戏', link: '/Client/' },
       { text: '多人游戏', link: '/Server/' },
-      { text: '杂项', link: '/Other/ComputerKnowledge' },
+      { text: '杂项', link: '/Other/' },
       { text: '关于', link: '/About/About' }
     ],
     sidebar: {
@@ -144,6 +144,8 @@ export default defineConfig({
         {
           text: '杂项',
           items: [
+            { text: '介绍', link: '/Other/' },
+            { text: '下载安装 Java', link: '/Other/JavaInstall' },
             { text: '计算机基本常识', link: '/Other/ComputerKnowledge' },
             { text: '如何解决杀软拦截问题', link: '/Other/StopDefenderBlock' },
             { text: '关于网络问题', link: '/Other/TryFixNetSpeed' },
