@@ -225,3 +225,89 @@ Mod 越多、材质包分辨率越高或游戏视距越远，通常需要分配�
 **原因**：Mod 兼容性问题或 Mod 自身错误导致的数据包解码失败。
 
 **解决方法**：逐个禁用 Mod 进行排查，定位并移除或更新问题 Mod。
+
+### "Ticking Tile Entity" 或 "Ticking Block Entity" 报错
+
+**原因**：方块实体（TileEntity/BlockEntity）在 tick 过程中发生错误，常见于植物魔法的魔力池等特殊方块。这类报错通常由于 Mod 兼容性问题或者小地图类 Mod 引起。
+
+**解决方法**：
+
+#### 方法一：使用 Neruina 模组（推荐）
+
+1. 下载并安装 [**Neruina 模组**](https://www.mcmod.cn/class/10051.html)。
+2. 该模组能自动阻止 Ticking Entity 和 Ticking Block Entity 造成的崩溃。
+3. 安装后直接进入存档即可生效。
+
+#### 方法二：启用 Forge 自带的错误移除功能
+
+##### 低版本 Minecraft (1.12.2 等)
+
+1. 找到游戏目录下的 `config` 文件夹。
+2. 打开 `forge.cfg` 配置文件。
+3. 找到 `removeErroringTileEntities` 选项，将其值设置为 `true`。
+4. 如果是实体报错，可以将 `removeErroringEntities` 也设置为 `true`。
+5. 保存文件并重新启动游戏。
+
+::: tip 提示
+启用这些选项后，当有方块实体或实体报错时，它们会被直接删除。虽然无法根本解决问题，但可以避免游戏崩溃。
+:::
+
+##### 高版本 Minecraft
+
+1. 前往游戏目录下的 `saves/你的存档/serverconfig` 文件夹。
+2. 用文本编辑器打开 `forge-server.toml` 文件。
+3. 找到 `removeErroringEntities` 选项，将其后面的 `false` 改为 `true`。
+4. 保存文件并重新启动游戏。
+
+::: warning 注意
+此方法属于临时解决方案。成功进入存档后，立即关闭存档并将配置改回 `false`，避免 Forge 误删其他方块或实体。
+:::
+
+#### 方法三：使用 NBT Explorer 手动移除问题方块/实体
+
+如果上述方法无效，可以使用外部工具手动移除导致崩溃的方块或实体：
+
+1. **备份存档**（重要！）
+2. 下载并安装 [**NBT Explorer**](https://github.com/jaquadro/NBTExplorer/releases)
+3. 从崩溃日志中找到问题方块/实体的坐标信息
+4. 使用 NBT Explorer 导航到对应的区域文件（.mca 文件）
+5. 找到并删除对应的问题方块或实体
+6. 保存文件后重新进入游戏
+
+::: details 详细操作步骤
+
+**定位问题位置**：
+- 在崩溃日志中找到类似 `Entity's Block location: World: (x,y,z), Chunk: (...), Region: (a,b)` 的信息
+- Region 坐标对应存档中的 `r.a.b.mca` 文件
+- 使用 NBT Explorer 的坐标计算器或在线计算器确定具体位置
+
+**删除问题对象**：
+- 对于方块：建议使用 MCEdit 或 Amulet 等世界编辑器
+- 对于实体：使用 NBT Explorer 打开对应区域文件，找到实体列表并删除问题实体
+
+:::
+
+#### 方法四：检查 Mod 兼容性
+
+如果频繁出现此类报错，建议：
+1. 检查是否为 OptiFine 导致的渲染问题
+2. 逐个禁用 Mod 进行排查，特别关注优化类 Mod 和小地图 Mod
+3. 更新相关 Mod 到最新版本
+
+### "Failed to create player model for default" 或 "No model for layer midnight-hats"
+
+**原因**：MidnightLib 模组与 Cull Leaves (树叶渲染优化) 模组之间存在兼容性冲突。这个问题在 1.19.2 Forge 版本中较为常见，但隐藏较深，需要仔细排查才能发现。
+
+**解决方法**：
+
+1. **推荐解决方案**：删除 `Cull Leaves` (树叶渲染优化) 模组。
+2. **替代方案**：可以使用 `CullLessLeaves Reforged` (更好的树叶渲染优化重铸版) 模组来替代 Cull Leaves，该模组与 MidnightLib 兼容。
+3. **备选方案**：如果必须保留 Cull Leaves，可以考虑移除 MidnightLib 及其依赖的模组（如各种帽子模组等）。
+
+::: tip 提示
+由于某些模组会内置 MidnightLib 作为前置模组，可能不容易第一时间发现 MidnightLib 的存在。因此推荐优先删除 Cull Leaves 模组来解决冲突。
+:::
+
+::: warning 注意
+这个问题的崩溃报告中可能会显示 `java.lang.NullPointerException` 等误导性信息，真正的错误信息通常在运行日志 (`latest.log`) 中，表现为 `java.lang.IllegalArgumentException: No model for layer midnight-hats:xxx#main`。
+:::
