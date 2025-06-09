@@ -1,3 +1,8 @@
+---
+title: 制作整合包
+description: 使用PCL制作和分发Minecraft整合包的详细教程
+---
+
 # 如何使用 PCL 制作整合包
 
 ## 我可以使用 PCL 制作整合包吗

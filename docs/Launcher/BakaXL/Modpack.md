@@ -1,3 +1,8 @@
+---
+title: BakaXL 在线更新整合包制作教程
+description: 使用 BakaXL 制作支持在线更新的整合包的详细教程
+---
+
 # BakaXL 在线更新整合包制作教程
 
 :::danger 提请注意

@@ -1,3 +1,8 @@
+---
+title: 服务器指南
+description: Minecraft 多人游戏与服务器连接指南
+---
+
 # 服务器指南
 
 欢迎来到 Minecraft 多人游戏与服务器指南！

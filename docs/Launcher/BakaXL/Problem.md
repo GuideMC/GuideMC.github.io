@@ -1,3 +1,8 @@
+---
+title: BakaXL 使用手册
+description: BakaXL 启动器的使用指南，包括安装、配置、常见问题解决等内容
+---
+
 # BakaXL 使用手册
 
 

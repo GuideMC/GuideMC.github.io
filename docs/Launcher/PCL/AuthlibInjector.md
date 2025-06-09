@@ -1,3 +1,8 @@
+---
+title: 使用第三方登录
+description: 在PCL中使用LittleSkin等第三方皮肤服务的详细教程
+---
+
 # 使用第三方登录
 
 > [!DANGER] ⚠️ 这并不能代替正版

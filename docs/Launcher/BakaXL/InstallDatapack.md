@@ -1,3 +1,8 @@
+---
+title: 添加数据包
+description: 在 BakaXL 中安装和管理 Minecraft 数据包的完整指南
+---
+
 # 添加数据包
 
 > 仅适用于 Minecraft 1.13 以上版本

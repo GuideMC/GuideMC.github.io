@@ -1,3 +1,8 @@
+---
+title: 添加光影
+description: 在PCL中选择光影加载器和安装光影包的完整指南
+---
+
 # 选择光影加载器
 
 目前提供光影功能的 Mod 有 OptiFine 和 Iris Shaders。其中 OptiFine 支持 Forge（可以通过 OptiFabric Mod 兼容 Fabric），Iris Shaders 支持 Fabric 和 Quilt。OptiFine 几乎支持所有的 Minecraft 版本，而 Iris Shaders 目前只支持 1.16 及更高版本。

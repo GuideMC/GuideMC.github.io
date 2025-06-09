@@ -1,6 +1,6 @@
-
 ---
-name: 单人游戏
+title: 单人游戏指南
+description: 欢迎来到 Minecraft 单人游戏指南，提供常见问题解决和版本隔离等内容
 ---
 
 # 介绍

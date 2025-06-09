@@ -1,3 +1,8 @@
+---
+title: Guide MC 介绍
+description: Guide MC 是一个为 Minecraft 玩家提供从零开始的详细入门指南和常见问题解决方案的教程文档
+---
+
 # Guide MC
 
 ## Guide MC——从"零"开始入门 Minecraft

@@ -1,3 +1,8 @@
+---
+title: HMCL 启动器
+description: Hello Minecraft! Launcher (HMCL) 是免费开源的 Minecraft 启动器，支持跨平台使用
+---
+
 # HMCL
 
 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net)(HMCL) 是 Huanghongxun 主导开发的 Minecraft 启动器。  

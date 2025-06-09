@@ -1,3 +1,8 @@
+---
+title: 安装整合包
+description: 在 BakaXL 中下载和安装 Minecraft 整合包的完整指南
+---
+
 # 安装整合包
 
 ## 从笨蛋广场安装

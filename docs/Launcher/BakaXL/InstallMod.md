@@ -1,3 +1,8 @@
+---
+title: 安装模组
+description: 在 BakaXL 中选择模组加载器、下载和安装模组的完整指南
+---
+
 # 如何选择 Mod 加载器？
 
 Mod 加载器是为 Minecraft 安装 Mod 的必要前置条件，要想安装 Mod，必须先安装 Mod 加载器。目前主流的 Mod 加载器有 Forge、NeoForge、Fabric 和 Quilt 等，而它们不能同时被安装在同一个版本中。

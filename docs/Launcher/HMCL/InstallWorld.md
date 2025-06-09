@@ -1,3 +1,8 @@
+---
+title: 导入世界
+description: 在 HMCL 中下载和导入 Minecraft 世界地图的完整指南
+---
+
 # 获取世界
 
 你可以在许多相关资源网站找到游戏地图，诸如 CurseForge、Minecraft Maps、Planet Minecraft 等。你可以点击下面的按钮来快速跳转至这些网站：

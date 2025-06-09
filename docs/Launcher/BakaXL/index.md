@@ -1,3 +1,8 @@
+---
+title: BakaXL 启动器
+description: BakaXL 是 TT702 主导开发的 Minecraft 启动器，提供全新的启动体验和生态环境
+---
+
 # BakaXL
 
 [BakaXL](https://www.bakaxl.com) 是 TT702 主导开发的 Minecraft 启动器。

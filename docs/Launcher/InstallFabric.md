@@ -1,4 +1,10 @@
 <!-- filepath: c:\Users\YisRime\GuideMC.github.io\docs\Launcher\InstallFabric.md -->
+---
+title: 安装 Fabric
+description: 使用官方 Minecraft Launcher 安装 Fabric 模组加载器的详细指南
+---
+
+<!-- filepath: c:\Users\YisRime\GuideMC.github.io\docs\Launcher\InstallFabric.md -->
 本指南仅适用于官方的 Minecraft Launcher。 对于第三方启动器，应该参考它们的文档。
 
 1. 下载 Fabric 安装器

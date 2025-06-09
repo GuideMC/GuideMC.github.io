@@ -1,3 +1,8 @@
+---
+title: 安装整合包
+description: 在 HMCL 中下载和安装 Minecraft 整合包的完整指南
+---
+
 # 安装整合包
 
 ## 下载并安装 CurseForge 或 Modrinth 整合包
