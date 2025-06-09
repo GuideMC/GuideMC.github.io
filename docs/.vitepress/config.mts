@@ -10,9 +10,9 @@ const vitePressOptions = {
       { text: '游戏', link: '/minecraft/' },
       {
         text: '其它',
-        link: '/other/',
         items: [
-          { text: '启动器', link: '/other/launcher/' }
+          { text: '其它', link: '/base/' },
+          { text: '启动器', link: '/base/launcher/' }
         ]
       }
     ],
@@ -76,6 +76,23 @@ const sidebarOptions = [
     documentRootPath: 'docs',
     scanStartPath: 'minecraft',
     resolvePath: '/minecraft/',
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
+    includeFolderIndexFile: true,
+    collapsed: true,
+    collapseDepth: 2,
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    capitalizeFirst: true,
+    capitalizeEachWords: true
+  },
+  {
+    documentRootPath: 'docs',
+    scanStartPath: 'base',
+    resolvePath: '/base/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortMenusByName: true,
