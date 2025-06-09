@@ -1,8 +1,3 @@
----
-title: 解决杀毒软件误报问题
-description: 如何解决启动器被Windows Defender等杀毒软件误判为病毒的问题
----
-
 # 如何解决杀软拦截问题
 
 如果你的启动器从**官方**途径下载，却被 Microsoft Defender 等杀毒软件误判为病毒，可以按照以下方法处理。

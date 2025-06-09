@@ -1,30 +1,21 @@
 import { defineConfig } from 'vitepress'
-import { generateSidebar } from 'vitepress-sidebar';
+import { withSidebar } from 'vitepress-sidebar';
 
-export default defineConfig({
+const vitePressOptions = {
   title: "Guide MC",
   description: "入门 Minecraft",
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
+      { text: '游戏', link: '/minecraft/' },
       {
-        text: '启动器',
+        text: '其它',
+        link: '/other/',
         items: [
-          { text: 'HMCL', link: '/Launcher/HMCL/' },
-          { text: 'PCL', link: '/Launcher/PCL/' },
-          { text: 'BakaXL', link: '/Launcher/BakaXL/' }
+          { text: '启动器', link: '/other/launcher/' }
         ]
-      },
-      { text: '单人游戏', link: '/Client/' },
-      { text: '多人游戏', link: '/Server/' },
-      { text: '杂项', link: '/Other/' },
-      { text: '关于', link: '/About/About' }
+      }
     ],
-    sidebar: generateSidebar({
-      documentRootPath: '/docs',
-      collapsed: false,
-      capitalizeFirst: true
-    }),
     search: {
       provider: 'local',
       options: {
@@ -75,10 +66,46 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
-    lightModeSwitchTitle: '切换至浅色模式',
-    darkModeSwitchTitle: '切换至深色模式'
+    lightModeSwitchTitle: '切换至浅色',
+    darkModeSwitchTitle: '切换至深色'
+  }
+};
+
+const sidebarOptions = [
+  {
+    documentRootPath: 'docs',
+    scanStartPath: 'minecraft',
+    resolvePath: '/minecraft/',
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
+    includeFolderIndexFile: true,
+    collapsed: true,
+    collapseDepth: 2,
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    capitalizeFirst: true,
+    capitalizeEachWords: true
   },
-  vite: {
-    plugins: []
-  },
-});
+  {
+    documentRootPath: 'docs',
+    scanStartPath: 'other',
+    resolvePath: '/other/',
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
+    includeFolderIndexFile: true,
+    collapsed: true,
+    collapseDepth: 2,
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    capitalizeFirst: true,
+    capitalizeEachWords: true
+  }
+];
+
+export default defineConfig(withSidebar(vitePressOptions, sidebarOptions));

@@ -1,8 +1,3 @@
----
-title: Java 安装指南
-description: 在不同操作系统上安装和配置Java环境的详细指南
----
-
 # Java 安装指南
 
 ## Windows
