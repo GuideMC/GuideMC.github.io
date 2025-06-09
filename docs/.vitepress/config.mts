@@ -88,23 +88,6 @@ const sidebarOptions = [
     underscoreToSpace: true,
     capitalizeFirst: true,
     capitalizeEachWords: true
-  },
-  {
-    documentRootPath: 'docs',
-    scanStartPath: 'other',
-    resolvePath: '/other/',
-    useTitleFromFileHeading: true,
-    useTitleFromFrontmatter: true,
-    sortMenusByName: true,
-    useFolderTitleFromIndexFile: true,
-    useFolderLinkFromIndexFile: true,
-    includeFolderIndexFile: true,
-    collapsed: true,
-    collapseDepth: 2,
-    hyphenToSpace: true,
-    underscoreToSpace: true,
-    capitalizeFirst: true,
-    capitalizeEachWords: true
   }
 ];
 
