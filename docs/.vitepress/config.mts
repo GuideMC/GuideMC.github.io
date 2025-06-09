@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
-import { withSidebar } from 'vitepress-sidebar';
+import { generateSidebar } from 'vitepress-sidebar';
 
-const vitePressOptions = {
+export default defineConfig({
   title: "Guide MC",
   description: "入门 Minecraft",
   ignoreDeadLinks: true,
@@ -20,6 +20,11 @@ const vitePressOptions = {
       { text: '杂项', link: '/Other/' },
       { text: '关于', link: '/About/About' }
     ],
+    sidebar: generateSidebar({
+      documentRootPath: '/docs',
+      collapsed: false,
+      capitalizeFirst: true
+    }),
     search: {
       provider: 'local',
       options: {
@@ -76,12 +81,4 @@ const vitePressOptions = {
   vite: {
     plugins: []
   },
-}
-
-const vitePressSidebarOptions = {
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true
-};
-
-export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+});
