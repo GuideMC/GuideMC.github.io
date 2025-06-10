@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
+import viewTransition from './components/viewTransition.vue'
 
 export default {
   extends: DefaultTheme,
@@ -31,12 +32,11 @@ export default {
     );
   },
 
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
+  Layout() {
+    return h(viewTransition) 
   },
+
   enhanceApp({ app, router, siteData }) {
-    // ...
   }
+
 } satisfies Theme

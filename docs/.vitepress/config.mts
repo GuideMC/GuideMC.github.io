@@ -5,6 +5,15 @@ const vitePressOptions = {
   title: "Guide MC",
   description: "入门 Minecraft",
   ignoreDeadLinks: true,
+  cleanUrls:true,
+  sitemap: {
+    hostname: 'https://guidemc.github.io'
+  },
+  markdown: {
+    image: {
+      lazyLoading: true
+    },
+  },
   themeConfig: {
     nav: [
       { text: '游戏', link: '/game/' },

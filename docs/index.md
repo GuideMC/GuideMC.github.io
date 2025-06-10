@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 由此入门
-      link: /Launcher/
+      link: /game/
     - theme: alt
       text: 说明
-      link: /About/About
+      link: /base/About
 
 features:
   - title: 逐步指导易上手
