@@ -7,14 +7,16 @@ const vitePressOptions = {
   ignoreDeadLinks: true,
   themeConfig: {
     nav: [
-      { text: '游戏', link: '/minecraft/' },
+      { text: '游戏', link: '/game/' },
       {
-        text: '其它',
+        text: '启动器',
         items: [
-          { text: '其它', link: '/base/' },
-          { text: '启动器', link: '/base/launcher/' }
+          { text: 'HMCL', link: '/launcher/HMCL/' },
+          { text: 'PCL', link: '/launcher/PCL/' },
+          { text: 'BakaXL', link: '/launcher/BakaXL/' }
         ]
-      }
+      },
+      { text: '其它', link: '/base/' }
     ],
     search: {
       provider: 'local',
@@ -76,6 +78,23 @@ const sidebarOptions = [
     documentRootPath: 'docs',
     scanStartPath: 'minecraft',
     resolvePath: '/minecraft/',
+    useTitleFromFileHeading: true,
+    useTitleFromFrontmatter: true,
+    sortMenusByName: true,
+    useFolderTitleFromIndexFile: true,
+    useFolderLinkFromIndexFile: true,
+    includeFolderIndexFile: true,
+    collapsed: true,
+    collapseDepth: 2,
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    capitalizeFirst: true,
+    capitalizeEachWords: true
+  },
+  {
+    documentRootPath: 'docs',
+    scanStartPath: 'launcher',
+    resolvePath: '/launcher/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortMenusByName: true,
