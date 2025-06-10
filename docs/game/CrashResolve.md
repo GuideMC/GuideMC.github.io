@@ -385,3 +385,274 @@ Mixin 是一种修改游戏而无需修改游戏的源代码的方式。 许多�
 - [GitHub Gist](https://gist.github.com/)
 - [mclo.gs](https://mclo.gs/)
 - [Pastebin](https://pastebin.com/)
+
+把游戏内的 选项 -- 视频设置 -- 其他 -- 显示 GL 错误 关了
+
+光影包下载地址：https://modrinth.com/shaders
+https://www.curseforge.com/minecraft/search?class=shaders
+https://wiki.shaderlabs.org/wiki/Shaderpacks 
+
+我想远程控制你电脑看看，远程控制软件：https://newdl.todesk.com/windows/ToDesk_Lite.exe
+https://sunlogin.oray.com/download
+我想远程控制你电脑看看，远程控制软件：https://dw.oray.com/sunlogin/windows/SunloginSOS_1.2.1.61234_x64.exe
+HMCL 的游戏崩溃问题加这个群：666546887
+PCL 的游戏崩溃问题加这个群：978054335
+
+截图教程：https://zhuanlan.zhihu.com/p/92074446
+win10 打开控制面板教程 https://jingyan.baidu.com/article/6525d4b1534377ac7d2e94d5.html
+win11 打开控制面板教程 https://jingyan.baidu.com/article/4d58d5410afceadcd5e9c043.html
+win10 显示桌面此电脑教程 https://jingyan.baidu.com/article/574c52196e0c496c8d9dc1df.html
+win11 显示桌面此电脑教程 https://jingyan.baidu.com/article/2c8c281da996ab4109252a41.html
+win11 设置系统环境变量教程 https://jingyan.baidu.com/article/90bc8fc84b05b3b753640cdc.html
+win11 打开事件查看器教程 https://jingyan.baidu.com/article/4b52d7020b6052bd5c774bbe.html
+
+联机教程：https://bilibili.com/search?keyword=Minecraft%E8%81%94%E6%9C%BA
+装联机模组，在开放局域网的时候把「在线模式」关掉 https://www.mcmod.cn/class/2754.html
+1.16.5 修复多人联机模组：https://cdn.crashmc.com/https://github.com/MCTeamPotato/MultiOfflineFix/releases/download/1.0.3/MultiOfflineFix-forge-1.0.3+1.16.4.jar
+1.16.5 修复多人联机模组：https://cdn.crashmc.com/https://github.com/MCTeamPotato/MultiOfflineFix/releases/download/1.0.3/MultiOfflineFix-fabric-1.0.3+1.16.4.jar
+游戏用户名只能用英文字母、数字、下划线
+先去 Minecraft 官网 https://www.minecraft.net/zh-hans/login 登录一遍，然后在 HMCL 里把微软账号移除再重新添加
+你先登录一下 Minecraft 官网 https://www.minecraft.net/zh-hans/login 然后截个图看看
+有条件就开个 VPN https://ikuuu.pw/
+开梯子教程 https://img.kookapp.cn/attachments/2024-06/02/665c7f6f15925.docx
+梯子有问题就私聊这个人：292592776
+把梯子软件的「主页」和「配置」截个图看看
+https://sakuracat-b.com/user/#/register?code=zIGOSFTP
+复制链接到浏览器地址栏里再访问，不要搜索，也不要直接在 QQ 里点
+HMCL 会自动下载整合包需要的模组，所以如果你需要去掉整合包里的模组，需要在 HMCL 的模组管理界面禁用，而不是直接去 mods 文件夹里删
+模组文件名前面至少带一个英文字母
+
+把服务端文件夹下的 server.properties 里的 max-tick-time 后面的数字改成 -1
+把服务端文件夹下的 server.properties 里的 online-mode 后面改成 false
+把服务端文件夹下的 server.properties 里的 enforce-secure-profile 后面改成 false
+
+在游戏文件夹里的 config 文件夹里找到 forge.cfg ，用记事本或者其他代码编辑器打开，把里面的 allowEmissiveItems 后面从 true 改成 false，改完后保存，启动游戏 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在游戏文件夹里的 config 文件夹里找到 forge.cfg ，用记事本或者其他代码编辑器打开，把里面的 removeErroringEntities 和 removeErroringTileEntities 后面从 false 改成 true，改完后保存，启动游戏 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在游戏文件夹里的 config 文件夹里找到 splash.properties ，用记事本或者其他代码编辑器打开，把里面的 enabled 这一项后面的 true 改成 false，改完后保存并启动游戏 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在游戏文件夹里的 config 文件夹里找到 fml.toml ，用记事本或者其他代码编辑器打开，把里面的所有 true 都改成 false，改完后保存并启动游戏即可 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在游戏文件夹里的 config 文件夹里找到 fml.toml ，用记事本或者其他代码编辑器打开，把里面的 splashscreen 这一项后面的 true 改成 false，改完后保存并启动游戏 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在游戏文件夹里的 config 文件夹里找到 fml.toml ，用记事本或者其他代码编辑器打开，把里面的 earlyWindowControl 这一项后面的 true 改成 false，改完后保存并启动游戏 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在游戏文件夹里的 config 文件夹里找到 loliasm.cfg ，用记事本或者其他代码编辑器打开，把里面的 crashReportImprovements 后面从 true 改成 false，改完后保存并启动游戏，游戏崩溃之后再发一次崩溃报告 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+把游戏文件夹里的 config 文件夹里的 fml.toml 文件删了 https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+
+你试一下在启动器的游戏设置里的「JVM 参数头」里加 -XX:TieredStopAtLevel=3 （参数最前面的横杠不要漏掉）
+你试一下在游戏设置里的「Java 虚拟机参数」里加 -XX:TieredStopAtLevel=3 （参数最前面的横杠不要漏掉） https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+你看一下系统里的「事件查看器」里的「Windows 日志」--「应用程序」里有没有显示「错误」的项目
+在系统里的「事件查看器」里的「Windows 日志」--「应用程序」里，窗口最大化之后截个图看看
+按照这个压缩包里的视频教程调一下游戏文件夹的权限：https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/%E8%B0%83%E6%9D%83%E9%99%90%E6%95%99%E7%A8%8B.zip
+你之前有没有调过这个界面的虚拟内存大小 https://img.kookapp.cn/assets/2023-02/pkbmErhMJh0be0gk.png
+在桌面右键此电脑 -- 属性，然后截个图看看
+在桌面右键此电脑 -- 属性 -- 高级系统设置，然后按图里的顺序改成「自动管理所有驱动器分页文件大小」，改完后点三个「确定」（不要点右上角的叉）然后重启电脑 https://img.kookapp.cn/assets/2023-03/bGbLMNRnws1020j1.png
+按win键+R， 输入：regedit 打开注册表编辑器，找到：HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Memory Management 下面有一个键：PagefileOnOsVolume，将 PagefileOnOsVolume 的值由默认的 1 改为 0，保存，重启
+下载运行这个程序 https://img.kookapp.cn/attachments/2025-02/12/67acc25dc5f06.bat ，然后在桌面右键此电脑 -- 属性 -- 高级系统设置，然后按图里的样子把虚拟内存换到其他剩余容量大于 80GB 的盘里（初始大小 1024，最大值 65535），改完之后点一下「设置」，然后点三个「确定」（不要点右上角的叉），最后重启电脑 https://img.kookapp.cn/attachments/2024-03/18/7UFIGwSSXv0zy0gc.png
+你先装这个软件 https://cdn.crashmc.com/https://github.com/ip7z/7zip/releases/download/24.08/7z2408-x64.exe ，然后在「工具」里点「基准测试」，把左侧「已通过」下面的数字改到最大，然后先让它运行个半小时看看会不会报错 https://img.kookapp.cn/assets/2024-10/05/D93QR1c7JV0b702a.png
+你先装这个软件 https://cdn.crashmc.com/https://github.com/ip7z/7zip/releases/download/24.08/7z2408-x64.exe ，然后在游戏文件夹里的 mods 文件夹里全选所有模组文件，右键，测试压缩包
+你试一下在系统环境变量里新建一个键是 JAVA_TOOL_OPTIONS，值是 -Djavax.net.ssl.trustStoreType=WINDOWS-ROOT 的环境变量，然后重启电脑
+你试一下在系统环境变量里新建一个键是 JAVA_TOOL_OPTIONS，值是 -Djava.net.preferIPv4Stack=true 的环境变量，然后重启电脑
+
+你按教程里的步骤截个 CPU 型号的图看看 https://jingyan.baidu.com/article/e73e26c0e8ed3465acb6a701.html
+你按教程里的步骤截个磁盘管理的图看看 https://jingyan.baidu.com/article/19020a0a102f75529d28420f.html
+你按教程里的步骤截个显卡型号的图看看 https://jingyan.baidu.com/article/9080802219bcfcbc91c80fe0.html
+下载安装这个 AMD 显卡驱动，选「AMD Software: Adrenalin Edition」这一条下载：
+下载安装这个 AMD 显卡驱动，选「Catalyst Software Suite」这一条下载：
+下载安装这个 NVIDIA 显卡驱动：https://cn.download.nvidia.com/Windows/566.14/566.14-notebook-win10-win11-64bit-international-dch-whql.exe
+下载这个软件，下载之后运行，然后截个图看看 https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/GPU-Z.2.60.0.exe
+ https://www.techpowerup.com/download/techpowerup-gpu-z/ 
+笔记本电脑使用独立显卡启动 Minecraft 教程：https://blog.beanbang.cn/2017/07/10/gui-config-for-minecraft/
+右键桌面空白处，在 NVIDIA 控制面板里按图里顺序改成「高性能 NVIDIA 处理器」，然后点下面的「应用」，最后重启电脑 https://img.kookapp.cn/assets/2023-06/LHqkHeKbD90pr0aw.png
+右键桌面空白处，在「可交换显示卡」里选「可切换显示卡全局设置」，然后把右边改成「最大化性能」
+在系统的控制面板里的「系统和安全」--「电源选项」里选「高性能」，然后点它右边的「更改计划设置」--「更改高级电源设置」里应该有个「可切换动态显示卡」，把里面改成「最大化性能」，最后重启电脑
+AMD 独显开启教程：https://zhuanlan.zhihu.com/p/548563759
+下载安装这个 AMD 显卡驱动：https://www.amd.com/en/support/kb/release-notes/rn-rad-win-22-5-1 https://img.kookapp.cn/assets/2023-06/VoQjjMQlTg0x905x.png
+Intel 显卡驱动列表：https://www.intel.com/content/www/us/en/support/articles/000090440/graphics.html
+AMD 显卡驱动列表：https://www.amd.com/zh-hans/support
+NVIDIA 显卡驱动列表：https://www.nvidia.com/download/index.aspx
+装这个 1.7.10 Intel 显卡兼容模组：https://cdn.crashmc.com/https://github.com/makamys/Neodymium/releases/download/0.2.5/neodymium-1.7.10-0.2.5.jar
+在启动器的「版本管理」里的「高级设置」里把「使用系统 OpenAL」关了
+按照图里的顺序把「使用 OpenGL 软渲染器」打开 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-01/dODEb69kiV0gg09h.png
+32 位 Java 开不了软渲染器
+在启动器的游戏设置里的高级设置里把渲染器选成软渲染器 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-03/j9n8YaA5Ik0m20dk.png
+你试一下在启动器的游戏设置里的高级设置里把渲染器选成软渲染器，如果能好，就是显卡驱动问题 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-03/j9n8YaA5Ik0m20dk.png
+在启动器的游戏设置里的高级设置里把渲染器选成默认
+先开一个浏览器全屏，然后切回启动器启动游戏，在还没弹出窗口的时候迅速切回浏览器，等差不多感觉游戏窗口出来了之后再切回游戏，大概试个五次左右能成功启动游戏
+一看到这种 JVM 崩溃我就怀疑是内存条问题 
+
+把 HMCL 放在除了「桌面」「下载」「文稿」之外的有权限的地方
+
+把 HMCL 换成这里下载的版本 https://zkitefly.github.io/HMCL-Snapshot-Update/prs
+在启动器的设置里，按图里的顺序去掉上面的勾，并且把下载源改成「官方」，改完之后重启启动器 https://img.kookapp.cn/assets/2023-08/rcKqsL83iv0m907d.png
+在启动器的设置里，按图里的顺序去掉上面的勾，并且把下载源改成「BMCLAPI」，改完之后重启启动器 https://img.kookapp.cn/assets/2023-08/rcKqsL83iv0m907d.png
+在启动器的账户列表里把皮肤调成「默认」 https://img.kookapp.cn/assets/2023-01/NZ2j1VGORa0dv0bn.png
+
+你找到游戏文件夹下的 optionsof.txt，然后用记事本打开，找到 ofRenderRegions: 开头的一行，把后面的 true 改成 false
+在游戏里的 选项 -- 视频设置 -- 性能 里把「区域渲染」关了
+
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dsodium.checks.issue899=false （参数最前面的横杠不要漏掉），然后启动游戏 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dfml.earlyprogresswindow=false （参数最前面的横杠不要漏掉），然后启动游戏 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dforge.logging.marker.networking=ACCEPT -Dforge.logging.marker.classloading=ACCEPT -Dforge.logging.marker.launchplugin=ACCEPT -Dforge.logging.marker.classdump=ACCEPT -Dforge.logging.marker.axform=ACCEPT -Dforge.logging.marker.eventbus=ACCEPT -Dforge.logging.marker.distxform=ACCEPT -Dforge.logging.marker.scan=ACCEPT -Dforge.logging.marker.registries=ACCEPT -Dforge.logging.marker.registrydump=ACCEPT -Dforge.logging.marker.splash=ACCEPT -Dforge.logging.marker.resource.cache=ACCEPT -Dforge.logging.mojang.level=ALL -Dforge.logging.classtransformer.level=ALL -Dforge.logging.console.level=ALL -Dforge.logging.file.level=ALL -Dforge.logging.debugFile.level=ALL ，然后启动游戏，崩溃之后再导出游戏崩溃信息再发一次 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dlegacy.debugClassLoading=true -Dlegacy.debugClassLoadingFiner=true （参数最前面的横杠不要漏掉），然后启动游戏，崩溃之后再导出游戏崩溃信息（不是点「日志」按钮）https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dforge.logging.marker.axform=ACCEPT（参数最前面的横杠不要漏掉），然后启动游戏，崩溃之后再导出游戏崩溃信息再发一次 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false （参数最前面的横杠不要漏掉），然后启动游戏，崩溃之后再导出游戏崩溃信息再发一次 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false （参数最前面的横杠不要漏掉），然后启动游戏，出现问题之后把游戏文件夹里的 logs 文件夹里的 debug.log 文件发一下 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlegacy.debugClassLoading=true -Dlegacy.debugClassLoadingFiner=true -Dlegacy.debugClassLoadingSave=true -Dlog4j2.formatMsgNoLookups=false （参数最前面的横杠不要漏掉），然后启动游戏，崩溃之后把游戏文件夹里的 CLASSLOADER_TEMP 文件夹打包发出来 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dforge.logging.classtransformer.level=trace （参数最前面的横杠不要漏掉），启动游戏，崩溃后发一下新的游戏崩溃信息 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dforge.logging.classtransformer.level=trace -Dforge.logging.marker.classdump=ACCEPT -Djava.io.tmpdir=.\.tmp （参数最前面的横杠不要漏掉），启动游戏，崩溃后把游戏文件夹下的 .tmp 文件夹里的 classDump 开头的文件夹打包发上来 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dmixin.debug.export=true （参数最前面的横杠不要漏掉），启动游戏，崩溃后把游戏文件夹下的 .mixin.out 文件夹打成压缩包发出来 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+要看和哪个 mod 冲突，需要在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dmixin.dumpTargetOnFailure=true （参数最前面的横杠不要漏掉），启动游戏，崩溃后把游戏文件夹下的 .mixin.out 文件夹打包发过来，同时也把我说的存在冲突的那个 mod 发过来 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dmixin.debug.verbose=true （参数最前面的横杠不要漏掉），启动游戏，崩溃后发一下新的游戏崩溃信息 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dfml.debugExit=true （参数最前面的横杠不要漏掉），启动游戏，崩溃后发一下新的游戏崩溃信息 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+先下载这个文件，把它放到游戏文件夹里的 config 文件夹里 https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/log4j2.xml ，然后在 HMCL 的「游戏特定设置」（不是全局游戏设置）里的「Java 虚拟机参数」里加 -Dlog4j2.formatMsgNoLookups=false -Dlog4j.configurationFile=config/log4j2.xml （参数最前面的横杠不要漏掉）然后启动游戏，在出现问题之后，先退出游戏，然后把游戏文件夹里的 logs 文件夹里的 debug.log 文件发一下 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+
+在游戏设置里的「Java 虚拟机参数」里加 -Dfile.encoding=GB18030 -Dsun.stdout.encoding=GB18030 -Dsun.stderr.encoding=GB18030 （参数最前面的横杠不要漏掉），启动游戏 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置里（不是全局游戏设置），删掉所有 Java 虚拟机参数 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置里（不是全局游戏设置），关闭自动分配内存，手动在右边框里输入 8192MB 内存，并删掉所有 Java 虚拟机参数，然后在 Java 虚拟机参数里加 -Xms256M https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-07/DAVItvJ3Z90mc093.png https://img.kookapp.cn/assets/2023-06/B9zltUBaco08d03p.png
+在游戏特定设置里（不是全局游戏设置），关闭自动分配内存，手动在右边框里输入 8192MB 内存 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png
+在游戏特定设置里（不是全局游戏设置），关闭自动分配内存，手动在右边框里输入 4096MB 内存 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png
+在游戏特定设置里（不是全局游戏设置），关闭自动分配内存，手动在右边框里输入 2048MB 内存 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png
+在游戏特定设置里（不是全局游戏设置），关闭自动分配内存，手动在右边框里输入 1536MB 内存 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png
+
+正确打开游戏文件夹的方法：https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+把游戏文件夹里的 options.txt 文件删了 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+开游戏的时候不要开全屏，把游戏文件夹里的 options.txt 文件删了 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+把 I18nUpdateMod 模组在 HMCL 的模组管理界面禁用掉，然后把游戏文件夹里的 resourcepacks 文件夹里的所有文件移出去 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+把 I18nUpdateMod 模组在 HMCL 的模组管理界面禁用掉，然后去 http://downloader1.meitangdehulu.com:22943/ 手动下载汉化包，下载之后把它放到游戏文件夹里的 resourcepacks 文件夹里 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+
+不要用 HMCL 启动由 PCL 安装的游戏版本
+不要用 HMCL 修改由 PCL 安装的游戏版本，你现在改坏了，只能把它删掉重新安装了
+游戏版本被改坏了，只能重新安装游戏了
+不要随意修改游戏的 forge 版本，你现在改坏了，只能把它删掉重新安装了
+在 HMCL 的自动安装界面里重新安装 Forge
+在 HMCL 的自动安装界面里重新安装 NeoForge
+在启动器的游戏设置里，把「本地库路径」改成「预设」
+在启动器的 游戏特定设置 -- 高级设置 里，把「本地库路径」改成「预设」https://img.kookapp.cn/assets/2023-06/hGFkoc6R7U10d0m6.png https://img.kookapp.cn/assets/2023-06/tLOPmiuFKC10f0m0.png https://img.kookapp.cn/assets/2023-07/Y6UbrlQtSb10d0mx.png
+在启动器的 游戏特定设置 -- 高级设置 里，把「本地库路径」改成「默认」https://img.kookapp.cn/assets/2023-06/hGFkoc6R7U10d0m6.png https://img.kookapp.cn/assets/2023-06/tLOPmiuFKC10f0m0.png https://img.kookapp.cn/assets/2023-07/Y6UbrlQtSb10d0mx.png
+在启动器里按图里的顺序把「版本隔离」调成「各版本独立」：https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2024-01/EA7LkGayo70mc0do.png 
+
+1.20.1+
+先把游戏文件夹里的 config 文件夹里的 fml.toml 文件删了，然后装这个模组 https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/NightConfigFixesPlus-1.0.jar
+1.19.4-
+装这个模组 https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/NightConfigFixesPlus-1.0.jar
+装这个 Cyanide 模组 https://www.mcmod.cn/class/11907.html ，然后启动游戏，在游戏崩溃之后发新的游戏崩溃信息
+https://modrinth.com/mod/feature-recycler/versions
+装这个 Neruina 模组 https://www.mcmod.cn/class/10051.html
+装这个 JarInJarPrinter 模组 https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/jarinjarprinter-1.0-SNAPSHOT.jar ，然后在游戏崩溃之后发新的游戏崩溃信息
+装这个 JarInJarPrinter 模组 https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/jarinjarprinter-1.0-SNAPSHOT.jar ，然后在启动器的游戏设置里的 JVM 参数头里加 -Dforge.logging.marker.scan=ACCEPT （参数最前面的横杠不要漏掉），启动游戏，在游戏崩溃之后发新的游戏崩溃信息
+装这个修复模组 https://cdn.crashmc.com/https://github.com/majongMC/Datapack-Load-Error-Fix/releases/download/1.18.2-forge/datapackloaderrorfix-1.18.2-182.1.0.jar
+在游戏文件夹里的 config 文件夹里的 Chocolate 文件夹里新建一个 snowCastles 文件夹
+装这个模组 https://maven.minecraftforge.net/net/minecraftforge/lex/legacyjavafixer/1.0/legacyjavafixer-1.0.jar
+把 Pixelmon 模组换成这个 https://mediafilez.forgecdn.net/files/4348/446/Pixelmon-1.12.2-8.4.3-universal.jar
+把 fabric-api 模组换成这个 https://cdn.modrinth.com/data/P7dR8mSH/versions/iS2jNAxk/fabric-api-0.100.8%2B1.21.jar
+
+装 MixinBooter 模组：https://www.mcmod.cn/class/4010.html
+CurseForge 下载模组教程：https://img.kookapp.cn/assets/2023-07/B0IqBCj37c0tr0ap.png 点完 Download File 按钮之后什么都不需要点，等待五秒之后浏览器就会弹出下载框
+照这个图片把 MCheli 模组解压出来 https://i.mcmod.cn/editor/upload/20230725/1690270000_651646_muGn.webp
+把这个文件替换掉原来的 https://img.kookapp.cn/attachments/2023-05/27/6471f3bfd25ff.json
+把 Xaeros_Minimap_24.5.0_Forge_1.18.2.jar 模组换成这个 https://mediafilez.forgecdn.net/files/5685/648/Xaeros_Minimap_24.4.0_Forge_1.18.2.jar
+把 DragonAPI 模组换成这个 https://mediafilez.forgecdn.net/files/4722/480/DragonAPI%201.7.10%20V33b.jar
+把 RotaryCraft 模组换成这个 https://mediafilez.forgecdn.net/files/4721/191/RotaryCraft%201.7.10%20V33a.jar
+把 ElectriCraft 模组换成这个 https://mediafilez.forgecdn.net/files/4721/198/ElectriCraft%201.7.10%20V33a.jar
+把 ReactorCraft 模组换成这个 https://mediafilez.forgecdn.net/files/4721/203/ReactorCraft%201.7.10%20V33a.jar
+把 AOBD 模组换成这个 https://mediafilez.forgecdn.net/files/2305/237/AOBD-2.9.2.jar
+把 LootTweaks 模组换成这个 https://mediafilez.forgecdn.net/files/4721/196/LootTweaks%201.7.10%20V33a.jar
+在 HMCL 的模组管理界面把 IMBlocker 模组禁用
+在 HMCL 的模组管理界面里把 serializationisbad 模组禁用
+在 HMCL 的模组管理界面里把 LibLoader 模组禁用
+在 HMCL 的模组管理界面里把 gml 模组和 eatinganimation 模组禁用
+https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/serializationisbad.json 下载这个文件，然后用它替换掉游戏文件夹里的 config 文件夹里的 serializationisbad.json 文件 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+https://gitee.com/zekerzhayard/HMCL-KOOK-Resources/releases/download/2024.2.5/libraries.zip 下载这个压缩包，然后解压并替换游戏文件夹里的 libraries 文件夹里原来的文件夹 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+https://mcef-download.cinemamod.com/java-cef-builds/d5e3cece98755ff1e5af39261e6a486a5d9adb5d/windows_amd64.tar.gz 下载这个压缩包，然后解压到游戏文件夹里的 mods 文件夹里的 mcef-libraires 文件夹里 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+下载这个模组，然后放进游戏文件夹里的 mods 文件夹里 https://cdn.crashmc.com/https://github.com/djpadbit/Sound-Physics/releases/download/1.0.10-1/Sound-Physics-1.12.2-1.0.10-1.jar
+下载这个模组，然后放进游戏文件夹里的 mods 文件夹里 https://optifine.net/adloadx?f=OptiFine_1.12.2_HD_U_G5.jar
+先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 CodeChickenLib 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面  https://chickenbones.net/maven/codechicken/CodeChickenLib/1.7.10-1.1.3.140/CodeChickenLib-1.7.10-1.1.3.140-universal.jar 
+先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 ForgeMultipart 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面 https://mediafilez.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar
+先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 Baubles 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面 https://mediafilez.forgecdn.net/files/2224/857/Baubles-1.7.10-1.0.1.10.jar
+先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 bspkrsCore 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面 https://mediafilez.forgecdn.net/files/2227/503/%5B1.7.10%5DbspkrsCore-universal-6.16.jar
+先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 RedGearCore 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面 https://mediafilez.forgecdn.net/files/2260/966/RedGearCore-1.7.10-2.2.2.jar
+
+https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.3/graalvm-ce-java17-windows-amd64-22.3.3.zip
+https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-21.2.0/graalvm-ce-java16-windows-amd64-21.2.0.zip
+https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.3/graalvm-ce-java11-windows-amd64-22.3.3.zip
+https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-21.3.1/graalvm-ce-java8-windows-amd64-21.3.1.zip
+
+https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-windows-amd64-full.msi
+https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-macos-amd64-full.pkg
+https://download.bell-sw.com/java/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64-full.msi
+
+https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-windows-amd64-full.msi
+https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-macos-amd64-full.pkg
+https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-macos-aarch64-full.pkg
+https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.msi
+https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-macos-amd64-full.pkg
+https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-macos-aarch64-full.pkg
+https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-windows-amd64-full.msi
+https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-macos-amd64-full.pkg
+https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-macos-aarch64-full.pkg
+
+https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/8u312%2B7/bellsoft-jre8u312+7-windows-amd64-full.msi
+https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/8u442%2B7/bellsoft-jre8u442+7-windows-amd64-full.msi
+https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/11.0.13%2B8/bellsoft-jre11.0.13+8-windows-amd64-full.msi
+https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/16.0.2%2B7/bellsoft-jre16.0.2+7-windows-amd64-full.msi
+https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/17.0.14%2B10/bellsoft-jre17.0.14+10-windows-amd64-full.msi
+https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/21.0.6%2B10/bellsoft-jre21.0.6+10-windows-amd64-full.msi
+
+先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/8u312+7/bellsoft-jre8u312+7-windows-amd64-full.msi
+先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-windows-amd64-full.msi
+先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-windows-amd64-full.msi
+先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64-full.msi
+先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.msi
+先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-windows-amd64-full.msi
+在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 11.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 16.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 17.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 21.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先把 HMCL 换成这里下载的版本 https://zkitefly.github.io/HMCL-Snapshot-Update/prs 然后在启动器「设置」里的「Java 管理」里的「下载 Java」里下载 Java 8，等启动器自动下载好之后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_51 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/8u242%2B7/bellsoft-jre8u242+7-macos-amd64-full.pkg 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_242 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://cdn.crashmc.com/https://github.com/frekele/oracle-java/releases/download/8u51-b16/jre-8u51-windows-x64.exe 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_51 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/8u312+7/bellsoft-jre8u312+7-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_312 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_442 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 11.0.13 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 16.0.2 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 17.0.14 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 21.0.6 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
+
+在 HMCL 的自动安装界面里把 Forge 版本换成 54.0.34
+1.21 的 Forge 和 OptiFine 只能二选一
+在启动器里的自动安装界面里把 OptiFine 去掉 https://img.kookapp.cn/attachments/2023-05/19/3fLwoleY2Q0mq0e4.png
+先把在启动器里的自动安装界面装的 OptiFine 去掉，然后下载这个 OptiFine  https://optifine.net/adloadx?f=preview_OptiFine_1.8.9_HD_U_M6_pre2.jar ，然后把它放进游戏文件夹里的 mods 文件夹里 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/attachments/2023-05/19/3fLwoleY2Q0mq0e4.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+先把在启动器里的自动安装界面装的 OptiFine 去掉，然后下载这个 OptiFine https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar ，然后把它放进游戏文件夹里的 mods 文件夹里 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/attachments/2023-05/19/3fLwoleY2Q0mq0e4.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+先把在启动器里的自动安装界面装的 OptiFine 去掉，然后下载这个 OptiFine https://optifine.net/adloadx?f=preview_OptiFine_1.21.4_HD_U_J4_pre2.jar ，然后把它放进游戏文件夹里的 mods 文件夹里 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/attachments/2023-05/19/3fLwoleY2Q0mq0e4.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+在启动器里的自动安装界面里把 LiteLoader 去掉 https://img.kookapp.cn/assets/2023-09/WhZqe8gxGl0ma0dp.png
+
+把 HMCL 换成这里下载的版本 https://hmcl-snapshot-update.netlify.app/
+把 HMCL 换成这里下载的版本 https://zkitefly.github.io/HMCL-Snapshot-Update/
+把 HMCL 换成这里下载的版本，点第一个下载 https://zkitefly.github.io/HMCL-Snapshot-Update/prs
+把 HMCL 换成这个版本 https://cdn.crashmc.com/https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.11/HMCL-3.6.11.exe
+先下载运行这个程序 https://johann.loefflmann.net/downloads/jarfix.exe ，运行之后点「确定」，然后把 HMCL 换成这个版本 https://cdn.crashmc.com/https://github.com/HMCL-dev/HMCL/releases/download/release-3.5.10/HMCL-3.5.10.jar
+把 HMCL 换成这个版本 https://cdn.crashmc.com/https://github.com/HMCL-dev/HMCL/releases/download/v3.6.11.268/HMCL-3.6.11.268.exe
+先下载运行这个程序 https://johann.loefflmann.net/downloads/jarfix.exe ，运行之后点「确定」，然后把 HMCL 换成这个版本 https://cdn.crashmc.com/https://github.com/HMCL-dev/HMCL/releases/download/v3.5.9.261/HMCL-3.5.9.261.jar
+http://download.windowsupdate.com/msdownload/update/software/updt/2011/02/windows6.1-kb2483139-x64-zh-cn_2c1884b4fdf6c8e91986369d88bbcaae01c6f187.exe
+在 控制面板 -- 时钟和区域 -- 区域 -- 管理 -- 更改系统区域设置 里面截个图看看
+在 控制面板 -- 时钟和区域 -- 区域 -- 管理 -- 更改系统区域设置 里面上面选「中文（简体，中国）」，并且把下面那个勾去掉 https://img.kookapp.cn/assets/2023-03/zsLRF3LrcD0we0hj.png
+
+先退出游戏，然后发一下游戏文件夹里的 logs 文件夹里的 fml-client-latest.log 文件
+先退出游戏，然后发一下游戏文件夹里的 logs 文件夹里的 latest.log 文件 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+发一下游戏文件夹里的 crash-reports 文件夹里的最新文件 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-03/t5TMrzrjWD0990co.png
+先退出游戏，然后在崩溃界面点左下角「导出游戏崩溃信息」（不要点「日志」），然后把导出的压缩包整个发上来 https://img.kookapp.cn/assets/2023-01/Bw9D08fUJ10m60e7.png
+
+你这个重启游戏，如果还崩溃，发一下新的游戏崩溃信息，我要比较两次崩溃的报错
+把「查看日志」打开再启动游戏 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-06/mxJBSKy89i0mc0dp.png
+游戏界面未响应很难看得出来是什么原因，这种方法基本只能看运气：把「查看日志」打开再启动游戏，如果日志界面一直在滚动，那就说明没卡住，只需要一直等着就行了；如果卡住了不滚动，那就先不要退出游戏，点日志界面右下角的「导出」和「导出游戏运行栈」，然后把导出的两个文件发出来 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-06/06kkZoEmeP0m2061.png https://img.kookapp.cn/assets/2023-06/mxJBSKy89i0mc0dp.png
+导出游戏运行栈不兼容就下载这个工具 https://cdn.crashmc.com/https://github.com/burningtnt/JStack-Minecraft/releases/download/V9/JStack.Minecraft.v9.zip 下载好之后全部解压，然后当游戏未响应的时候运行其中的 Run_Windows.bat，等到弹出的黑色窗口中显示 Finish 的时候，把之后弹出的文件预览窗口中选中的文件发上来
+文件如果上传失败就用这个传 https://www.wenshushu.cn/ ，传完之后把分享链接发出来
+出现问题后不要退出启动器，在启动器的 设置 -- 通用 中导出启动器日志，然后点 KOOK 聊天栏右侧的加号，把导出的文件发出来 https://img.kookapp.cn/assets/2023-01/oHQeKnzwWj0md0dr.png
+出现问题后不要退出启动器，在启动器的 设置 -- 通用 中导出启动器日志，然后把导出的文件发出来 https://img.kookapp.cn/assets/2023-01/oHQeKnzwWj0md0dr.png
+HMCL
+游戏崩溃后在崩溃界面点左下角「导出游戏崩溃信息」（不要点「日志」），然后点 KOOK 聊天栏右侧的加号，把导出的压缩包整个发上来 https://img.kookapp.cn/assets/2023-01/Bw9D08fUJ10m60e7.png
+游戏崩溃后在崩溃界面点左下角「导出游戏崩溃信息」（不要点「日志」），然后把导出的压缩包整个发上来 https://img.kookapp.cn/assets/2023-01/Bw9D08fUJ10m60e7.png
+游戏崩溃后在崩溃界面点左下角「导出游戏崩溃信息」，然后把导出的压缩包整个上传到 https://www.wenshushu.cn/ ，传完之后把分享链接发出来 https://img.kookapp.cn/assets/2023-01/Bw9D08fUJ10m60e7.png
+PCL
+游戏崩溃后在崩溃界面点右下角「导出错误报告」，然后点 KOOK 聊天栏右侧的加号，把导出的压缩包整个发上来 https://img.kookapp.cn/assets/2023-03/CqLof1HzCe0g405l.png
+游戏崩溃后在崩溃界面点右下角「导出错误报告」，然后把导出的压缩包整个发上来 https://img.kookapp.cn/assets/2023-03/CqLof1HzCe0g405l.png
+游戏崩溃后在崩溃界面点右下角「导出错误报告」，然后把导出的压缩包整个上传到 https://www.wenshushu.cn/ ，传完之后把分享链接发出来 https://img.kookapp.cn/assets/2023-03/CqLof1HzCe0g405l.png
