@@ -76,8 +76,8 @@ const vitePressOptions = {
 const sidebarOptions = [
   {
     documentRootPath: 'docs',
-    scanStartPath: 'minecraft',
-    resolvePath: '/minecraft/',
+    scanStartPath: 'game',
+    resolvePath: '/game/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortMenusByName: true,
