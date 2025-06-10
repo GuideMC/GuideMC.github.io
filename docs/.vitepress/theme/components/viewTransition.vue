@@ -68,8 +68,4 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   transform: none !important;
 }
 
-.check .icon {
-  top: -2px;
-}
-
 </style>
