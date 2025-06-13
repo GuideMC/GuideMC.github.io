@@ -11,7 +11,7 @@ hero:
       link: /game/
     - theme: alt
       text: 说明
-      link: /base/About
+      link: /base/
 
 features:
   - title: 逐步指导易上手
