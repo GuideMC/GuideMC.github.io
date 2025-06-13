@@ -570,53 +570,6 @@ https://mcef-download.cinemamod.com/java-cef-builds/d5e3cece98755ff1e5af39261e6a
 先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 bspkrsCore 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面 https://mediafilez.forgecdn.net/files/2227/503/%5B1.7.10%5DbspkrsCore-universal-6.16.jar
 先把游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里的所有 RedGearCore 模组删掉，然后手动下载这个模组，放进游戏文件夹里的 mods 文件夹里的 1.7.10 文件夹里面 https://mediafilez.forgecdn.net/files/2260/966/RedGearCore-1.7.10-2.2.2.jar
 
-https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.3/graalvm-ce-java17-windows-amd64-22.3.3.zip
-https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-21.2.0/graalvm-ce-java16-windows-amd64-21.2.0.zip
-https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-22.3.3/graalvm-ce-java11-windows-amd64-22.3.3.zip
-https://cdn.crashmc.com/https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-21.3.1/graalvm-ce-java8-windows-amd64-21.3.1.zip
-
-https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-windows-amd64-full.msi
-https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-macos-amd64-full.pkg
-https://download.bell-sw.com/java/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64-full.msi
-
-https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-windows-amd64-full.msi
-https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-macos-amd64-full.pkg
-https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-macos-aarch64-full.pkg
-https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.msi
-https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-macos-amd64-full.pkg
-https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-macos-aarch64-full.pkg
-https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-windows-amd64-full.msi
-https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-macos-amd64-full.pkg
-https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-macos-aarch64-full.pkg
-
-https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/8u312%2B7/bellsoft-jre8u312+7-windows-amd64-full.msi
-https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/8u442%2B7/bellsoft-jre8u442+7-windows-amd64-full.msi
-https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/11.0.13%2B8/bellsoft-jre11.0.13+8-windows-amd64-full.msi
-https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/16.0.2%2B7/bellsoft-jre16.0.2+7-windows-amd64-full.msi
-https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/17.0.14%2B10/bellsoft-jre17.0.14+10-windows-amd64-full.msi
-https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/21.0.6%2B10/bellsoft-jre21.0.6+10-windows-amd64-full.msi
-
-先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/8u312+7/bellsoft-jre8u312+7-windows-amd64-full.msi
-先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-windows-amd64-full.msi
-先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-windows-amd64-full.msi
-先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64-full.msi
-先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.msi
-先退出启动器，然后在系统「控制面板」的「程序和功能」里卸载你现在的 Java，下载安装这个 Java，安装的时候不要改安装位置：https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-windows-amd64-full.msi
-在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 11.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 16.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 17.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 21.0 开头的 64 位版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先把 HMCL 换成这里下载的版本 https://zkitefly.github.io/HMCL-Snapshot-Update/prs 然后在启动器「设置」里的「Java 管理」里的「下载 Java」里下载 Java 8，等启动器自动下载好之后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_51 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://cdn.crashmc.com/https://github.com/bell-sw/Liberica/releases/download/8u242%2B7/bellsoft-jre8u242+7-macos-amd64-full.pkg 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_242 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://cdn.crashmc.com/https://github.com/frekele/oracle-java/releases/download/8u51-b16/jre-8u51-windows-x64.exe 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_51 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/8u312+7/bellsoft-jre8u312+7-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_312 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/8u442+7/bellsoft-jre8u442+7-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 1.8.0_442 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/11.0.13+8/bellsoft-jre11.0.13+8-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 11.0.13 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/16.0.2+7/bellsoft-jre16.0.2+7-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 16.0.2 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/17.0.14+10/bellsoft-jre17.0.14+10-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 17.0.14 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-先退出启动器，然后下载安装这个 Java，安装的时候不要改安装位置，https://download.bell-sw.com/java/21.0.6+10/bellsoft-jre21.0.6+10-windows-amd64-full.msi 然后在启动器中按图里的操作顺序，在「游戏特定设置」里（不是全局游戏设置）把 Java 路径改成 21.0.6 版本 https://img.kookapp.cn/assets/2023-04/SuAn2sjIow0md0b6.png https://img.kookapp.cn/assets/2023-05/jGd3akLJRP0me0b7.png
-
 在 HMCL 的自动安装界面里把 Forge 版本换成 54.0.34
 1.21 的 Forge 和 OptiFine 只能二选一
 在启动器里的自动安装界面里把 OptiFine 去掉 https://img.kookapp.cn/attachments/2023-05/19/3fLwoleY2Q0mq0e4.png

@@ -1,0 +1,29 @@
+# 贡献指南
+
+欢迎大家参与文档的编辑和完善。你可以通过 Fork 仓库并提交 Pull Request 的方式来贡献你的内容。详细信息请参阅[编写规范](./WriteRule.md)。
+
+## 开源协议
+
+本文档使用 VitePress 构建。代码根据 MIT 许可证进行授权。本文档中的所有内容除非另有说明，均遵循署名—非商业性使用—相同方式共享 4.0 （CC BY-NC-SA 4.0）协议。所有转载内容，均在贡献列表中注明来源。
+
+## 贡献列表
+
+本文档中有部分内容来源于其它页面：
+
+- [Hello Minecraft! Launcher 帮助文档](https://github.com/HMCL-dev/HMCL-docs)
+- [PCL2 内置帮助库](https://github.com/LTCatt/PCL2Help)
+- [PCL2 常见问题文档](https://shimo.im/docs/qKPttVvXKqPD8YDC)
+- [BakaXL 下一代用户帮助文档](https://github.com/BakaXL-Support/BakaXL-Next-docs)
+- [一条龙服务：开服从入门到精通](https://github.com/shaokeyibb/Minecraft-Server-Starting-Guide)
+- [Minecraft 崩溃解决方案](https://www.bilibili.com/read/readlist/rl336711)
+- [Minecraft](https://www.bilibili.com/read/readlist/rl369433)
+
+本文档在以上内容基础上进行适当修改，使其适用于本文档。文档所作修改因篇幅较长，不再一一赘述。
+
+## 贡献者们
+
+感谢以下贡献者对本文档的贡献：
+
+::: info
+按字母顺序排序
+:::

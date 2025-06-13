@@ -17,15 +17,9 @@ const vitePressOptions = {
   themeConfig: {
     nav: [
       { text: '游戏', link: '/game/' },
-      {
-        text: '启动器',
-        items: [
-          { text: 'HMCL', link: '/launcher/HMCL/' },
-          { text: 'PCL', link: '/launcher/PCL/' },
-          { text: 'BakaXL', link: '/launcher/BakaXL/' }
-        ]
-      },
-      { text: '其它', link: '/base/' }
+      { text: '启动器', link: '/launcher/' },
+      { text: '杂项', link: '/tool/' },
+      { text: '关于', link: '/About' }
     ],
     search: {
       provider: 'local',
@@ -121,8 +115,8 @@ const sidebarOptions = [
   },
   {
     documentRootPath: 'docs',
-    scanStartPath: 'base',
-    resolvePath: '/base/',
+    scanStartPath: 'tool',
+    resolvePath: '/tool/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortFolderTo: 'top' as const,
