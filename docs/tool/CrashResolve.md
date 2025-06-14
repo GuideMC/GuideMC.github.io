@@ -6,6 +6,67 @@
 
 ## 如何分析崩溃报告
 
+## 错误排查：Minecraft 玩家的家常便饭
+
+游戏崩溃是 Mod 玩家的家常便饭。学会阅读崩溃报告，你就能解决 90% 的问题。
+
+**1. 定位关键文件**
+*   `.minecraft/crash-reports/` 文件夹：存放每一次崩溃的详细报告 (`.txt` 文件)。
+*   `.minecraft/logs/latest.log` 文件：记录了游戏从启动到关闭（或崩溃）的所有事件，信息最全。
+
+**2. 解读崩溃报告 (`crash-report.txt`)**
+
+一份典型的崩溃报告就像一份案情报告，你需要找到关键线索：
+
+```
+---- Minecraft Crash Report ----
+// Oops.
+
+Time: [崩溃时间]
+Description: Ticking entity  <-- 错误描述：通常指明问题发生时游戏在做什么
+
+java.lang.NullPointerException: Ticking entity  <-- 错误的类型：空指针异常
+    at some.mod.id.ClassName.methodName(ClassName.java:123) <-- 堆栈追踪的顶端
+    ...
+    ...
+-- Entity being ticked --
+Details:
+    Entity Type: someothermod:cool_mob (some.other.mod.id.entity.CoolMobEntity) <-- 正在处理的实体信息
+
+-- Affected level --
+...
+
+Stacktrace:
+    at net.minecraft.server.level.ServerLevel.func_217479_a(ServerLevel.java:552)
+    ...
+    ...
+    
+-- MODS --
+Details:
+    ...
+    some_mod_id: Some Mod Name 1.2.3
+    ...
+
+Caused by: another.mod.package.AnotherException <--- [最关键线索] "Caused by"
+    at another.mod.id.AnotherClass.anotherMethod(AnotherClass.java:456)
+    ... 15 more
+```
+
+**如何分析：**
+1.  **看 `Description`**：了解崩溃发生时的大致场景（例如渲染方块、实体tick）。
+2.  **找 `Caused by:`**：这是最优先查看的部分！它通常直接指向了引发连锁反应的“罪魁祸首”。留意其中出现的 Mod ID，如 `another.mod.id`。
+3.  **看堆栈顶端**：如果没有 `Caused by:`，就看 `at ...` 堆栈追踪的第一行。它同样会指向导致问题的 Mod 代码，如 `some.mod.id`。
+4.  **检查Mod列表**：确认报告中列出的 Mod 版本是否都正确，是否缺少了某个 Mod 的前置 Mod。
+
+**3. 系统性排查法：“二分排除法”**
+
+如果日志无法明确指出单个 Mod，或者你怀疑是多个 Mod 冲突：
+1.  备份你的 `mods` 文件夹。
+2.  将其中**一半**的 Mod 移出 `mods` 文件夹。
+3.  启动游戏。
+    *   如果**游戏正常**，说明问题出在你移走的那一半 Mod 里。
+    *   如果**游戏依然崩溃**，说明问题出在留在文件夹里的那一半 Mod 里。
+4.  对“有问题的那一半”重复此过程，不断缩小范围，直到定位到引发冲突的一两个 Mod。
 游戏崩溃的原因多种多样，例如 Mod 不兼容、Fabric API 版本过高或缺少前置 Mod 等。以下是一些排查思路：
 
 1. **启动器诊断**：部分启动器提供错误分析功能，可辅助排查。
@@ -392,19 +453,7 @@ Mixin 是一种修改游戏而无需修改游戏的源代码的方式。 许多�
 https://www.curseforge.com/minecraft/search?class=shaders
 https://wiki.shaderlabs.org/wiki/Shaderpacks 
 
-我想远程控制你电脑看看，远程控制软件：https://newdl.todesk.com/windows/ToDesk_Lite.exe
-https://sunlogin.oray.com/download
-我想远程控制你电脑看看，远程控制软件：https://dw.oray.com/sunlogin/windows/SunloginSOS_1.2.1.61234_x64.exe
-HMCL 的游戏崩溃问题加这个群：666546887
-PCL 的游戏崩溃问题加这个群：978054335
 
-截图教程：https://zhuanlan.zhihu.com/p/92074446
-win10 打开控制面板教程 https://jingyan.baidu.com/article/6525d4b1534377ac7d2e94d5.html
-win11 打开控制面板教程 https://jingyan.baidu.com/article/4d58d5410afceadcd5e9c043.html
-win10 显示桌面此电脑教程 https://jingyan.baidu.com/article/574c52196e0c496c8d9dc1df.html
-win11 显示桌面此电脑教程 https://jingyan.baidu.com/article/2c8c281da996ab4109252a41.html
-win11 设置系统环境变量教程 https://jingyan.baidu.com/article/90bc8fc84b05b3b753640cdc.html
-win11 打开事件查看器教程 https://jingyan.baidu.com/article/4b52d7020b6052bd5c774bbe.html
 
 联机教程：https://bilibili.com/search?keyword=Minecraft%E8%81%94%E6%9C%BA
 装联机模组，在开放局域网的时候把「在线模式」关掉 https://www.mcmod.cn/class/2754.html
