@@ -15,6 +15,10 @@ Minecraft（中国大陆亦作《我的世界》）是一款由 Mojang Studios �
 
 1. **[Minecraft 游戏指南](./game/index.md)**：这部分包含了关于 Minecraft 本身的相关知识。无论您是新手还是希望深入的玩家，都能在这里找到有价值的信息。
 2. **[Minecraft 启动器指南](./launcher/index.md)**：这部分包含了关于 Minecraft 启动器的相关指南。这些内容可以帮助您更好地理解和使用启动器。
-3. **[Minecraft 杂项指南](./tool/index.md)**：这部分包含了关于 Minecraft 的实用指南。旨在帮助您顺利配置游戏环境、解决疑难杂症或进行一些高级操作。
+3. **[Minecraft 实用指南](./tool/index.md)**：这部分包含了关于 Minecraft 的实用指南。旨在帮助您顺利配置游戏环境、解决疑难杂症或进行一些高级操作。
 
 您可以根据自己的需求，点击相应链接来查看对应内容。祝您在 Minecraft 的世界中探索愉快！
+
+## 推荐阅读
+
+1. **[购买 Minecraft](./tool/1.BuyMinecraft.md)**: 如何购买 Minecraft 并设置用户名。
