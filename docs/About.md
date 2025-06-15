@@ -9,14 +9,16 @@
 
 ## 贡献列表
 
-感谢以下文档对本文档的贡献，本文档中的部分内容在以下页面基础上进行修改（未作较大幅度改动）：
+感谢以下来源对本文档的贡献，本文档中的部分内容在以下来源基础上进行修改（未作较大幅度改动）：
 
 - [Hello Minecraft! Launcher 帮助文档](https://github.com/HMCL-dev/HMCL-docs)
 - [PCL2 内置帮助库](https://github.com/LTCatt/PCL2Help)
 - [PCL2 常见问题文档](https://shimo.im/docs/qKPttVvXKqPD8YDC)
 - [BakaXL 下一代用户帮助文档](https://github.com/BakaXL-Support/BakaXL-Next-docs)
 - [Minecraft 崩溃解决方案 - 北葵Starry](https://www.bilibili.com/read/readlist/rl336711)
+- [北极鹅](https://www.xiaohongshu.com/user/profile/6682abe5000000000700636c)
 - [Minecraft - 道家深湖](https://www.bilibili.com/read/readlist/rl369433)
+- [【技术向】Minecraft1.16.5离线 多人游戏已禁用Bug 修复与分析](https://www.bilibili.com/opus/809176150977806377)
 
 ## 贡献者
 
