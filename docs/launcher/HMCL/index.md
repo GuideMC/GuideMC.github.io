@@ -3,14 +3,6 @@
 [Hello Minecraft! Launcher](https://hmcl.huangyuhui.net)(HMCL) 是 Huanghongxun 主导开发的 Minecraft 启动器。
 HMCL 是一个免费、开源的 Minecraft 启动器，允许玩家方便快捷地安装、管理、运行游戏。
 
-## 赞助支持
-
-您的赞助将帮助 HMCL 获得更好的发展、支持稳定高速的游戏安装与文件下载服务。
-
-::: details 关于
-暂无开发者可提现的赞助渠道
-:::
-
 ## 下载地址
 
 您可以在 HMCL 官网下载 HMCL。此外，您也可以通过加入官方群聊来获取启动器。
@@ -19,7 +11,7 @@ HMCL 是一个免费、开源的 Minecraft 启动器，允许玩家方便快捷�
 ## 系统要求
 
 HMCL 有着强大的跨平台能力. 它不仅支持 Windows、Linux、macOS 等常见的操作系统，同时也支持 x86、ARM、MIPS 和 LoongArch 等不同的 CPU 架构。  
-如果您打不开 HMCL 启动器，可安装带有 JavaFX 的 Java。您可以从[WEJDK](https://www.injdk.cn)下载常见的 Java 发行版。
+如果您打不开 HMCL 启动器，可安装带有 JavaFX 的 Java。您可以从[这里](../../tool/3.InstallJava.md)查看如何下载 Java。
 
 ## 官方群聊
 
