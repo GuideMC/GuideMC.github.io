@@ -4,7 +4,7 @@
 
 ## 开源协议
 
-本文档使用 VitePress 构建。代码根据 MIT 许可证进行授权。所有转载内容，均在贡献列表中注明来源。
+本文档使用 VitePress 构建。代码根据 MIT 许可证进行授权。所有转载内容，均在贡献列表中注明来源。  
 本文档中的所有内容除非另有说明，均遵循署名—非商业性使用—相同方式共享 4.0 （CC BY-NC-SA 4.0）协议。
 
 ## 贡献列表
@@ -24,5 +24,5 @@
 
 感谢以下贡献者（按字母顺序排序）对本文档的贡献：
 
-[SerinaNya](https://github.com/SerinaNya)
+[SerinaNya](https://github.com/SerinaNya)  
 [YisRime](https://github.com/YisRime)
