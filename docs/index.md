@@ -22,7 +22,7 @@ features:
     details: 持续跟踪最新版本 保证文档高可用性
 ---
 
-# **Guide MC**——从"零"开始入门 Minecraft
+# Guide MC
 
 这里是 Guide MC 为广大 Minecraft 玩家编写的教程文档。  
 本文档旨在为 Minecraft 玩家提供详细的入门指南和常见问题解决方案。
@@ -38,12 +38,14 @@ Minecraft（中国大陆亦作《我的世界》）是一款由 Mojang Studios �
 
 本指南主要分为以下几个核心部分，帮助您逐步深入 Minecraft 的世界：
 
-- **[Minecraft 游戏指南](./game/index.md)**：这部分包含了关于 Minecraft 本身的相关知识。无论您是新手还是希望深入的玩家，都能在这里找到有价值的信息。
-- **[Minecraft 启动器指南](./launcher/index.md)**：这部分包含了关于 Minecraft 启动器的相关指南。这些内容可以帮助您更好地理解和使用启动器。
-- **[Minecraft 实用指南](./tool/index.md)**：这部分包含了关于 Minecraft 的实用指南。旨在帮助您顺利配置游戏环境、解决疑难杂症或进行一些高级操作。
+- **[Minecraft 游戏指南](./Game/index.md)**：这部分包含了关于 Minecraft 本身的相关知识。无论您是新手还是希望深入的玩家，都能在这里找到有价值的信息。
+- **[Minecraft 启动器指南](./Launcher/index.md)**：这部分包含了关于 Minecraft 启动器的相关指南。这些内容可以帮助您更好地理解和使用启动器。
+- **[Minecraft 实用指南](./Tool/index.md)**：这部分包含了关于 Minecraft 的实用指南。旨在帮助您顺利配置游戏环境、解决疑难杂症或进行一些高级操作。
 
 您可以根据自己的需求，点击相应链接来查看对应内容。祝您在 Minecraft 的世界中探索愉快！
 
 ## 推荐阅读
 
-- **[购买 Minecraft](./tool/1.BuyMinecraft.md)**: 如何购买 Minecraft 并设置用户名。
+1. **[购买 Minecraft](./Tool/1.BuyMinecraft.md)**：如何购买 Minecraft。
+2. **[安装 Java](./Tool/2.InstallJava.md)**：如何安装 Java（可选）。
+3. **[如何联机](./Game/1.MultiPlay/index.md)**：如何进行多人联机。
