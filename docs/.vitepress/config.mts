@@ -16,9 +16,9 @@ const vitePressOptions = {
   },
   themeConfig: {
     nav: [
-      { text: '游戏', link: '/game/' },
-      { text: '启动器', link: '/launcher/' },
-      { text: '杂项', link: '/tool/' },
+      { text: '游戏', link: '/Game/' },
+      { text: '启动器', link: '/Launcher/' },
+      { text: '杂项', link: '/Tool/' },
       { text: '关于', link: '/About' }
     ],
     search: {
