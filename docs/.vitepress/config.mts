@@ -79,8 +79,8 @@ const vitePressOptions = {
 const sidebarOptions = [
   {
     documentRootPath: 'docs',
-    scanStartPath: 'game',
-    resolvePath: '/game/',
+    scanStartPath: 'Game',
+    resolvePath: '/Game/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortFolderTo: 'top' as const,
@@ -97,8 +97,8 @@ const sidebarOptions = [
   },
   {
     documentRootPath: 'docs',
-    scanStartPath: 'launcher',
-    resolvePath: '/launcher/',
+    scanStartPath: 'Launcher',
+    resolvePath: '/Launcher/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortFolderTo: 'top' as const,
@@ -115,8 +115,8 @@ const sidebarOptions = [
   },
   {
     documentRootPath: 'docs',
-    scanStartPath: 'tool',
-    resolvePath: '/tool/',
+    scanStartPath: 'Tool',
+    resolvePath: '/Tool/',
     useTitleFromFileHeading: true,
     useTitleFromFrontmatter: true,
     sortFolderTo: 'top' as const,

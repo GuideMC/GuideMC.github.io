@@ -12,7 +12,7 @@
 推荐参考该项目：[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
 :::
 
-- 使用小驼峰命名法：除第一个单词之外，其他单词首字母大写
+- 使用大驼峰命名法：所有单词首字母大写
 - 文章命名时应不超过三个单词，确保语义清晰
 - 正确使用专有名词的标准写法，保证内容一致
 - 根据目标读者调整内容的详细程度，确保可读性
