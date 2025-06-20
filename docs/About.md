@@ -9,7 +9,7 @@
 
 ## 贡献列表
 
-感谢以下来源对本文档的贡献，本文档中的部分内容在以下来源基础上进行修改（未作较大幅度改动）：
+感谢以下来源对本文档的贡献，本文档中的部分内容在以下来源基础上进行修改：
 
 - [Hello Minecraft! Launcher 帮助文档](https://github.com/HMCL-dev/HMCL-docs)
 - [PCL2 内置帮助库](https://github.com/LTCatt/PCL2Help)
