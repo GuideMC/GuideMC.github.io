@@ -1,4 +1,4 @@
-# PCL (Plain Craft Launcher)
+# PCL
 
 PCL (Plain Craft Launcher) 是由开发者**龙腾猫跃**制作的一款广受欢迎的 Minecraft 启动器。它以其强大的功能和出色的用户体验而闻名。
 

@@ -1,4 +1,4 @@
-# HMCL (Hello Minecraft! Launcher)
+# HMCL
 
 HMCL (Hello Minecraft! Launcher) 是一款由 Huanghongxun 主导开发的免费、开源的 Minecraft 启动器，致力于为玩家提供方便快捷的游戏安装、管理和启动体验。
 
