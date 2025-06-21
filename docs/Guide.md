@@ -25,3 +25,4 @@ Minecraft（中国大陆亦作《我的世界》）是一款由 Mojang Studios �
 1. **[购买 Minecraft](./Tool/1.BuyMinecraft.md)**：如何购买 Minecraft。
 2. **[安装 Java](./Tool/2.InstallJava.md)**：如何安装 Java（可选）。
 3. **[如何联机](./Game/1.MultiPlay/index.md)**：如何进行多人联机。
+4. **[分析报错](./Tool/2.Crash/index.md)**：如何分析崩溃报告。
