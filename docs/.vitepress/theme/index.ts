@@ -2,9 +2,14 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+
+import viewTransition from './components/viewTransition.vue'
+
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
-import viewTransition from './components/viewTransition.vue'
+
+import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 
 export default {
   extends: DefaultTheme,
@@ -24,7 +29,7 @@ export default {
       theme: 'preferred_color_scheme',
       lang: 'zh-CN',
       loading: 'lazy'
-      }, 
+      },
       {
         frontmatter, route
       },
@@ -32,8 +37,13 @@ export default {
     );
   },
 
-  Layout() {
-    return h(viewTransition) 
+  Layout: () => {
+    return h(viewTransition, null, {
+      default: () => h(DefaultTheme.Layout, null, {
+        'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
+        'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
+      })
+    })
   },
 
   enhanceApp({ app, router, siteData }) {

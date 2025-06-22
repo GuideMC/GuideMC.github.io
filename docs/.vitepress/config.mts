@@ -14,6 +14,21 @@ const vitePressOptions = {
       lazyLoading: true
     },
   },
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client',
+        'vitepress',
+        '@nolebase/ui'
+      ],
+    },
+    ssr: {
+      noExternal: [
+        '@nolebase/vitepress-plugin-enhanced-readabilities',
+        '@nolebase/ui'
+      ],
+    },
+  },
   themeConfig: {
     nav: [
       { text: '游戏', link: '/Game/' },
