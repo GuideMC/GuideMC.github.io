@@ -183,7 +183,7 @@ export default defineConfig({
         notFound: {
           title: '页面不存在',
           quote: '但是，如果你不改变方向，并且一直寻找，你最终可能会到达你要去的地方。',
-          linkLabel: '返回首页'
+          linkText: '返回首页'
         },
         langMenuLabel: '多语言',
         returnToTopLabel: '回到顶部',
@@ -233,7 +233,7 @@ export default defineConfig({
         notFound: {
           title: 'PAGE NOT FOUND',
           quote: 'But if you don\'t change your direction, and if you keep looking, you may end up where you are heading.',
-          linkLabel: 'Take me home'
+          linkText: 'Take me home'
         },
         langMenuLabel: 'Change language',
         returnToTopLabel: 'Return to top',
@@ -263,12 +263,8 @@ export default defineConfig({
                 noResultsText: '没有找到结果',
                 footer: {
                   selectText: '选择',
-                  selectKeyAriaLabel: '回车键',
                   navigateText: '切换',
-                  navigateUpKeyAriaLabel: '向上箭头',
-                  navigateDownKeyAriaLabel: '向下箭头',
-                  closeText: "关闭",
-                  closeKeyAriaLabel: 'Esc 键'
+                  closeText: "关闭"
                 }
               }
             }
@@ -280,18 +276,14 @@ export default defineConfig({
                 buttonAriaLabel: 'Search'
               },
               modal: {
-                displayDetails: 'Display details for result',
-                resetButtonTitle: 'Reset search',
+                displayDetails: 'Display details',
+                resetButtonTitle: 'Reset',
                 backButtonTitle: 'Back',
-                noResultsText: 'No results for',
+                noResultsText: 'No results',
                 footer: {
                   selectText: 'to select',
-                  selectKeyAriaLabel: 'Enter key',
                   navigateText: 'to navigate',
-                  navigateUpKeyAriaLabel: 'Arrow up',
-                  navigateDownKeyAriaLabel: 'Arrow down',
-                  closeText: "to close",
-                  closeKeyAriaLabel: 'Escape key'
+                  closeText: "to close"
                 }
               }
             }
