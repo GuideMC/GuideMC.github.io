@@ -10,14 +10,22 @@
 
 ## 贡献者
 
-感谢以下贡献者（按字母顺序排序）对本文档的贡献：
+感谢以下贡献者对本文档的贡献：
+
+::: tip 提示
+按字母顺序排序
+:::
 
 [SerinaNya](https://github.com/SerinaNya)  
 [YisRime](https://github.com/YisRime)
 
 ## 贡献列表
 
-感谢以下来源对本文档的贡献，本文档中的部分内容在以下来源基础上进行修改：
+::: tip 鸣谢
+统一说明：本文档中部分内容在以下来源内容基础上进行修改
+:::
+
+感谢以下内容对本文档的贡献：
 
 - [Hello Minecraft! Launcher 帮助文档](https://github.com/HMCL-dev/HMCL-docs)
 - [PCL2 内置帮助库](https://github.com/LTCatt/PCL2Help)
