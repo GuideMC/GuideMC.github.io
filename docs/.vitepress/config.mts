@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { zhSidebar, enSidebar } from './sidebar.js'
+import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
+import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 export default defineConfig({
   ignoreDeadLinks: true,
@@ -11,10 +13,15 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
+    config: (md) => {
+      md.use(BiDirectionalLinks())
+      md.use(InlineLinkPreviewElementTransform)
+    },
   },
   vite: {
     optimizeDeps: {
       exclude: [
+        '@nolebase/vitepress-plugin-inline-link-preview/client',
         '@nolebase/vitepress-plugin-enhanced-readabilities/client',
         'vitepress',
         '@nolebase/ui'
@@ -22,6 +29,7 @@ export default defineConfig({
     },
     ssr: {
       noExternal: [
+        '@nolebase/vitepress-plugin-inline-link-preview',
         '@nolebase/vitepress-plugin-highlight-targeted-heading',
         '@nolebase/vitepress-plugin-enhanced-readabilities',
         '@nolebase/ui'

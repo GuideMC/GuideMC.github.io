@@ -16,6 +16,9 @@ import { InjectionKey } from '@nolebase/vitepress-plugin-enhanced-readabilities/
 import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
 import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
+import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
+import {  NolebaseInlineLinkPreviewPlugin } from '@nolebase/vitepress-plugin-inline-link-preview/client'
+
 export default {
   extends: DefaultTheme,
 
@@ -53,6 +56,7 @@ export default {
   },
 
   enhanceApp({ app, router, siteData }) {
+    app.use(NolebaseInlineLinkPreviewPlugin)
     app.provide(InjectionKey, { 
       layoutSwitch: {
         defaultMode: 5,
