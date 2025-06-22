@@ -180,12 +180,18 @@ export default defineConfig({
           prev: '上一页',
           next: '下一页'
         },
+        notFound: {
+          title: '页面不存在',
+          quote: '但是，如果你不改变方向，并且一直寻找，你最终可能会到达你要去的地方。',
+          linkLabel: '返回首页'
+        },
         langMenuLabel: '多语言',
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '菜单',
         darkModeSwitchLabel: '主题',
         lightModeSwitchTitle: '切换至浅色',
-        darkModeSwitchTitle: '切换至深色'
+        darkModeSwitchTitle: '切换至深色',
+        skipToContentLabel: '跳至主要内容'
       }
     },
     en: {
@@ -224,12 +230,18 @@ export default defineConfig({
           prev: 'Previous page',
           next: 'Next page'
         },
+        notFound: {
+          title: 'PAGE NOT FOUND',
+          quote: 'But if you don\'t change your direction, and if you keep looking, you may end up where you are heading.',
+          linkLabel: 'Take me home'
+        },
         langMenuLabel: 'Change language',
         returnToTopLabel: 'Return to top',
         sidebarMenuLabel: 'Menu',
         darkModeSwitchLabel: 'Appearance',
         lightModeSwitchTitle: 'Switch to light theme',
-        darkModeSwitchTitle: 'Switch to dark theme'
+        darkModeSwitchTitle: 'Switch to dark theme',
+        skipToContentLabel: 'Skip to content'
       }
     }
   },
@@ -245,12 +257,18 @@ export default defineConfig({
                 buttonAriaLabel: '搜索文档'
               },
               modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
+                displayDetails: '显示详情',
+                resetButtonTitle: '重置搜索',
+                backButtonTitle: '返回',
+                noResultsText: '没有找到结果',
                 footer: {
                   selectText: '选择',
+                  selectKeyAriaLabel: '回车键',
                   navigateText: '切换',
-                  closeText: "关闭"
+                  navigateUpKeyAriaLabel: '向上箭头',
+                  navigateDownKeyAriaLabel: '向下箭头',
+                  closeText: "关闭",
+                  closeKeyAriaLabel: 'Esc 键'
                 }
               }
             }
@@ -262,12 +280,18 @@ export default defineConfig({
                 buttonAriaLabel: 'Search'
               },
               modal: {
-                noResultsText: 'No results found',
+                displayDetails: 'Display details for result',
                 resetButtonTitle: 'Reset search',
+                backButtonTitle: 'Back',
+                noResultsText: 'No results for',
                 footer: {
                   selectText: 'to select',
+                  selectKeyAriaLabel: 'Enter key',
                   navigateText: 'to navigate',
-                  closeText: "to close"
+                  navigateUpKeyAriaLabel: 'Arrow up',
+                  navigateDownKeyAriaLabel: 'Arrow down',
+                  closeText: "to close",
+                  closeKeyAriaLabel: 'Escape key'
                 }
               }
             }
