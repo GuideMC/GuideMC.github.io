@@ -8,8 +8,10 @@ import viewTransition from './components/viewTransition.vue'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 
-import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
+import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import type { Options } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import { InjectionKey, LayoutMode, SpotlightStyle } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 
 export default {
   extends: DefaultTheme,
@@ -47,6 +49,17 @@ export default {
   },
 
   enhanceApp({ app, router, siteData }) {
+    app.provide(InjectionKey, { 
+      layoutSwitch: {
+        defaultMode: 5,
+        contentLayoutMaxWidth: {
+          defaultMaxWidth: 90
+        }
+      },
+      spotlight: {
+        defaultToggle: true
+      },
+    } as Options);
   }
 
 } satisfies Theme
