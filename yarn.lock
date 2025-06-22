@@ -547,6 +547,13 @@
     "@nolebase/ui" "^2.17.2"
     less "^4.3.0"
 
+"@nolebase/vitepress-plugin-highlight-targeted-heading@^2.17.2":
+  version "2.17.2"
+  resolved "https://registry.yarnpkg.com/@nolebase/vitepress-plugin-highlight-targeted-heading/-/vitepress-plugin-highlight-targeted-heading-2.17.2.tgz#24ecf8ffd2458a2474a8465ddbe10f483256f223"
+  integrity sha512-CtAU5tZX0X3gsVy1zH6rtVg74i9ZSfYVfOVmFjSA0V24kxIMAYf7Jk28xM+Zz0kwgqgre2yM5xMf95E8vqnzKw==
+  dependencies:
+    less "^4.3.0"
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"

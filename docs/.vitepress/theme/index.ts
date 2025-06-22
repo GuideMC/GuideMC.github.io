@@ -11,7 +11,10 @@ import { useData, useRoute } from 'vitepress';
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css'
 import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
 import type { Options } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
-import { InjectionKey, LayoutMode, SpotlightStyle } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+import { InjectionKey } from '@nolebase/vitepress-plugin-enhanced-readabilities/client'
+
+import '@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css'
+import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client'
 
 export default {
   extends: DefaultTheme,
@@ -42,6 +45,7 @@ export default {
   Layout: () => {
     return h(viewTransition, null, {
       default: () => h(DefaultTheme.Layout, null, {
+        'layout-top': () => h(NolebaseHighlightTargetedHeading),
         'nav-bar-content-after': () => h(NolebaseEnhancedReadabilitiesMenu),
         'nav-screen-content-after': () => h(NolebaseEnhancedReadabilitiesScreenMenu),
       })
