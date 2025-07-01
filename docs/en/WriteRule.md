@@ -1,51 +1,51 @@
-# 编写规范
+# Writing Guidelines
 
-在参与编辑本文档前，请仔细阅读以下内容，以确保您的贡献符合项目标准，避免不必要的修改。
+Please read the following content carefully before contributing to this document to ensure your contributions meet project standards and avoid unnecessary modifications.
 
-:::tip 编写提示
-本规范主要作为建议性指导原则，所有内容都应符合标准 Markdown 格式。
+:::tip Writing Tips
+These guidelines serve primarily as recommendations. All content should comply with standard Markdown formatting.
 :::
 
-## 文本与排版规范
+## Text and Typesetting Guidelines
 
-:::tip 排版参考
-推荐参考该项目：[中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
+:::tip Typesetting Reference
+It is recommended to refer to this project: [Chinese Copywriting Guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
 :::
 
-- 使用大驼峰命名法：所有单词首字母大写
-- 文章命名时应不超过三个单词，确保语义清晰
-- 正确使用专有名词的标准写法，保证内容一致
-- 根据目标读者调整内容的详细程度，确保可读性
-- 使用中性、客观的书面语言，避免口语化表达和主观性评价
-- 术语使用要准确一致，避免同一概念使用不同表述
+- Use PascalCase: Capitalize the first letter of each word
+- Article titles should not exceed three words to ensure clear semantics
+- Use the standard form of proper nouns to maintain consistency
+- Adjust the level of detail according to the target audience to ensure readability
+- Use neutral, objective written language; avoid colloquial expressions and subjective evaluations
+- Use terminology accurately and consistently; avoid using different expressions for the same concept
 
-### 格式要求
+### Formatting Requirements
 
-- 严格区分中英文标点符号，避免混用
-- 使用标准的 Markdown 语法，确保渲染效果一致
-- 在中文与英文、数字、代码块之间添加适当空格
+- Strictly distinguish between Chinese and English punctuation; avoid mixing them
+- Use standard Markdown syntax to ensure consistent rendering
+- Add appropriate spaces between Chinese and English, numbers, and code blocks
 
-## 图片使用规范
+## Image Usage Guidelines
 
-- 为方便中国大陆地区用户访问，请使用在中国大陆地区能正常访问的图床
-  - 为防止失效，所有资源均应在 `docs/assets` 目录中保存副本
-- 图片尺寸要求：宽高均应小于 1024 像素，文件大小应控制在合理范围内
-- 图片命名规范：文件名应标注对应文章序号并简要描述用途，使用英文命名
-- 图片内容要求：
-  - 不应含有非默认的外观或选项设置，避免产生不必要的误导
-  - 如一张图片中涉及多个操作，请使用矩形框出各步骤并按先后顺序标注序号
+- To facilitate access for users in Mainland China, please use image hosting services accessible from Mainland China
+  - To prevent invalid links, a copy of all resources should be saved in the `docs/assets` directory
+- Image size requirements: width and height should both be less than 1024 pixels, and file size should be kept within a reasonable range
+- Image naming conventions: filenames should indicate the corresponding article number and briefly describe the purpose, using English
+- Image content requirements:
+  - Images should not contain non-default appearances or option settings to avoid unnecessary confusion
+  - If multiple operations are involved in one image, use rectangular boxes to highlight each step and label them in sequence
 
-## 如何参与贡献
+## How to Contribute
 
-1. 对本仓库进行 Fork
-2. 在您 Fork 后的仓库内进行更改
-3. 使用 Pull Request 提交至 `main` 分支
-   - 在进行 Pull Request 前，您需要同步原仓库内的内容以保证您的仓库保持最新
-4. 等待您的 Pull Request 被合并
+1. Fork this repository
+2. Make changes in your forked repository
+3. Submit a Pull Request to the `main` branch
+   - Before creating a Pull Request, you need to synchronize the content from the original repository to ensure your fork is up to date
+4. Wait for your Pull Request to be merged
 
-:::warning 注意事项
+:::warning Notes
 
-- 提交前请确保您的修改符合上述规范要求
-- 建议在本地预览渲染效果，确保格式正确
-- 如有疑问，欢迎在 Issue 中讨论
+- Before submitting, please ensure your changes comply with the above guidelines
+- It is recommended to preview the rendering locally to ensure correct formatting
+- If you have any questions, feel free to discuss them in Issues
 :::
